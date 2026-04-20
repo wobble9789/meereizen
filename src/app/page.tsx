@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function HomePage() {
   return (
@@ -8,10 +9,12 @@ export default function HomePage() {
       {/* Hero */}
       <section className="relative min-h-[85vh] flex items-center justify-center text-white">
         <div className="absolute inset-0 z-0">
-          <img
+          <Image
             src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1920&q=80"
             alt="Gelukkig stel op reis"
-            className="w-full h-full object-cover"
+            fill
+            className="object-cover"
+            priority
           />
           <div className="absolute inset-0 bg-black/50" />
         </div>
@@ -166,7 +169,7 @@ export default function HomePage() {
                     <div className="text-accent-500">★★★★★</div>
                   </div>
                 </div>
-                <p className="text-gray-700 italic">"{r.tekst}"</p>
+                <p className="text-gray-700 italic">&ldquo;{r.tekst}&rdquo;</p>
               </div>
             ))}
           </div>
