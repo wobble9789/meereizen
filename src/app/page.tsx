@@ -99,18 +99,18 @@ export default function HomePage() {
             {[
               {
                 stap: '1',
-                titel: 'U belt of mailt ons',
-                tekst: 'We luisteren naar uw wensen, uw tempo en uw behoeften. Geen formulieren, gewoon een gesprek.',
+                titel: 'U vertelt ons uw wensen',
+                tekst: 'We luisteren naar uw wensen, uw tempo en uw behoeften. Geen formulieren, gewoon een gesprek. Niets wordt geregeld zonder uw goedkeuring.',
               },
               {
                 stap: '2',
-                titel: 'Wij regelen alles',
-                tekst: 'Tickets, hotel, vervoer, begeleiding — wij zorgen voor elk detail zodat u nergens aan hoeft te denken.',
+                titel: 'Samen stellen we uw reis samen',
+                tekst: 'Wij doen een vrijblijvend voorstel: tickets, hotel, vervoer en begeleiding. U beslist wat u wilt en wat niet — we passen alles aan totdat het precies goed voelt.',
               },
               {
                 stap: '3',
-                titel: 'U geniet',
-                tekst: 'Wij zijn er bij, van begin tot eind. Van uw voordeur tot uw bestemming en weer terug.',
+                titel: 'U geniet, wij zijn er bij',
+                tekst: 'Van uw voordeur tot uw bestemming en weer terug. En twijfelt u onderweg? U kunt ons altijd bellen.',
               },
             ].map((step) => (
               <div key={step.stap} className="text-center">
