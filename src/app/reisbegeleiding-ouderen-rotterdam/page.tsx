@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Reisbegeleiding voor ouderen in Rotterdam | MeeReizen',
+  title: 'Reisbegeleiding voor ouderen in Rotterdam | Vliegklaar',
   description: 'Persoonlijke reisbegeleiding voor senioren in Rotterdam. Wij helpen u veilig en comfortabel op reis, van deur tot deur.',
 };
 
@@ -19,7 +19,7 @@ export default function RotterdamSEOPage() {
               </h1>
               <p className="text-xl text-gray-700 mb-8 leading-relaxed">
                 Woont u in Rotterdam of omgeving en wilt u graag op reis, maar ziet u op tegen de logistiek? 
-                MeeReizen biedt persoonlijke begeleiding op maat voor senioren in de Maasstad.
+                Vliegklaar biedt persoonlijke begeleiding op maat voor senioren in de Maasstad.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
                 <a
@@ -50,7 +50,7 @@ export default function RotterdamSEOPage() {
 
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-3xl font-bold text-primary-800 mb-8">Waarom kiezen voor MeeReizen in Rotterdam?</h2>
+          <h2 className="text-3xl font-bold text-primary-800 mb-8">Waarom kiezen voor Vliegklaar in Rotterdam?</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <div className="space-y-4">
               <h3 className="text-xl font-semibold text-primary-700">✓ Van deur tot deur</h3>

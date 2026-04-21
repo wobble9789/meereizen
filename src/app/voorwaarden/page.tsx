@@ -13,7 +13,7 @@ export default function VoorwaardenPage() {
             <h2 className="text-2xl font-bold text-gray-900 mb-4">1. Algemeen</h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-4">
               Deze algemene voorwaarden zijn van toepassing op alle aanbiedingen, 
-              overeenkomsten en leveringen van diensten door MeeReizen.
+              overeenkomsten en leveringen van diensten door Vliegklaar.
             </p>
           </section>
 
@@ -55,7 +55,7 @@ export default function VoorwaardenPage() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">5. Wijzigingen door MeeReizen</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">5. Wijzigingen door Vliegklaar</h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-4">
               Wij behouden ons het recht voor om in geval van overmacht de reis aan te passen of 
               te annuleren. In dat geval krijgt u het volledige bedrag terug of een alternatieve reis aangeboden.
@@ -86,7 +86,7 @@ export default function VoorwaardenPage() {
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mb-4">8. Aansprakelijkheid</h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-4">
-              MeeReizen is aangesloten bij het Garantiefonds Reisgelden (SGR) en verzekerd 
+              Vliegklaar is aangesloten bij het Garantiefonds Reisgelden (SGR) en verzekerd 
               voor wettelijke aansprakelijkheid. Onze aansprakelijkheid is beperkt tot het factuurbedrag.
             </p>
           </section>
@@ -118,8 +118,8 @@ export default function VoorwaardenPage() {
                 085-0608333
               </a>
               {' '}of{' '}
-              <a href="mailto:info@meereizen.nl" className="text-primary-600 hover:text-primary-700 underline">
-                info@meereizen.nl
+              <a href="mailto:info@vliegklaar.nl" className="text-primary-600 hover:text-primary-700 underline">
+                info@vliegklaar.nl
               </a>
             </p>
           </div>

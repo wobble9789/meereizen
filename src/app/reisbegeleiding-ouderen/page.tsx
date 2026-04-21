@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Reisbegeleiding voor ouderen — persoonlijk en betrouwbaar | MeeReizen',
+  title: 'Reisbegeleiding voor ouderen — persoonlijk en betrouwbaar | Vliegklaar',
   description:
     'Reisbegeleiding voor ouderen van deur tot hotel. Ophalen thuis, hulp op de luchthaven, inchecken, overstappen en bagage — wij regelen alles. Bel 085-0608333.',
   keywords: [
@@ -13,11 +13,11 @@ export const metadata: Metadata = {
     'begeleide reizen ouderen',
   ],
   openGraph: {
-    title: 'Reisbegeleiding voor ouderen — persoonlijk en betrouwbaar | MeeReizen',
+    title: 'Reisbegeleiding voor ouderen — persoonlijk en betrouwbaar | Vliegklaar',
     description:
       'Reisbegeleiding voor ouderen van deur tot hotel. Ophalen thuis, hulp op de luchthaven, inchecken, overstappen en bagage — wij regelen alles.',
-    url: 'https://meereizen.nl/reisbegeleiding-ouderen',
-    siteName: 'MeeReizen',
+    url: 'https://vliegklaar.nl/reisbegeleiding-ouderen',
+    siteName: 'Vliegklaar',
     locale: 'nl_NL',
     type: 'website',
   },
@@ -30,7 +30,7 @@ const faqs = [
       'Onze begeleiders houden het tempo altijd aan bij uw familielid. We plannen rustmomenten in, zorgen voor een rolstoel op de luchthaven indien nodig, en passen de dag aan wanneer iemand behoefte heeft aan rust. Uw naaste staat centraal — niet het schema.',
   },
   {
-    vraag: 'Kan mijn moeder ook meereizen als ze slecht ter been is?',
+    vraag: 'Kan mijn moeder ook vliegklaar als ze slecht ter been is?',
     antwoord:
       'Absoluut. Wij werken samen met luchthavens om rolstoelassistentie of een buggy aan te vragen. Op de bestemming zorgen we voor passend vervoer en een hotel dat goed toegankelijk is. Slecht ter been zijn is geen belemmering om te genieten van een mooie reis.',
   },
@@ -131,12 +131,12 @@ export default function ReisbegeleidingOuderenPage() {
         </div>
       </section>
 
-      {/* Waarom MeeReizen */}
+      {/* Waarom Vliegklaar */}
       <section className="bg-primary-500 text-white py-16">
         <div className="container mx-auto px-4 md:px-6">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Waarom families kiezen voor MeeReizen
+              Waarom families kiezen voor Vliegklaar
             </h2>
             <ul className="space-y-4 text-xl text-left inline-block">
               {[

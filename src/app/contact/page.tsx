@@ -64,9 +64,9 @@ export default function ContactPage() {
               {
                 icon: '✉️',
                 titel: 'E-mail',
-                tekst: 'info@meereizen.nl',
+                tekst: 'info@vliegklaar.nl',
                 sub: 'Reactie binnen 1 werkdag',
-                href: 'mailto:info@meereizen.nl',
+                href: 'mailto:info@vliegklaar.nl',
               },
               {
                 icon: '💬',

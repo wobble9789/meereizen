@@ -13,7 +13,7 @@ jest.mock('next/link', () => {
 describe('Header', () => {
   it('renders the site name', () => {
     render(<Header />);
-    expect(screen.getByText('MeeReizen')).toBeInTheDocument();
+    expect(screen.getByText('Vliegklaar')).toBeInTheDocument();
   });
 
   it('renders all navigation links', () => {

@@ -15,7 +15,7 @@ test.describe('Contact Page', () => {
   test('should display contact information', async ({ page }) => {
     const main = page.locator('main');
     await expect(main.getByText(/06 - 12 34 56 78/i)).toBeVisible();
-    await expect(main.getByText(/info@meereizen.nl/i)).toBeVisible();
+    await expect(main.getByText(/info@vliegklaar.nl/i)).toBeVisible();
   });
 
   test('should submit contact form', async ({ page }) => {

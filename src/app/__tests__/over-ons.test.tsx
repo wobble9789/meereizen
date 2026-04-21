@@ -12,12 +12,12 @@ jest.mock('next/link', () => {
 describe('OverOnsPage', () => {
   it('renders page heading', () => {
     render(<OverOnsPage />);
-    expect(screen.getByText('Over MeeReizen')).toBeInTheDocument();
+    expect(screen.getByText('Over Vliegklaar')).toBeInTheDocument();
   });
 
   it('renders personal story about Ivo', () => {
     render(<OverOnsPage />);
-    expect(screen.getByText(/MeeReizen is opgericht door Ivo/i)).toBeInTheDocument();
+    expect(screen.getByText(/Vliegklaar is opgericht door Ivo/i)).toBeInTheDocument();
   });
 
   it('renders mission section', () => {

@@ -23,7 +23,7 @@ export default function Header() {
             href="/" 
             className="text-2xl md:text-3xl font-bold text-primary-600 hover:text-primary-700 transition-colors"
           >
-            MeeReizen
+            Vliegklaar
           </Link>
 
           {/* Desktop navigatie */}

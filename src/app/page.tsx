@@ -54,14 +54,14 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Voor wie is MeeReizen? */}
+      {/* Voor wie is Vliegklaar? */}
       <section className="py-20 bg-white">
         <div className="max-w-5xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-center text-primary-700 mb-4">
-            Voor wie is MeeReizen?
+            Voor wie is Vliegklaar?
           </h2>
           <p className="text-center text-gray-600 text-lg mb-12 max-w-2xl mx-auto">
-            MeeReizen is er voor iedereen die reizen weer leuk wil maken — zonder gedoe.
+            Vliegklaar is er voor iedereen die reizen weer leuk wil maken — zonder gedoe.
           </p>
           <div className="grid md:grid-cols-3 gap-8">
             {[
@@ -73,7 +73,7 @@ export default function HomePage() {
               {
                 icon: '🤝',
                 title: 'U wil niet afhankelijk zijn van familie voor elke reis',
-                text: 'Met MeeReizen reist u zelfstandig, op uw eigen tempo, zonder uw kinderen te belasten.',
+                text: 'Met Vliegklaar reist u zelfstandig, op uw eigen tempo, zonder uw kinderen te belasten.',
               },
               {
                 icon: '❤️',
@@ -137,7 +137,7 @@ export default function HomePage() {
                 details: '72 jaar, Utrecht',
                 kleur: 'bg-primary-400',
                 tekst:
-                  'Mijn dochter maakte zich altijd zorgen als ik alleen op reis ging. Met MeeReizen durven we het gewoon aan. Ze haalden me op, hielpen me inchecken en waren er ook weer bij de terugkeer.',
+                  'Mijn dochter maakte zich altijd zorgen als ik alleen op reis ging. Met Vliegklaar durven we het gewoon aan. Ze haalden me op, hielpen me inchecken en waren er ook weer bij de terugkeer.',
               },
               {
                 initialen: 'JR',
@@ -145,7 +145,7 @@ export default function HomePage() {
                 details: '68 & 71 jaar, Haarlem',
                 kleur: 'bg-accent-400',
                 tekst:
-                  'We hadden al jaren geen vakantie meer durven plannen. Te veel gedoe met onze beperkingen. MeeReizen heeft dat compleet opgelost.',
+                  'We hadden al jaren geen vakantie meer durven plannen. Te veel gedoe met onze beperkingen. Vliegklaar heeft dat compleet opgelost.',
               },
               {
                 initialen: 'DV',

@@ -23,7 +23,7 @@ describe('ContactPage', () => {
 
   it('renders contact information', () => {
     render(<ContactPage />);
-    expect(screen.getByText(/info@meereizen.nl/i)).toBeInTheDocument();
+    expect(screen.getByText(/info@vliegklaar.nl/i)).toBeInTheDocument();
   });
 
   it('renders all form fields', () => {

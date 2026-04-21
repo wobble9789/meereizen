@@ -8,7 +8,7 @@ Om automatische deployment naar Vercel te activeren, moet je de volgende secrets
 
 1. Ga naar [vercel.com/account/tokens](https://vercel.com/account/tokens)
 2. Klik op "Create Token"
-3. Geef het een duidelijke naam (bijv. "GitHub Actions - meereizen")
+3. Geef het een duidelijke naam (bijv. "GitHub Actions - vliegklaar")
 4. Kopieer de token (je ziet deze maar één keer!)
 
 ### Stap 2: Vercel Project Info Ophalen

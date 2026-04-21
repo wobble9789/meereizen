@@ -1,4 +1,4 @@
-# MeeReizen — Project DoD
+# Vliegklaar — Project DoD
 
 ## Definition of Done voor dit project
 Een taak is af wanneer:
@@ -7,13 +7,13 @@ Een taak is af wanneer:
 3. De impact meetbaar is (of een plan voor meting bestaat)
 
 ## Kernmissie
-MeeReizen helpt ouderen zorgeloos te reizen. Ivo doet de fysieke begeleiding. Packlight regelt alles eromheen.
+Vliegklaar helpt ouderen zorgeloos te reizen. Ivo doet de fysieke begeleiding. Packlight regelt alles eromheen.
 
 ## Tech Stack
 - **Frontend:** Next.js 14 + Tailwind CSS
-- **Repo:** https://github.com/wobble9789/meereizen
+- **Repo:** https://github.com/wobble9789/vliegklaar
 - **Hosting:** Vercel (pending koppeling)
-- **Domein:** meereizen.nl (pending)
+- **Domein:** vliegklaar.nl (pending)
 
 ## Marketing Prioriteiten
 1. **Google SEO** — landingspagina's per stad + service

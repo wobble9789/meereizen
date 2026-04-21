@@ -10,7 +10,7 @@ export default function Footer() {
           {/* Bedrijfsinfo */}
           <div>
             <h3 className="text-2xl font-bold mb-4 text-primary-400">
-              MeeReizen
+              Vliegklaar
             </h3>
             <p className="text-lg text-gray-300 leading-relaxed">
               Zorgeloos reizen voor ouderen. Wij regelen alles van A tot Z.
@@ -49,8 +49,8 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="mailto:info@meereizen.nl" className="hover:text-primary-400 transition-colors">
-                  ✉️ info@meereizen.nl
+                <a href="mailto:info@vliegklaar.nl" className="hover:text-primary-400 transition-colors">
+                  ✉️ info@vliegklaar.nl
                 </a>
               </li>
               <li>Maandag - Vrijdag: 9:00 - 17:00</li>
@@ -77,7 +77,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-lg text-gray-400">
-            © {currentYear} MeeReizen. Alle rechten voorbehouden.
+            © {currentYear} Vliegklaar. Alle rechten voorbehouden.
           </p>
         </div>
       </div>

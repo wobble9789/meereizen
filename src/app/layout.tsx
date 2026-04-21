@@ -7,9 +7,9 @@ import Footer from '@/components/layout/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'MeeReizen - Wij gaan gewoon mee.',
-  description: 'Zorgeloos reizen met persoonlijke begeleiding. MeeReizen regelt alles voor uw reis — van begin tot eind.',
-  keywords: 'MeeReizen, reizen ouderen, zorgeloos reizen, reisbegeleiding, persoonlijke begeleiding, vliegveld service',
+  title: 'Vliegklaar - Wij gaan gewoon mee.',
+  description: 'Zorgeloos reizen met persoonlijke begeleiding. Vliegklaar regelt alles voor uw reis — van begin tot eind.',
+  keywords: 'Vliegklaar, reizen ouderen, zorgeloos reizen, reisbegeleiding, persoonlijke begeleiding, vliegveld service',
 }
 
 export default function RootLayout({

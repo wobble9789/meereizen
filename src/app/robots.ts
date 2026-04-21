@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://meereizen.vercel.app/sitemap.xml',
+    sitemap: 'https://vliegklaar.nl/sitemap.xml',
   }
 }

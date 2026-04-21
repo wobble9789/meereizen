@@ -6,7 +6,7 @@ export default function OverOnsPage() {
       {/* Hero */}
       <section className="bg-primary-600 text-white py-20 text-center px-4">
         <div className="max-w-3xl mx-auto">
-          <h1 className="text-4xl font-bold mb-4">Over MeeReizen</h1>
+          <h1 className="text-4xl font-bold mb-4">Over Vliegklaar</h1>
           <p className="text-xl text-primary-100">
             Een persoonlijk verhaal over waarom elke oudere een mooie vakantie verdient.
           </p>
@@ -17,9 +17,9 @@ export default function OverOnsPage() {
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-3xl font-bold text-primary-700 mb-6">Hoe MeeReizen ontstond</h2>
+            <h2 className="text-3xl font-bold text-primary-700 mb-6">Hoe Vliegklaar ontstond</h2>
             <p className="text-gray-700 text-lg leading-relaxed mb-5">
-              MeeReizen is opgericht door Ivo, die zag hoe zijn eigen oma stopte met reizen omdat het te ingewikkeld werd.
+              Vliegklaar is opgericht door Ivo, die zag hoe zijn eigen oma stopte met reizen omdat het te ingewikkeld werd.
               Ze vond vliegtuigtickets verwarrend, bagageregels onduidelijk en inchecken stressvol. Terwijl ze altijd zo
               graag had gereisd.
             </p>
@@ -28,7 +28,7 @@ export default function OverOnsPage() {
               Reizen zou plezier moeten zijn — geen bron van stress of afhankelijkheid.
             </p>
             <p className="text-gray-700 text-lg leading-relaxed">
-              Vandaag helpt MeeReizen ouderen door heel Nederland om weer volop te genieten van reizen. Met een vertrouwde
+              Vandaag helpt Vliegklaar ouderen door heel Nederland om weer volop te genieten van reizen. Met een vertrouwde
               begeleider aan hun zijde, van deur tot deur.
             </p>
           </div>

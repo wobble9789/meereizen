@@ -1,4 +1,4 @@
-# 🚀 Deployment Guide - MeeReizen
+# 🚀 Deployment Guide - Vliegklaar
 
 Deze guide helpt je stap voor stap bij het deployen van de website naar productie.
 
@@ -53,14 +53,14 @@ Vercel is de maker van Next.js en biedt de beste ondersteuning.
 #### Stap 2: Project Importeren
 
 1. Klik op **"Add New..."** → **"Project"**
-2. Selecteer je repository: `Tint7487/meereizen`
+2. Selecteer je repository: `Tint7487/vliegklaar`
 3. Vercel detecteert automatisch Next.js instellingen
 4. Configureer environment variabelen:
    - Klik op **"Environment Variables"**
    - Voeg toe:
      ```
      NEXT_PUBLIC_SITE_URL=https://jouw-domein.nl
-     NEXT_PUBLIC_CONTACT_EMAIL=info@meereizen.nl
+     NEXT_PUBLIC_CONTACT_EMAIL=info@vliegklaar.nl
      NEXT_PUBLIC_CONTACT_PHONE=+31612345678
      ```
 
@@ -193,7 +193,7 @@ CMD ["node", "server.js"]
 ### Stap 2: Build Image
 
 ```bash
-docker build -t meereizen .
+docker build -t vliegklaar .
 ```
 
 ### Stap 3: Run Container
@@ -201,8 +201,8 @@ docker build -t meereizen .
 ```bash
 docker run -p 3000:3000 \
   -e NEXT_PUBLIC_SITE_URL=https://jouw-domein.nl \
-  -e NEXT_PUBLIC_CONTACT_EMAIL=info@meereizen.nl \
-  meereizen
+  -e NEXT_PUBLIC_CONTACT_EMAIL=info@vliegklaar.nl \
+  vliegklaar
 ```
 
 ### Stap 4: Docker Compose (Optioneel)
@@ -219,7 +219,7 @@ services:
       - "3000:3000"
     environment:
       - NEXT_PUBLIC_SITE_URL=https://jouw-domein.nl
-      - NEXT_PUBLIC_CONTACT_EMAIL=info@meereizen.nl
+      - NEXT_PUBLIC_CONTACT_EMAIL=info@vliegklaar.nl
     restart: unless-stopped
 ```
 
@@ -278,8 +278,8 @@ npm install -g pm2
 ```bash
 # Clone repository
 cd /var/www
-git clone https://github.com/Tint7487/meereizen.git
-cd meereizen
+git clone https://github.com/Tint7487/vliegklaar.git
+cd vliegklaar
 
 # Dependencies installeren
 npm install
@@ -291,7 +291,7 @@ nano .env.local
 Voeg toe in `.env.local`:
 ```env
 NEXT_PUBLIC_SITE_URL=https://jouw-domein.nl
-NEXT_PUBLIC_CONTACT_EMAIL=info@meereizen.nl
+NEXT_PUBLIC_CONTACT_EMAIL=info@vliegklaar.nl
 ```
 
 Build de applicatie:
@@ -303,7 +303,7 @@ npm run build
 
 ```bash
 # Start applicatie
-pm2 start npm --name "meereizen" -- start
+pm2 start npm --name "vliegklaar" -- start
 
 # Auto-restart bij server reboot
 pm2 startup
@@ -313,7 +313,7 @@ pm2 save
 pm2 status
 
 # Logs bekijken
-pm2 logs meereizen
+pm2 logs vliegklaar
 ```
 
 ### Stap 6: Nginx als Reverse Proxy
@@ -325,7 +325,7 @@ apt install nginx -y
 
 Maak config:
 ```bash
-nano /etc/nginx/sites-available/meereizen
+nano /etc/nginx/sites-available/vliegklaar
 ```
 
 Voeg toe:
@@ -350,7 +350,7 @@ server {
 
 Activeer config:
 ```bash
-ln -s /etc/nginx/sites-available/meereizen /etc/nginx/sites-enabled/
+ln -s /etc/nginx/sites-available/vliegklaar /etc/nginx/sites-enabled/
 nginx -t  # Test configuratie
 systemctl restart nginx
 ```
@@ -376,11 +376,11 @@ certbot renew --dry-run
 ### Updates Deployen
 
 ```bash
-cd /var/www/meereizen
+cd /var/www/vliegklaar
 git pull
 npm install
 npm run build
-pm2 restart meereizen
+pm2 restart vliegklaar
 ```
 
 ---
@@ -446,7 +446,7 @@ Check **Actions** tab op GitHub voor build status.
 
 1. Ga naar je project dashboard op Vercel
 2. **Settings** → **Domains**
-3. Voeg je domein toe: `meereizen.nl`
+3. Voeg je domein toe: `vliegklaar.nl`
 4. Volg de instructies om DNS records toe te voegen bij je domeinregistrar
 
 DNS Records:
@@ -517,13 +517,13 @@ vercel logs [deployment-url]
 
 ```bash
 # Logs checken
-pm2 logs meereizen
+pm2 logs vliegklaar
 
 # Restart
-pm2 restart meereizen
+pm2 restart vliegklaar
 
 # Memory issue? Verhoog limit
-pm2 start npm --name "meereizen" --max-memory-restart 500M -- start
+pm2 start npm --name "vliegklaar" --max-memory-restart 500M -- start
 ```
 
 ---
@@ -533,7 +533,7 @@ pm2 start npm --name "meereizen" --max-memory-restart 500M -- start
 Problemen? Check:
 - [Next.js Documentation](https://nextjs.org/docs)
 - [Vercel Documentation](https://vercel.com/docs)
-- [GitHub Issues](https://github.com/Tint7487/meereizen/issues)
+- [GitHub Issues](https://github.com/Tint7487/vliegklaar/issues)
 
 ---
 

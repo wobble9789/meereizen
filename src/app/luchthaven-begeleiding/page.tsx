@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Luchthaven begeleiding voor ouderen — geen stress op Schiphol | MeeReizen',
+  title: 'Luchthaven begeleiding voor ouderen — geen stress op Schiphol | Vliegklaar',
   description:
     'Luchthaven begeleiding voor ouderen op Schiphol, Rotterdam en Eindhoven. Ophalen thuis, inchecken, gate, boarden — wij kennen de luchthaven, u hoeft nergens naar te zoeken. Bel 085-0608333.',
   keywords: [
@@ -14,11 +14,11 @@ export const metadata: Metadata = {
     'eindhoven airport begeleiding',
   ],
   openGraph: {
-    title: 'Luchthaven begeleiding voor ouderen — geen stress op Schiphol | MeeReizen',
+    title: 'Luchthaven begeleiding voor ouderen — geen stress op Schiphol | Vliegklaar',
     description:
       'Luchthaven begeleiding voor ouderen op Schiphol, Rotterdam en Eindhoven. Ophalen thuis, inchecken, gate, boarden — wij kennen de luchthaven.',
-    url: 'https://meereizen.nl/luchthaven-begeleiding',
-    siteName: 'MeeReizen',
+    url: 'https://vliegklaar.nl/luchthaven-begeleiding',
+    siteName: 'Vliegklaar',
     locale: 'nl_NL',
     type: 'website',
   },

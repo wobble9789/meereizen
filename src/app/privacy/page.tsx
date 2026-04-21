@@ -11,7 +11,7 @@ export default function PrivacyPage() {
         <div className="bg-white rounded-2xl shadow-sm p-8 md:p-12 space-y-8">
           <section>
             <p className="text-lg text-gray-700 leading-relaxed mb-4">
-              MeeReizen respecteert de privacy van alle gebruikers van de website en 
+              Vliegklaar respecteert de privacy van alle gebruikers van de website en 
               draagt er zorg voor dat persoonlijke informatie die u ons verschaft vertrouwelijk wordt behandeld.
             </p>
           </section>
@@ -108,8 +108,8 @@ export default function PrivacyPage() {
             </ul>
             <p className="text-lg text-gray-700 leading-relaxed mt-4">
               U kunt deze rechten uitoefenen door contact met ons op te nemen via{' '}
-              <a href="mailto:privacy@meereizen.nl" className="text-primary-600 hover:text-primary-700 underline">
-                privacy@meereizen.nl
+              <a href="mailto:privacy@vliegklaar.nl" className="text-primary-600 hover:text-primary-700 underline">
+                privacy@vliegklaar.nl
               </a>
             </p>
           </section>
@@ -144,8 +144,8 @@ export default function PrivacyPage() {
           <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-2xl mt-8">
             <p className="text-lg text-gray-700">
               <strong className="text-blue-900">Contact voor privacyvragen</strong><br />
-              E-mail: <a href="mailto:privacy@meereizen.nl" className="text-primary-600 hover:text-primary-700 underline">
-                privacy@meereizen.nl
+              E-mail: <a href="mailto:privacy@vliegklaar.nl" className="text-primary-600 hover:text-primary-700 underline">
+                privacy@vliegklaar.nl
               </a><br />
               Telefoon: <a href="tel:0881234567" className="text-primary-600 hover:text-primary-700 underline">
                 085-0608333

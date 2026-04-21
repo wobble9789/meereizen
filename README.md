@@ -1,14 +1,14 @@
-# MeeReizen 🎒
+# Vliegklaar 🎒
 
 **"Wij gaan gewoon mee."**
 
-MeeReizen is een reisdienst speciaal voor ouderen. Wij verzorgen persoonlijke begeleiding van begin tot eind — zodat u zorgeloos kunt genieten van uw reis.
+Vliegklaar is een reisdienst speciaal voor ouderen. Wij verzorgen persoonlijke begeleiding van begin tot eind — zodat u zorgeloos kunt genieten van uw reis.
 
 ## Over ons
 
 - 📞 085-0608333
-- 📧 info@meereizen.nl
-- 🌐 meereizen.nl
+- 📧 info@vliegklaar.nl
+- 🌐 vliegklaar.nl
 
 ## Tech Stack
 
@@ -40,4 +40,4 @@ Open [http://localhost:3000](http://localhost:3000).
 
 De app wordt automatisch gedeployed via Vercel bij elke push naar `main`.
 
-[![CI Pipeline](https://github.com/wobble9789/meereizen/actions/workflows/ci.yml/badge.svg)](https://github.com/wobble9789/meereizen/actions/workflows/ci.yml)
+[![CI Pipeline](https://github.com/wobble9789/vliegklaar/actions/workflows/ci.yml/badge.svg)](https://github.com/wobble9789/vliegklaar/actions/workflows/ci.yml)

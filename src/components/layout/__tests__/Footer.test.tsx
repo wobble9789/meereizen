@@ -13,7 +13,7 @@ jest.mock('next/link', () => {
 describe('Footer', () => {
   it('renders company name', () => {
     render(<Footer />);
-    expect(screen.getByText('MeeReizen')).toBeInTheDocument();
+    expect(screen.getByText('Vliegklaar')).toBeInTheDocument();
   });
 
   it('renders company description', () => {
@@ -34,7 +34,7 @@ describe('Footer', () => {
 
   it('renders email contact link', () => {
     render(<Footer />);
-    expect(screen.getByText(/info@meereizen.nl/i)).toBeInTheDocument();
+    expect(screen.getByText(/info@vliegklaar.nl/i)).toBeInTheDocument();
   });
 
   it('renders business hours', () => {
@@ -78,7 +78,7 @@ describe('Footer', () => {
 
   it('email link has correct href', () => {
     render(<Footer />);
-    const emailLink = screen.getByText(/✉️ info@meereizen.nl/i).closest('a');
-    expect(emailLink).toHaveAttribute('href', 'mailto:info@meereizen.nl');
+    const emailLink = screen.getByText(/✉️ info@vliegklaar.nl/i).closest('a');
+    expect(emailLink).toHaveAttribute('href', 'mailto:info@vliegklaar.nl');
   });
 });

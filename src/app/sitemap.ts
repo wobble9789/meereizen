@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://meereizen.vercel.app'
+  const baseUrl = 'https://vliegklaar.nl'
 
   return [
     {

@@ -34,7 +34,7 @@ describe('HomePage', () => {
 
   it('renders voor wie section', () => {
     render(<HomePage />);
-    expect(screen.getByText('Voor wie is MeeReizen?')).toBeInTheDocument();
+    expect(screen.getByText('Voor wie is Vliegklaar?')).toBeInTheDocument();
   });
 
   it('renders hoe werkt het section', () => {
