@@ -27,7 +27,7 @@ describe('Header', () => {
 
   it('renders contact button with phone number', () => {
     render(<Header />);
-    const contactButtons = screen.getAllByText(/Bel ons: 085-0608333/i);
+    const contactButtons = screen.getAllByText(/Bel ons: 06-18769492/i);
     expect(contactButtons.length).toBeGreaterThan(0);
   });
 

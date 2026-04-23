@@ -43,7 +43,7 @@ export default function Header() {
               href="/contact"
               className="btn-primary ml-4"
             >
-              Bel ons: 085-0608333
+              Bel ons: 06-18769492
             </Link>
           </div>
 
@@ -94,7 +94,7 @@ export default function Header() {
             className="block btn-primary text-center"
             onClick={() => setIsMenuOpen(false)}
           >
-            Bel ons: 085-0608333
+            Bel ons: 06-18769492
           </Link>
         </div>
       </nav>

@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Luchthaven begeleiding voor ouderen — geen stress op Schiphol | Vliegklaar',
   description:
-    'Luchthaven begeleiding voor ouderen op Schiphol, Rotterdam en Eindhoven. Ophalen thuis, inchecken, gate, boarden — wij kennen de luchthaven, u hoeft nergens naar te zoeken. Bel 085-0608333.',
+    'Luchthaven begeleiding voor ouderen op Schiphol, Rotterdam en Eindhoven. Ophalen thuis, inchecken, gate, boarden — wij kennen de luchthaven, u hoeft nergens naar te zoeken. Bel 06-18769492.',
   keywords: [
     'luchthaven begeleiding ouderen',
     'hulp op schiphol ouderen',
@@ -119,10 +119,10 @@ export default function LuchthavensBegeleidingPage() {
               wij lopen de hele weg met u mee.
             </p>
             <a
-              href="tel:0850608333"
+              href="tel:0618769492"
               className="inline-block bg-primary-500 hover:bg-primary-600 text-white font-bold text-xl md:text-2xl px-8 py-4 rounded-2xl shadow-lg transition-colors"
             >
-              📞 Bel 085-0608333
+              📞 Bel 06-18769492
             </a>
           </div>
         </div>
@@ -206,10 +206,10 @@ export default function LuchthavensBegeleidingPage() {
             wat wij voor u kunnen betekenen.
           </p>
           <a
-            href="tel:0850608333"
+            href="tel:0618769492"
             className="inline-block bg-primary-500 hover:bg-primary-600 text-white font-bold text-2xl px-10 py-5 rounded-2xl shadow-lg transition-colors"
           >
-            📞 Bel 085-0608333
+            📞 Bel 06-18769492
           </a>
           <p className="text-gray-500 mt-4 text-lg">Maandag t/m vrijdag, 9:00 – 17:00</p>
         </div>

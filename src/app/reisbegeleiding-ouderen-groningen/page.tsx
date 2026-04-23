@@ -23,10 +23,10 @@ export default function GroningenSEOPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
                 <a
-                  href="tel:0850608333"
+                  href="tel:0618769492"
                   className="bg-primary-600 hover:bg-primary-700 text-white font-bold px-8 py-4 rounded-xl shadow-lg transition-colors text-center"
                 >
-                  Bel Groningen: 085-0608333
+                  Bel Groningen: 06-18769492
                 </a>
                 <Link
                   href="/contact"
@@ -88,10 +88,10 @@ export default function GroningenSEOPage() {
             Wilt u de mogelijkheden bespreken voor uw volgende reis? Bel ons voor een vrijblijvend adviesgesprek bij u thuis in Groningen.
           </p>
           <a
-            href="tel:0850608333"
+            href="tel:0618769492"
             className="inline-block bg-primary-500 hover:bg-primary-600 text-white font-bold text-2xl px-12 py-6 rounded-2xl shadow-xl transition-all hover:scale-105"
           >
-            085-0608333
+            06-18769492
           </a>
         </div>
       </section>

@@ -148,7 +148,7 @@ export default function PrivacyPage() {
                 privacy@vliegklaar.nl
               </a><br />
               Telefoon: <a href="tel:0881234567" className="text-primary-600 hover:text-primary-700 underline">
-                085-0608333
+                06-18769492
               </a>
             </p>
           </div>

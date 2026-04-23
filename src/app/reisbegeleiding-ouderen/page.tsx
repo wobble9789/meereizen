@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Reisbegeleiding voor ouderen — persoonlijk en betrouwbaar | Vliegklaar',
   description:
-    'Reisbegeleiding voor ouderen van deur tot hotel. Ophalen thuis, hulp op de luchthaven, inchecken, overstappen en bagage — wij regelen alles. Bel 085-0608333.',
+    'Reisbegeleiding voor ouderen van deur tot hotel. Ophalen thuis, hulp op de luchthaven, inchecken, overstappen en bagage — wij regelen alles. Bel 06-18769492.',
   keywords: [
     'reisbegeleiding ouderen',
     'hulp bij reizen ouderen',
@@ -37,7 +37,7 @@ const faqs = [
   {
     vraag: 'Wat kost reisbegeleiding?',
     antwoord:
-      'De kosten voor reisbegeleiding zijn afhankelijk van de duur van de reis, het aantal reizigers en de gewenste intensiteit van begeleiding. Bel ons op 085-0608333 voor een vrijblijvende offerte op maat. We denken graag met u mee over een oplossing die bij uw budget past.',
+      'De kosten voor reisbegeleiding zijn afhankelijk van de duur van de reis, het aantal reizigers en de gewenste intensiteit van begeleiding. Bel ons op 06-18769492 voor een vrijblijvende offerte op maat. We denken graag met u mee over een oplossing die bij uw budget past.',
   },
   {
     vraag: 'Regelen jullie ook het vliegticket en hotel?',
@@ -66,10 +66,10 @@ export default function ReisbegeleidingOuderenPage() {
               Geen stress over inchecken, overstappen, bagage of taal.
             </p>
             <a
-              href="tel:0850608333"
+              href="tel:0618769492"
               className="inline-block bg-primary-500 hover:bg-primary-600 text-white font-bold text-xl md:text-2xl px-8 py-4 rounded-2xl shadow-lg transition-colors"
             >
-              📞 Bel 085-0608333
+              📞 Bel 06-18769492
             </a>
           </div>
         </div>
@@ -186,10 +186,10 @@ export default function ReisbegeleidingOuderenPage() {
             voor uw situatie.
           </p>
           <a
-            href="tel:0850608333"
+            href="tel:0618769492"
             className="inline-block bg-primary-500 hover:bg-primary-600 text-white font-bold text-2xl px-10 py-5 rounded-2xl shadow-lg transition-colors"
           >
-            📞 Bel 085-0608333
+            📞 Bel 06-18769492
           </a>
           <p className="text-gray-500 mt-4 text-lg">Maandag t/m vrijdag, 9:00 – 17:00</p>
         </div>

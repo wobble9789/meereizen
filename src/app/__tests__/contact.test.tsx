@@ -18,7 +18,7 @@ describe('ContactPage', () => {
 
   it('renders phone number prominently', () => {
     render(<ContactPage />);
-    expect(screen.getAllByText(/085-0608333/i).length).toBeGreaterThan(0);
+    expect(screen.getAllByText(/06-18769492/i).length).toBeGreaterThan(0);
   });
 
   it('renders contact information', () => {

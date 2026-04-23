@@ -209,7 +209,7 @@ export default function HomePage() {
               href="tel:0618769492"
               className="bg-white text-primary-700 font-bold text-2xl px-10 py-5 rounded-xl hover:bg-primary-50 transition-colors shadow-lg"
             >
-              085-0608333
+              06-18769492
             </a>
             <Link
               href="/contact"

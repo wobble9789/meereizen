@@ -35,10 +35,10 @@ export default function ContactPage() {
         <div className="max-w-2xl mx-auto">
           <p className="text-gray-600 text-lg mb-3">Liever direct iemand spreken? Bel ons gerust:</p>
           <a
-            href="tel:0850608333"
+            href="tel:0618769492"
             className="text-4xl md:text-5xl font-bold text-primary-600 hover:text-primary-800 transition-colors"
           >
-            085-0608333
+            06-18769492
           </a>
           <div className="mt-4 text-gray-600 text-lg">
             <p>Ma-vr: 9:00 - 18:00 | Za: 10:00 - 14:00</p>
@@ -57,9 +57,9 @@ export default function ContactPage() {
               {
                 icon: '📞',
                 titel: 'Telefoon',
-                tekst: '085-0608333',
+                tekst: '06-18769492',
                 sub: 'Ma-vr: 9:00 - 18:00',
-                href: 'tel:0850608333',
+                href: 'tel:0618769492',
               },
               {
                 icon: '✉️',
@@ -73,7 +73,7 @@ export default function ContactPage() {
                 titel: 'WhatsApp',
                 tekst: 'Stuur een appje',
                 sub: 'Snel en makkelijk',
-                href: 'https://wa.me/310850608333',
+                href: 'https://wa.me/310618769492',
               },
             ].map((c) => (
               <a
