@@ -114,7 +114,7 @@ export default function VoorwaardenPage() {
             <p className="text-lg text-gray-700">
               <strong className="text-blue-900">Vragen over deze voorwaarden?</strong><br />
               Neem gerust contact met ons op via{' '}
-              <a href="tel:0881234567" className="text-primary-600 hover:text-primary-700 underline">
+              <a href="tel:0618769492" className="text-primary-600 hover:text-primary-700 underline">
                 06-18769492
               </a>
               {' '}of{' '}

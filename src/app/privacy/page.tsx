@@ -147,7 +147,7 @@ export default function PrivacyPage() {
               E-mail: <a href="mailto:privacy@vliegklaar.nl" className="text-primary-600 hover:text-primary-700 underline">
                 privacy@vliegklaar.nl
               </a><br />
-              Telefoon: <a href="tel:0881234567" className="text-primary-600 hover:text-primary-700 underline">
+              Telefoon: <a href="tel:0618769492" className="text-primary-600 hover:text-primary-700 underline">
                 06-18769492
               </a>
             </p>
