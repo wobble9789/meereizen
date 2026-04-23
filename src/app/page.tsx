@@ -27,10 +27,10 @@ export default function HomePage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:0850608333"
+              href="tel:0618769492"
               className="bg-primary-500 hover:bg-primary-600 text-white text-xl font-bold px-10 py-5 rounded-xl shadow-lg transition-colors"
             >
-              Bel ons: 085-0608333
+              Bel ons: 06-18769492
             </a>
             <a
               href="#hoe-werkt-het"
@@ -206,7 +206,7 @@ export default function HomePage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:0850608333"
+              href="tel:0618769492"
               className="bg-white text-primary-700 font-bold text-2xl px-10 py-5 rounded-xl hover:bg-primary-50 transition-colors shadow-lg"
             >
               085-0608333

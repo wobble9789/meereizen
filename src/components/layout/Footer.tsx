@@ -44,13 +44,18 @@ export default function Footer() {
             <h4 className="text-xl font-semibold mb-4">Contact</h4>
             <ul className="space-y-3 text-lg text-gray-300">
               <li>
-                <a href="tel:0881234567" className="hover:text-primary-400 transition-colors">
-                  📞 085-0608333
+                <a href="tel:0618769492" className="hover:text-primary-400 transition-colors">
+                  📞 06-18769492
                 </a>
               </li>
               <li>
                 <a href="mailto:info@vliegklaar.nl" className="hover:text-primary-400 transition-colors">
                   ✉️ info@vliegklaar.nl
+                </a>
+              </li>
+              <li>
+                <a href="https://wa.me/31618769492" target="_blank" rel="noopener noreferrer" className="hover:text-primary-400 transition-colors">
+                  💬 WhatsApp ons
                 </a>
               </li>
               <li>Maandag - Vrijdag: 9:00 - 17:00</li>
