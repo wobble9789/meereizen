@@ -29,7 +29,7 @@ describe('Footer', () => {
 
   it('renders phone contact link', () => {
     render(<Footer />);
-    expect(screen.getByText(/085-0608333/i)).toBeInTheDocument();
+    expect(screen.getByText(/06-18769492/i)).toBeInTheDocument();
   });
 
   it('renders email contact link', () => {
@@ -72,8 +72,8 @@ describe('Footer', () => {
 
   it('phone link has correct href', () => {
     render(<Footer />);
-    const phoneLink = screen.getByText(/📞 085-0608333/i).closest('a');
-    expect(phoneLink).toHaveAttribute('href', 'tel:0881234567');
+    const phoneLink = screen.getByText(/📞 06-18769492/i).closest('a');
+    expect(phoneLink).toHaveAttribute('href', 'tel:0618769492');
   });
 
   it('email link has correct href', () => {

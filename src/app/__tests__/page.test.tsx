@@ -22,7 +22,7 @@ describe('HomePage', () => {
 
   it('renders CTA buttons', () => {
     render(<HomePage />);
-    expect(screen.getByText('Bel ons: 085-0608333')).toBeInTheDocument();
+    expect(screen.getByText('Bel ons: 06-18769492')).toBeInTheDocument();
     expect(screen.getByText('Bekijk hoe het werkt')).toBeInTheDocument();
   });
 
