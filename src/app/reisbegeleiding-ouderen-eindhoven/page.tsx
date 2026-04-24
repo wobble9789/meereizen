@@ -3,8 +3,8 @@ import Image from 'next/image';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Reisbegeleiding voor ouderen in Eindhoven | MeeReizen',
-  description: 'Persoonlijke reisbegeleiding voor senioren in Eindhoven. Wij helpen u veilig en comfortabel op reis vanaf Eindhoven Airport of elders.',
+  title: 'Reisbegeleiding voor ouderen in Eindhoven | Vliegklaar',
+  description: 'Persoonlijke reisbegeleiding voor senioren in de regio Eindhoven. Wij helpen u veilig en comfortabel op reis vanaf Eindhoven Airport of elders.',
 };
 
 export default function EindhovenSEOPage() {
@@ -18,9 +18,8 @@ export default function EindhovenSEOPage() {
                 Reisbegeleiding voor ouderen in Eindhoven
               </h1>
               <p className="text-xl text-gray-700 mb-8 leading-relaxed">
-                Woont u in Eindhoven of omgeving en wilt u graag zorgeloos op reis? 
-                MeeReizen biedt persoonlijke begeleiding op maat voor senioren in de lichtstad, 
-                zowel voor reizen vanaf Eindhoven Airport als Schiphol.
+                Woont u in Eindhoven of omgeving en wilt u graag op reis, maar ziet u op tegen de logistiek? 
+                Vliegklaar biedt persoonlijke begeleiding op maat voor senioren in de regio Brainport.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
                 <a
@@ -39,8 +38,8 @@ export default function EindhovenSEOPage() {
             </div>
             <div className="flex-1 relative h-[300px] md:h-[400px] w-full rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="https://images.unsplash.com/photo-1582234346914-f5842f1f0088?w=800&q=80"
-                alt="Eindhoven City"
+                src="https://images.unsplash.com/photo-1578301135243-7f7228a6f3ca?w=800&q=80"
+                alt="Eindhoven Stadhuisplein"
                 fill
                 className="object-cover"
               />
@@ -51,31 +50,31 @@ export default function EindhovenSEOPage() {
 
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-3xl font-bold text-primary-800 mb-8">Waarom kiezen voor MeeReizen in Eindhoven?</h2>
+          <h2 className="text-3xl font-bold text-primary-800 mb-8">Waarom kiezen voor Vliegklaar in Eindhoven?</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <div className="space-y-4">
               <h3 className="text-xl font-semibold text-primary-700">✓ Van deur tot deur</h3>
               <p className="text-gray-600">
-                Wij halen u thuis op in Eindhoven (of omgeving zoals Veldhoven, Best, Helmond) 
+                Wij halen u thuis op in Eindhoven (of Veldhoven, Best, Helmond) 
                 en begeleiden u gedurende de hele reis.
               </p>
             </div>
             <div className="space-y-4">
-              <h3 className="text-xl font-semibold text-primary-700">✓ Eindhoven Airport Specialist</h3>
+              <h3 className="text-xl font-semibold text-primary-700">✓ Eindhoven Airport Expert</h3>
               <p className="text-gray-600">
-                Wij zijn bekend met de logistiek van Eindhoven Airport en zorgen voor een vlotte afhandeling bij de check-in en security.
+                Onze begeleiders kennen Eindhoven Airport en de regio door en door, wat zorgt voor een vlotte start van uw vakantie.
               </p>
             </div>
             <div className="space-y-4">
-              <h3 className="text-xl font-semibold text-primary-700">✓ Rust & Aandacht</h3>
+              <h3 className="text-xl font-semibold text-primary-700">✓ Maatwerk Begeleiding</h3>
               <p className="text-gray-600">
-                Geen gehaast of stress. Onze begeleiders hebben alle tijd voor u en passen het tempo volledig aan op uw behoeften.
+                Of het nu gaat om een overwintering in Spanje of een stedentrip, wij passen de begeleiding aan op uw tempo.
               </p>
             </div>
             <div className="space-y-4">
-              <h3 className="text-xl font-semibold text-primary-700">✓ Veilig & Vertrouwd</h3>
+              <h3 className="text-xl font-semibold text-primary-700">✓ Veiligheid voorop</h3>
               <p className="text-gray-600">
-                Met MeeReizen gaat u met een gerust hart op pad. Wij regelen de koffers, de tickets en de ondersteuning onderweg.
+                Met Vliegklaar reist u zonder zorgen over bagage of ingewikkelde procedures op de luchthaven.
               </p>
             </div>
           </div>
@@ -86,7 +85,7 @@ export default function EindhovenSEOPage() {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">Uw reis start in Eindhoven</h2>
           <p className="text-xl mb-10 text-primary-100">
-            Wilt u de mogelijkheden bespreken voor uw volgende reis? Bel ons voor een vrijblijvend adviesgesprek bij u thuis in de regio Eindhoven.
+            Wilt u de mogelijkheden bespreken voor uw volgende reis vanaf of naar Eindhoven? Bel ons voor een vrijblijvend adviesgesprek.
           </p>
           <a
             href="tel:0618769492"
