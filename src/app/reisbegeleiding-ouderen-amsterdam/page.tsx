@@ -81,6 +81,61 @@ export default function AmsterdamSEOPage() {
         </div>
       </section>
 
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-3xl font-bold text-primary-800 mb-12 text-center">Veelgestelde vragen over reisbegeleiding in Amsterdam</h2>
+          <div className="space-y-6">
+            <div className="bg-white p-6 rounded-xl shadow-sm">
+              <h3 className="text-lg font-bold text-primary-700 mb-2">Begeleiden jullie ook vanaf Amsterdam Schiphol Airport?</h3>
+              <p className="text-gray-600">Ja, Amsterdam Schiphol is ons meest gebruikte startpunt. Wij kunnen u vanaf uw voordeur in Amsterdam naar de vertrekhal brengen, helpen bij het inchecken en de security, en desgewenst meereizen tot aan uw eindbestemming.</p>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-sm">
+              <h3 className="text-lg font-bold text-primary-700 mb-2">Is er begeleiding mogelijk voor senioren met een mobiliteitsbeperking in Amsterdam?</h3>
+              <p className="text-gray-600">Absoluut. Wij zijn gespecialiseerd in het ondersteunen van ouderen die minder mobiel zijn. We regelen assistentie op de luchthaven en zorgen dat het vervoer in Amsterdam en op de bestemming naadloos aansluit op uw behoeften.</p>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-sm">
+              <h3 className="text-lg font-bold text-primary-700 mb-2">Komen jullie voor een kennismaking ook langs in Amsterdam?</h3>
+              <p className="text-gray-600">Zeker. Voor we een reis plannen, komen we graag bij u thuis in Amsterdam langs voor een vrijblijvend kennismakingsgesprek. Zo kunnen we uw wensen rustig bespreken in uw eigen vertrouwde omgeving.</p>
+            </div>
+          </div>
+        </div>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "Begeleiden jullie ook vanaf Amsterdam Schiphol Airport?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Ja, Amsterdam Schiphol is ons meest gebruikte startpunt. Wij kunnen u vanaf uw voordeur in Amsterdam naar de vertrekhal brengen, helpen bij het inchecken en de security, en desgewenst meereizen tot aan uw eindbestemming."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Is er begeleiding mogelijk voor senioren met een mobiliteitsbeperking in Amsterdam?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Absoluut. Wij zijn gespecialiseerd in het ondersteunen van ouderen die minder mobiel zijn. We regelen assistentie op de luchthaven en zorgen dat het vervoer in Amsterdam en op de bestemming naadloos aansluit op uw behoeften."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Komen jullie voor een kennismaking ook langs in Amsterdam?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Zeker. Voor we een reis plannen, komen we graag bij u thuis in Amsterdam langs voor een vrijblijvend kennismakingsgesprek. Zo kunnen we uw wensen rustig bespreken in uw eigen vertrouwde omgeving."
+                  }
+                }
+              ]
+            })
+          }}
+        />
+      </section>
+
       <section className="py-20 bg-primary-900 text-white">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">Uw reis start in Amsterdam</h2>
