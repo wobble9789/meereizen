@@ -109,6 +109,18 @@ export default function AmsterdamSEOPage() {
               <h3 className="text-lg font-bold text-primary-700 mb-2">Bieden jullie ook ondersteuning bij het boeken van de reis zelf?</h3>
               <p className="text-gray-600">Zeker. Naast de fysieke begeleiding kunnen we u ook adviseren bij het uitzoeken van een geschikte accommodatie en vlucht die past bij uw wensen en eventuele beperkingen.</p>
             </div>
+            <div className="bg-white p-6 rounded-xl shadow-sm">
+              <h3 className="text-lg font-bold text-primary-700 mb-2">Hoe lang van tevoren moet ik een reisbegeleider boeken?</h3>
+              <p className="text-gray-600">We raden aan om minimaal 4 tot 6 weken van tevoren contact met ons op te nemen. Zo hebben we voldoende tijd voor een kennismaking en om alle logistiek rondom de reis zorgvuldig voor te bereiden.</p>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-sm">
+              <h3 className="text-lg font-bold text-primary-700 mb-2">Worden de kosten voor reisbegeleiding vergoed door de verzekering?</h3>
+              <p className="text-gray-600">In sommige gevallen kan reisbegeleiding (deels) worden vergoed vanuit een PGB (Persoonsgebonden Budget) of een aanvullende zorgverzekering, afhankelijk van uw situatie. We adviseren u hier graag over.</p>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-sm">
+              <h3 className="text-lg font-bold text-primary-700 mb-2">Wat gebeurt er als ik tijdens de reis ziek word?</h3>
+              <p className="text-gray-600">Uw begeleider is er om u te ondersteunen. Bij ziekte schakelen we direct met lokale artsen en uw verzekering. We blijven bij u tot de situatie stabiel is of tot er een passende oplossing is voor de terugreis.</p>
+            </div>
           </div>
         </div>
         <script
@@ -164,6 +176,30 @@ export default function AmsterdamSEOPage() {
                   "acceptedAnswer": {
                     "@type": "Answer",
                     "text": "Zeker. Naast de fysieke begeleiding kunnen we u ook adviseren bij het uitzoeken van een geschikte accommodatie en vlucht die past bij uw wensen en eventuele beperkingen."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Hoe lang van tevoren moet ik een reisbegeleider boeken?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We raden aan om minimaal 4 tot 6 weken van tevoren contact met ons op te nemen. Zo hebben we voldoende tijd voor een kennismaking en om alle logistiek rondom de reis zorgvuldig voor te bereiden."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Worden de kosten voor reisbegeleiding vergoed door de verzekering?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "In sommige gevallen kan reisbegeleiding (deels) worden vergoed vanuit een PGB (Persoonsgebonden Budget) of een aanvullende zorgverzekering, afhankelijk van uw situatie. We adviseren u hier graag over."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Wat gebeurt er als ik tijdens de reis ziek word?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Uw begeleider is er om u te ondersteunen. Bij ziekte schakelen we direct met lokale artsen en uw verzekering. We blijven bij u tot de situatie stabiel is of tot er een passende oplossing is voor de terugreis."
                   }
                 }
               ]
