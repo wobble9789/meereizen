@@ -97,6 +97,18 @@ export default function AmsterdamSEOPage() {
               <h3 className="text-lg font-bold text-primary-700 mb-2">Komen jullie voor een kennismaking ook langs in Amsterdam?</h3>
               <p className="text-gray-600">Zeker. Voor we een reis plannen, komen we graag bij u thuis in Amsterdam langs voor een vrijblijvend kennismakingsgesprek. Zo kunnen we uw wensen rustig bespreken in uw eigen vertrouwde omgeving.</p>
             </div>
+            <div className="bg-white p-6 rounded-xl shadow-sm">
+              <h3 className="text-lg font-bold text-primary-700 mb-2">Wat zijn de kosten voor reisbegeleiding in Amsterdam?</h3>
+              <p className="text-gray-600">De kosten hangen af van de duur en intensiteit van de begeleiding. We werken met een transparant uurtarief of een vaste pakketprijs voor meerdaagse reizen. Tijdens een kennismaking in Amsterdam maken we een offerte op maat.</p>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-sm">
+              <h3 className="text-lg font-bold text-primary-700 mb-2">Kan een begeleider ook helpen bij medische zorg tijdens de reis?</h3>
+              <p className="text-gray-600">Onze begeleiders zijn getraind om te ondersteunen bij dagelijkse taken en medicatieherinneringen. Voor specifieke medische handelingen kijken we samen of we een begeleider met een zorgachtergrond kunnen inzetten.</p>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-sm">
+              <h3 className="text-lg font-bold text-primary-700 mb-2">Bieden jullie ook ondersteuning bij het boeken van de reis zelf?</h3>
+              <p className="text-gray-600">Zeker. Naast de fysieke begeleiding kunnen we u ook adviseren bij het uitzoeken van een geschikte accommodatie en vlucht die past bij uw wensen en eventuele beperkingen.</p>
+            </div>
           </div>
         </div>
         <script
@@ -128,6 +140,30 @@ export default function AmsterdamSEOPage() {
                   "acceptedAnswer": {
                     "@type": "Answer",
                     "text": "Zeker. Voor we een reis plannen, komen we graag bij u thuis in Amsterdam langs voor een vrijblijvend kennismakingsgesprek. Zo kunnen we uw wensen rustig bespreken in uw eigen vertrouwde omgeving."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Wat zijn de kosten voor reisbegeleiding in Amsterdam?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "De kosten hangen af van de duur en intensiteit van de begeleiding. We werken met een transparant uurtarief of een vaste pakketprijs voor meerdaagse reizen. Tijdens een kennismaking in Amsterdam maken we een offerte op maat."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Kan een begeleider ook helpen bij medische zorg tijdens de reis?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Onze begeleiders zijn getraind om te ondersteunen bij dagelijkse taken en medicatieherinneringen. Voor specifieke medische handelingen kijken we samen of we een begeleider met een zorgachtergrond kunnen inzetten."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Bieden jullie ook ondersteuning bij het boeken van de reis zelf?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Zeker. Naast de fysieke begeleiding kunnen we u ook adviseren bij het uitzoeken van een geschikte accommodatie en vlucht die past bij uw wensen en eventuele beperkingen."
                   }
                 }
               ]
