@@ -51,7 +51,7 @@ export default function BlogPage() {
         <h2 className="text-2xl font-semibold mb-4 text-slate-800">4. Tot aan de gate of het vliegtuig</h2>
         <p className="mb-4">
           In de meeste gevallen mag je in je eigen handbewogen rolstoel blijven zitten tot aan de deur van het vliegtuig (gate-check). 
-          Daar stap je over in een smalle 'aisle chair' die wel door het gangpad van het vliegtuig past.
+          Daar stap je over in een smalle &apos;aisle chair&apos; die wel door het gangpad van het vliegtuig past.
         </p>
       </section>
 
