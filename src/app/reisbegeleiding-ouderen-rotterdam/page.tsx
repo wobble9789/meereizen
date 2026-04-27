@@ -27,6 +27,30 @@ export default function RotterdamSEOPage() {
           "@type": "Answer",
           "text": "Zeker, wij begeleiden senioren vanaf huis naar Rotterdam The Hague Airport (RTM), Schiphol of andere luchthavens, inclusief hulp bij het inchecken en de security."
         }
+      },
+      {
+        "@type": "Question",
+        "name": "Wat zijn de kosten voor reisbegeleiding in Rotterdam?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "De kosten zijn afhankelijk van uw specifieke wensen en de duur van de reis. We bieden altijd een vrijblijvende offerte op maat na een kennismakingsgesprek in Rotterdam."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Kan de begeleider ook helpen bij medische behoeften tijdens de vlucht?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Onze begeleiders bieden praktische en emotionele ondersteuning. Voor specifieke medische handelingen werken we samen met gespecialiseerde zorgpartners of stemmen we af op uw behoeften."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Hoe wordt de veiligheid van de senior gewaarborgd tijdens de reis?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Door constante persoonlijke aanwezigheid, hulp bij navigatie op drukke vliegvelden en het overnemen van alle logistieke zorgen, zodat de reiziger zich volledig veilig en ontspannen voelt."
+        }
       }
     ]
   };
