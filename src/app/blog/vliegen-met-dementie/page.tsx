@@ -38,7 +38,7 @@ export default function Page() {
 
       <h2 className="text-2xl font-semibold mt-8 mb-4">4. Behoud vertrouwde routines</h2>
       <p className="mb-4">
-        Probeer tijdens de reis vast te houden aan bekende patronen. Neem vertrouwde snacks mee en zorg voor afleiding zoals muziek of foto's die de persoon met dementie een veilig gevoel geven.
+        Probeer tijdens de reis vast te houden aan bekende patronen. Neem vertrouwde snacks mee en zorg voor afleiding zoals muziek of foto&apos;s die de persoon met dementie een veilig gevoel geven.
       </p>
 
       <h2 className="text-2xl font-semibold mt-8 mb-4">5. Medische verklaring en medicatie</h2>
