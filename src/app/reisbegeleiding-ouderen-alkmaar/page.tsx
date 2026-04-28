@@ -35,6 +35,30 @@ const faqData = {
         "text": "Zeker. We kunnen u ophalen bij de gate van de luchthaven van aankomst en brengen u veilig terug tot in uw woonkamer in Alkmaar."
       }
     }
+    {
+      "@type": "Question",
+      "name": "Moet ik zelf de taxi regelen vanuit Alkmaar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nee, dat hoeft niet. Wij kunnen het vervoer van Alkmaar naar de luchthaven (en weer terug) volledig voor u organiseren als onderdeel van onze begeleiding."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Blijven jullie de hele vakantie bij mij?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dat is optioneel. We bieden zowel begeleiding tijdens de heen- en terugreis als volledige begeleiding gedurende uw hele verblijf op locatie."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wat als mijn vlucht vertraagd is?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Geen zorgen. Onze begeleiders houden de vluchttijden nauwgezet in de gaten en blijven bij u tot u veilig op uw bestemming bent, ongeacht de vertraging."
+      }
+    }
   ]
 };
 
