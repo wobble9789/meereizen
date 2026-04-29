@@ -1,77 +1,94 @@
 import { Metadata } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Vliegangst bij Ouderen: Tips voor een Ontspannen Vlucht | Vliegklaar',
-  description: 'Heeft u of uw naaste last van vliegangst op latere leeftijd? Ontdek praktische tips en hoe persoonlijke reisbegeleiding kan helpen bij een zorgeloze vliegreis.',
+  title: 'Veilig vliegen met vliegangst bij ouderen | Vliegklaar',
+  description: 'Tips en persoonlijke begeleiding voor senioren met vliegangst. Ontdek hoe u weer zorgeloos en comfortabel kunt vliegen met professionele hulp.',
 };
 
 export default function VliegangstOuderenPage() {
   return (
-    <article className="max-w-4xl mx-auto px-4 py-12">
-      <nav className="mb-8">
-        <Link href="/blog" className="text-blue-600 hover:underline">← Terug naar overzicht</Link>
-      </nav>
-
-      <header className="mb-10">
-        <h1 className="text-4xl font-bold mb-4 text-gray-900">Vliegangst bij Ouderen: Tips voor een Ontspannen Vlucht</h1>
-        <p className="text-xl text-gray-600">Angst om te vliegen kan op elke leeftijd ontstaan, maar bij ouderen spelen vaak specifieke factoren mee. Hoe gaat u hiermee om?</p>
-      </header>
-
-      <div className="prose prose-blue max-w-none text-gray-800 leading-relaxed">
-        <p>
-          Vliegangst is een veelvoorkomend verschijnsel. Hoewel veel mensen denken dat het iets is waar je 'overheen groeit', 
-          kan het juist op latere leeftijd de kop opsteken of verergeren. Dit kan komen door een toegenomen gevoel van kwetsbaarheid, 
-          minder controle over de omgeving, of simpelweg omdat men minder vaak reist dan voorheen.
-        </p>
-
-        <h2 className="text-2xl font-semibold mt-8 mb-4">Waarom vliegangst toeneemt bij ouderen</h2>
-        <p>
-          Bij senioren is vliegangst vaak niet alleen de angst voor het neerstorten. Het is vaak een optelsom van factoren:
-        </p>
-        <ul className="list-disc pl-6 space-y-2">
-          <li><strong>Gezondheidszorgen:</strong> Wat als ik onwel word boven de oceaan?</li>
-          <li><strong>Overprikkeling:</strong> De drukte en chaos op vliegvelden als Schiphol kunnen overweldigend zijn.</li>
-          <li><strong>Mobiliteit:</strong> De angst om niet snel genoeg te kunnen bewegen bij een eventuele evacuatie.</li>
-        </ul>
-
-        <h2 className="text-2xl font-semibold mt-8 mb-4">5 Tips tegen vliegangst voor senioren</h2>
-        <ol className="list-decimal pl-6 space-y-4">
-          <li>
-            <strong>Bereid u fysiek voor:</strong> Zorg voor een goede nachtrust en vermijd cafeïne vlak voor de vlucht. Een stabiele bloedsuikerspiegel helpt om rustiger te blijven.
-          </li>
-          <li>
-            <strong>Kies de juiste stoel:</strong> Voor veel mensen met vliegangst helpt een stoel bij de vleugel (waar de minste beweging voelbaar is) of juist aan het gangpad voor een gevoel van vrijheid.
-          </li>
-          <li>
-            <strong>Informeer de bemanning:</strong> Stewardessen zijn getraind om mensen met vliegangst gerust te stellen. Een kort gesprekje bij het instappen kan wonderen doen.
-          </li>
-          <li>
-            <strong>Afleiding is key:</strong> Neem een luisterboek, kruiswoordpuzzels of rustige muziek mee. Focus op iets anders dan het geluid van de motoren.
-          </li>
-          <li>
-            <strong>Reis niet alleen:</strong> De aanwezigheid van een vertrouwd persoon of een professionele reisbegeleider kan de angst drastisch verminderen.
-          </li>
-        </ol>
-
-        <div className="bg-blue-50 p-6 rounded-xl border border-blue-100 my-10">
-          <h3 className="text-xl font-bold mb-2 text-blue-900">Hulp nodig bij uw vliegreis?</h3>
-          <p className="text-blue-800 mb-4">
-            Vliegklaar is gespecialiseerd in het begeleiden van ouderen tijdens hun vliegreis. Onze begeleiders bieden rust, 
-            overzicht en medische back-up, zodat u zich volledig kunt ontspannen.
+    <article className="min-h-screen bg-white">
+      {/* Hero Section */}
+      <section className="relative h-[400px] flex items-center justify-center text-white">
+        <Image
+          src="https://images.unsplash.com/photo-1506012733851-bb07551842e6?w=1600&q=80"
+          alt="Senioren op het vliegveld"
+          fill
+          className="object-cover brightness-50"
+          priority
+        />
+        <div className="relative z-10 max-w-4xl mx-auto px-4 text-center">
+          <h1 className="text-4xl md:text-6xl font-bold mb-6">Vliegangst bij Ouderen: Weer Zorgeloos op Reis</h1>
+          <p className="text-xl md:text-2xl text-gray-200">
+            Hoe persoonlijke begeleiding en de juiste voorbereiding het verschil maken.
           </p>
-          <Link href="/contact" className="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors inline-block">
-            Vrijblijvend advies aanvragen
-          </Link>
         </div>
+      </section>
 
-        <h2 className="text-2xl font-semibold mt-8 mb-4">Professionele begeleiding</h2>
-        <p>
-          Soms is een goed gesprek of een ontspanningsoefening niet genoeg. In dat geval kan <Link href="/reisbegeleiding-ouderen" className="text-blue-600 hover:underline">reisbegeleiding voor ouderen</Link> 
-          de uitkomst bieden. Een medisch geschoolde begeleider die van deur tot deur met u meereist, neemt alle logistieke 
-          zorgen en onzekerheden weg. Dit geeft een enorm gevoel van veiligheid, wat de vliegangst vaak direct reduceert.
-        </p>
-      </div>
+      {/* Content */}
+      <section className="py-16 md:py-24">
+        <div className="max-w-3xl mx-auto px-4">
+          <div className="prose prose-lg prose-primary mx-auto">
+            <p className="lead text-xl text-gray-600 mb-8">
+              Vliegangst is een veelvoorkomend verschijnsel, ook bij senioren die vroeger misschien zonder problemen de wereld over vlogen. Naarmate we ouder worden, kunnen fysieke ongemakken, een verminderd evenwichtsgevoel of een grotere behoefte aan controle ervoor zorgen dat een vliegreis plotseling een bron van spanning wordt.
+            </p>
+
+            <h2 className="text-3xl font-bold text-primary-900 mt-12 mb-6">Waarom ontstaat vliegangst op latere leeftijd?</h2>
+            <p className="text-gray-700 mb-6">
+              Het is een misverstand dat vliegangst altijd een irrationele angst is voor neerstorten. Bij ouderen heeft het vaak te maken met andere factoren:
+            </p>
+            <ul className="list-disc pl-6 mb-8 space-y-3 text-gray-700">
+              <li><strong>Controleverlies:</strong> De drukte op vliegvelden zoals Schiphol kan overweldigend zijn.</li>
+              <li><strong>Fysieke kwetsbaarheid:</strong> De angst om te vallen of onwel te worden in een kleine ruimte zonder directe hulp.</li>
+              <li><strong>Medische zorgen:</strong> Hoe reageert mijn lichaam op de luchtdruk? Wat als ik mijn medicijnen vergeet?</li>
+              <li><strong>Eenzaamheid:</strong> Alleen reizen vergroot de onzekerheid.</li>
+            </ul>
+
+            <h2 className="text-3xl font-bold text-primary-900 mt-12 mb-6">Tips om vliegangst te beheersen</h2>
+            <p className="text-gray-700 mb-6">
+              Er zijn verschillende manieren om de spanning voor en tijdens de vlucht te verminderen. Een goede voorbereiding is hierbij het halve werk.
+            </p>
+            <div className="bg-primary-50 p-8 rounded-2xl mb-8">
+              <h3 className="text-xl font-bold text-primary-800 mb-4">Onze top 3 adviezen:</h3>
+              <ol className="list-decimal pl-6 space-y-4 text-gray-700">
+                <li><strong>Kennis is macht:</strong> Verdiep u kort in hoe een vliegtuig werkt. De geluiden die u hoort (zoals het inklappen van het landingsgestel) zijn volkomen normaal.</li>
+                <li><strong>Communiceer:</strong> Geef bij het cabinepersoneel aan dat u gespannen bent. Zij zijn getraind om u op uw gemak te stellen.</li>
+                <li><strong>Afleiding:</strong> Neem een luisterboek, kruiswoordpuzzel of rustige muziek mee.</li>
+              </ol>
+            </div>
+
+            <h2 className="text-3xl font-bold text-primary-900 mt-12 mb-6">De kracht van persoonlijke reisbegeleiding</h2>
+            <p className="text-gray-700 mb-6">
+              De meest effectieve manier om vliegangst bij ouderen weg te nemen, is door niet alleen te reizen. Bij <strong>Vliegklaar</strong> merken we dat de aanwezigheid van een rustige, professionele begeleider wonderen doet.
+            </p>
+            <p className="text-gray-700 mb-6">
+              Een reisbegeleider neemt alle logistieke zorgen uit handen: van het inchecken van de bagage tot het navigeren door de security. Mocht er paniek ontstaan, dan is er direct iemand die weet hoe te handelen, u geruststelt en de situatie beheersbaar houdt.
+            </p>
+
+            <div className="my-12 border-l-4 border-primary-500 pl-6 py-2 italic text-gray-600">
+              "Sinds mijn man is overleden durfde ik niet meer te vliegen. Met de begeleiding van Vliegklaar ben ik afgelopen maand toch naar mijn kleinkinderen in Spanje gevlogen. Het was een bevrijding." - Mevrouw de Vries (78)
+            </div>
+
+            <h2 className="text-3xl font-bold text-primary-900 mt-12 mb-6">Conclusie</h2>
+            <p className="text-gray-700 mb-8">
+              Vliegangst hoeft uw wereld niet kleiner te maken. Met de juiste ondersteuning en begrip kunt u nog steeds genieten van verre reizen, familiebezoeken en vakanties.
+            </p>
+
+            <div className="bg-primary-900 text-white p-8 rounded-3xl text-center">
+              <h3 className="text-2xl font-bold mb-4">Wilt u weer zorgeloos vliegen?</h3>
+              <p className="mb-8">Wij bespreken graag hoe onze begeleiders u kunnen helpen bij uw volgende reis.</p>
+              <Link
+                href="/contact"
+                className="inline-block bg-white text-primary-900 font-bold px-8 py-4 rounded-xl hover:bg-gray-100 transition-colors"
+              >
+                Vrijblijvend advies aanvragen
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
     </article>
   );
 }
