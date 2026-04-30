@@ -81,6 +81,62 @@ export default function ApeldoornSEOPage() {
         </div>
       </section>
 
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-3xl font-bold text-primary-800 mb-8">Veelgestelde vragen over reisbegeleiding in Apeldoorn</h2>
+          <div className="space-y-6">
+            <div className="bg-white p-6 rounded-xl shadow-sm">
+              <h3 className="text-xl font-semibold text-primary-700 mb-2">Word ik echt vanaf mijn voordeur in Apeldoorn opgehaald?</h3>
+              <p className="text-gray-600">Ja, onze begeleiding begint bij u thuis in Apeldoorn. We helpen met de bagage en zorgen voor een comfortabele transfer naar de luchthaven of het treinstation.</p>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-sm">
+              <h3 className="text-xl font-semibold text-primary-700 mb-2">Is begeleiding ook mogelijk voor korte reizen vanaf Apeldoorn?</h3>
+              <p className="text-gray-600">Zeker. Of u nu een weekendje weg gaat of een lange vakantie plant, wij bieden ondersteuning op maat voor elke reisduur.</p>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-sm">
+              <h3 className="text-xl font-semibold text-primary-700 mb-2">Begeleiden jullie ook bij medische behoeften tijdens de reis?</h3>
+              <p className="text-gray-600">Onze reisbegeleiders zijn ervaren in het ondersteunen van senioren met diverse behoeften, inclusief hulp bij mobiliteit en het herinneren aan medicatiegebruik.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Word ik echt vanaf mijn voordeur in Apeldoorn opgehaald?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ja, onze begeleiding begint bij u thuis in Apeldoorn. We helpen met de bagage en zorgen voor een comfortabele transfer naar de luchthaven of het treinstation."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is begeleiding ook mogelijk voor korte reizen vanaf Apeldoorn?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Zeker. Of u nu een weekendje weg gaat of een lange vakantie plant, wij bieden ondersteuning op maat voor elke reisduur."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Begeleiden jullie ook bij medische behoeften tijdens de reis?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Onze reisbegeleiders zijn ervaren in het ondersteunen van senioren met diverse behoeften, inclusief hulp bij mobiliteit en het herinneren aan medicatiegebruik."
+                }
+              }
+            ]
+          })
+        }}
+      />
+
       <section className="py-20 bg-primary-900 text-white">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">Uw reis start in Apeldoorn</h2>
