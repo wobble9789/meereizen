@@ -81,6 +81,61 @@ export default function EindhovenSEOPage() {
         </div>
       </section>
 
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-3xl font-bold text-primary-800 mb-8">Veelgestelde vragen over reisbegeleiding in Eindhoven</h2>
+          <div className="space-y-6">
+            <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+              <h3 className="text-xl font-semibold text-primary-700 mb-2">Begeleiden jullie ook vanaf Eindhoven Airport?</h3>
+              <p className="text-gray-600">Jazeker. Veel van onze klanten in de regio Eindhoven vliegen vanaf de lokale luchthaven. Wij helpen bij het inchecken, de security en begeleiden u tot aan de gate of zelfs in het vliegtuig indien gewenst.</p>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+              <h3 className="text-xl font-semibold text-primary-700 mb-2">Kan ik opgehaald worden in omliggende plaatsen zoals Veldhoven of Best?</h3>
+              <p className="text-gray-600">Ja, onze begeleiders halen u direct bij uw voordeur op in Eindhoven en alle omliggende gemeenten in Zuidoost-Brabant. U hoeft zelf dus geen taxi of vervoer te regelen.</p>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+              <h3 className="text-xl font-semibold text-primary-700 mb-2">Wat gebeurt er bij vertraging op Eindhoven Airport?</h3>
+              <p className="text-gray-600">Bij vertraging blijft uw persoonlijke begeleider gewoon bij u. We zoeken een rustige plek op de luchthaven voor een kopje koffie en houden de vluchtinformatie nauwlettend voor u in de gaten.</p>
+            </div>
+          </div>
+        </div>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "Begeleiden jullie ook vanaf Eindhoven Airport?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Jazeker. Veel van onze klanten in de regio Eindhoven vliegen vanaf de lokale luchthaven. Wij helpen bij het inchecken, de security en begeleiden u tot aan de gate of zelfs in het vliegtuig indien gewenst."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Kan ik opgehaald worden in omliggende plaatsen zoals Veldhoven of Best?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Ja, onze begeleiders halen u direct bij uw voordeur op in Eindhoven en alle omliggende gemeenten in Zuidoost-Brabant. U hoeft zelf dus geen taxi of vervoer te regelen."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Wat gebeurt er bij vertraging op Eindhoven Airport?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Bij vertraging blijft uw persoonlijke begeleider gewoon bij u. We zoeken een rustige plek op de luchthaven voor een kopje koffie en houden de vluchtinformatie nauwlettend voor u in de gaten."
+                  }
+                }
+              ]
+            })
+          }}
+        />
+      </section>
+
       <section className="py-20 bg-primary-900 text-white">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">Uw reis start in Eindhoven</h2>
