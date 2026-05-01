@@ -45,10 +45,10 @@ export default function DuurzaamReizenBlog() {
 
           <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Tips voor een kleinere ecologische voetafdruk</h2>
           <ul>
-            <li><strong>Kies voor 'Slow Travel':</strong> In plaats van drie korte stedentrips per jaar, kunt u kiezen voor één langere vakantie. Dit vermindert het aantal vluchten en geeft u de tijd om een regio echt te leren kennen.</li>
+            <li><strong>Kies voor &apos;Slow Travel&apos;:</strong> In plaats van drie korte stedentrips per jaar, kunt u kiezen voor één langere vakantie. Dit vermindert het aantal vluchten en geeft u de tijd om een regio echt te leren kennen.</li>
             <li><strong>Reis buiten het hoogseizoen:</strong> Dit ontlast de lokale infrastructuur en is vaak ook veel aangenamer qua temperatuur en drukte.</li>
             <li><strong>Directe vluchten:</strong> Hoewel overstappen soms goedkoper is, zorgen directe vluchten voor aanzienlijk minder CO2-uitstoot (omdat de meeste brandstof wordt verbruikt tijdens het opstijgen).</li>
-            <li><strong>Lokaal verblijf:</strong> Kies voor kleinschalige hotels of B&B's die gerund worden door lokale families. Zo komt uw geld direct ten goede aan de lokale economie.</li>
+            <li><strong>Lokaal verblijf:</strong> Kies voor kleinschalige hotels of B&B&apos;s die gerund worden door lokale families. Zo komt uw geld direct ten goede aan de lokale economie.</li>
           </ul>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Comfortabel én groen</h2>
@@ -57,7 +57,7 @@ export default function DuurzaamReizenBlog() {
           </p>
 
           <blockquote className="border-l-4 border-primary-500 pl-6 my-8 italic text-xl text-gray-600">
-            "De mooiste manier om te reizen is met een open vizier voor de natuur en respect voor de lokale cultuur."
+            &quot;De mooiste manier om te reizen is met een open vizier voor de natuur en respect voor de lokale cultuur.&quot;
           </blockquote>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Hoe Vliegklaar u ondersteunt</h2>

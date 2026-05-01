@@ -34,7 +34,7 @@ const faqData = {
         "@type": "Answer",
         "text": "Zeker. We kunnen u ophalen bij de gate van de luchthaven van aankomst en brengen u veilig terug tot in uw woonkamer in Alkmaar."
       }
-    }
+    },
     {
       "@type": "Question",
       "name": "Moet ik zelf de taxi regelen vanuit Alkmaar?",

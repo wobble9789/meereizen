@@ -53,7 +53,7 @@ export default function ReizenMetParkinson() {
 
           <h2 className="text-2xl font-bold text-primary-800 mt-12 mb-6">2. Mobiliteit op het vliegveld</h2>
           <p>
-            Vliegvelden zijn vaak groot en kunnen vermoeiend zijn. Stress en vermoeidheid kunnen Parkinson-symptomen, zoals 'freezing' of trillingen, verergeren.
+            Vliegvelden zijn vaak groot en kunnen vermoeiend zijn. Stress en vermoeidheid kunnen Parkinson-symptomen, zoals &apos;freezing&apos; of trillingen, verergeren.
           </p>
           <p>
             Maak gebruik van de gratis luchthavenassistentie. Zelfs als u normaal gesproken goed kunt lopen, kan een rolstoel of elektrisch wagentje op het vliegveld 
@@ -62,7 +62,7 @@ export default function ReizenMetParkinson() {
 
           <h2 className="text-2xl font-bold text-primary-800 mt-12 mb-6">3. Stress verminderen</h2>
           <p>
-            Niets is zo vervelend als haasten bij de gate of onduidelijkheid over de route. Stress is een bekende 'trigger' voor Parkinson-klachten. 
+            Niets is zo vervelend als haasten bij de gate of onduidelijkheid over de route. Stress is een bekende &apos;trigger&apos; voor Parkinson-klachten. 
             Plan daarom ruim de tijd in tussen vluchten en vervoer. 
           </p>
 

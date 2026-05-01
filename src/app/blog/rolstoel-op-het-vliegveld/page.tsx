@@ -54,7 +54,7 @@ export default function RolstoelVliegveldPage() {
 
           <h2 className="text-2xl font-bold text-primary-800 mt-8 mb-4">1. Vraag tijdig assistentie aan</h2>
           <p>
-            De belangrijkste regel voor vliegen met een rolstoel: meld dit minimaal 48 uur van tevoren bij uw luchtvaartmaatschappij. Dit wordt vaak aangeduid als 'Special Assistance'. Geef hierbij duidelijk aan of u:
+            De belangrijkste regel voor vliegen met een rolstoel: meld dit minimaal 48 uur van tevoren bij uw luchtvaartmaatschappij. Dit wordt vaak aangeduid als &apos;Special Assistance&apos;. Geef hierbij duidelijk aan of u:
           </p>
           <ul className="list-disc pl-6 mb-6">
             <li>Kleine afstanden kunt lopen maar geen trappen kunt stijgen.</li>
@@ -67,10 +67,10 @@ export default function RolstoelVliegveldPage() {
             In de meeste gevallen mag u uw eigen rolstoel gratis meenemen als extra bagage. Bij de incheckbalie wordt uw rolstoel gelabeld. Vaak mag u met uw eigen rolstoel tot aan de gate rijden. Daar wordt de rolstoel ingenomen en in het ruim geplaatst. 
           </p>
           <p className="bg-primary-50 p-4 border-l-4 border-primary-500 rounded">
-            <strong>Let op bij elektrische rolstoelen:</strong> Geef het type accu (droog, nat of lithium) en de afmetingen door. Voor sommige accu's gelden strikte veiligheidsvoorschriften.
+            <strong>Let op bij elektrische rolstoelen:</strong> Geef het type accu (droog, nat of lithium) en de afmetingen door. Voor sommige accu&apos;s gelden strikte veiligheidsvoorschriften.
           </p>
 
-          <h2 className="text-2xl font-bold text-primary-800 mt-8 mb-4">3. De 'Airside' ervaring</h2>
+          <h2 className="text-2xl font-bold text-primary-800 mt-8 mb-4">3. De &apos;Airside&apos; ervaring</h2>
           <p>
             Zodra u door de security bent, zijn de meeste moderne luchthavens uitstekend ingericht voor rolstoelgebruikers. Er zijn ruime liften, aangepaste toiletten en vaak krijgt u voorrang bij het aan boord gaan (pre-boarding). Dit geeft u de rust om rustig te gaan zitten voordat de rest van de passagiers komt.
           </p>
