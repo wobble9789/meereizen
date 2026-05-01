@@ -44,10 +44,17 @@ export default function OverOnsPage() {
       <section className="py-16 bg-primary-50">
         <div className="max-w-3xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-primary-700 mb-6">Onze missie</h2>
-          <p className="text-xl text-gray-700 leading-relaxed">
+          <p className="text-xl text-gray-700 leading-relaxed mb-8">
             Reizen zou plezier moeten zijn — voor iedereen, ongeacht leeftijd of beperking.
             Elke oudere verdient een mooie vakantie, met iemand die echt voor hen zorgt.
           </p>
+          <div className="flex flex-wrap justify-center gap-4 text-sm font-medium text-primary-600">
+            <Link href="/reisbegeleiding-ouderen-amsterdam" className="hover:underline">Reisbegeleiding Amsterdam</Link>
+            <span className="text-primary-200">|</span>
+            <Link href="/reisbegeleiding-ouderen-rotterdam" className="hover:underline">Reisbegeleiding Rotterdam</Link>
+            <span className="text-primary-200">|</span>
+            <Link href="/reisbegeleiding-ouderen-utrecht" className="hover:underline">Reisbegeleiding Utrecht</Link>
+          </div>
         </div>
       </section>
 
