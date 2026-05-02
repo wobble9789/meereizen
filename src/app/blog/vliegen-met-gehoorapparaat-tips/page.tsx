@@ -43,16 +43,16 @@ export default function GehoorapparaatBlogPage() {
 
           <h2 className="text-2xl font-bold text-primary-800 mt-12 mb-6">2. Gehoorapparaten en de vliegmodus</h2>
           <p>
-            Moderne gehoorapparaten werken vaak met Bluetooth. Tijdens de vlucht wordt gevraagd om elektronische apparaten op 'vliegtuigstand' te zetten. Voor gehoorapparaten geldt dit meestal niet, tenzij ze direct verbonden zijn met een smartphone die u gebruikt voor streaming. Raadpleeg bij twijfel de handleiding van uw merk of vraag het uw audicien.
+            Moderne gehoorapparaten werken vaak met Bluetooth. Tijdens de vlucht wordt gevraagd om elektronische apparaten op &apos;vliegtuigstand&apos; te zetten. Voor gehoorapparaten geldt dit meestal niet, tenzij ze direct verbonden zijn met een smartphone die u gebruikt voor streaming. Raadpleeg bij twijfel de handleiding van uw merk of vraag het uw audicien.
           </p>
 
           <h2 className="text-2xl font-bold text-primary-800 mt-12 mb-6">3. Omgaan met luchtdrukverschillen</h2>
           <p>
-            Tijdens het stijgen en landen verandert de luchtdruk in de cabine. Dit kan een 'ploppend' gevoel geven. Mensen met een gehoorapparaat ervaren dit soms als intenser. 
+            Tijdens het stijgen en landen verandert de luchtdruk in de cabine. Dit kan een &apos;ploppend&apos; gevoel geven. Mensen met een gehoorapparaat ervaren dit soms als intenser. 
           </p>
           <ul className="list-disc pl-6 space-y-2">
             <li>Slik regelmatig of kauw op een kauwgompje.</li>
-            <li>Gebruik de 'Valsalva-manoeuvre' (voorzichtig snuiten met de mond dicht en neus dichtgeknepen).</li>
+            <li>Gebruik de &apos;Valsalva-manoeuvre&apos; (voorzichtig snuiten met de mond dicht en neus dichtgeknepen).</li>
             <li>Houd uw apparaten in; ze helpen u om aanwijzingen van het cabinepersoneel te blijven horen.</li>
           </ul>
 
@@ -67,7 +67,7 @@ export default function GehoorapparaatBlogPage() {
           </p>
           <ul className="list-disc pl-6 space-y-2">
             <li>Maak gebruik van de apps van de luchtvaartmaatschappij voor actuele gate-informatie.</li>
-            <li>Geef bij de gate aan dat u slechthorend bent; vaak mag u dan met 'pre-boarding' mee.</li>
+            <li>Geef bij de gate aan dat u slechthorend bent; vaak mag u dan met &apos;pre-boarding&apos; mee.</li>
             <li>Vraag om schriftelijke bevestiging bij wijzigingen als u de omroep niet goed kon verstaan.</li>
           </ul>
 
