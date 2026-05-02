@@ -47,10 +47,10 @@ export default function ReisgenootOuderenBlog() {
             Een match is meer dan alleen dezelfde bestemming leuk vinden. Let bij het zoeken naar een reispartner op de volgende punten:
           </p>
           <ol>
-            <li><strong>Reistempo:</strong> Wilt u elke dag musea bezoeken, of liever rustig aan doen met een boek in de zon? Zorg dat uw tempo's overeenkomen.</li>
+            <li><strong>Reistempo:</strong> Wilt u elke dag musea bezoeken, of liever rustig aan doen met een boek in de zon? Zorg dat uw tempo&apos;s overeenkomen.</li>
             <li><strong>Budget:</strong> Bespreek vooraf duidelijk wat de verwachte kosten zijn voor hotels, eten en vervoer.</li>
             <li><strong>Interesses:</strong> Een gedeelde passie voor cultuur, natuur of culinaire hoogstandjes maakt de reis veel leuker.</li>
-            <li><strong>Hulpbehoevendheid:</strong> Wees eerlijk over wat u wel en niet kunt. Een 'gewone' reisgenoot is geen verpleegkundige of professionele begeleider.</li>
+            <li><strong>Hulpbehoevendheid:</strong> Wees eerlijk over wat u wel en niet kunt. Een &apos;gewone&apos; reisgenoot is geen verpleegkundige of professionele begeleider.</li>
           </ol>
 
           <h2>Het alternatief: Professionele reisbegeleiding</h2>
