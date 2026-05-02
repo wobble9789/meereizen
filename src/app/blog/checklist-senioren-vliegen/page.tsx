@@ -76,7 +76,7 @@ export default function ChecklistSeniorenVliegenPage() {
           <section className="bg-gray-50 p-8 rounded-xl">
             <h2 className="text-2xl font-bold text-primary-800 mb-4 text-center">Conclusie</h2>
             <p className="text-center italic">
-              "Een goede voorbereiding is het halve werk, maar een fijne reisgenoot is het hele plezier."
+              &quot;Een goede voorbereiding is het halve werk, maar een fijne reisgenoot is het hele plezier.&quot;
             </p>
             <div className="mt-8 text-center">
               <Link
