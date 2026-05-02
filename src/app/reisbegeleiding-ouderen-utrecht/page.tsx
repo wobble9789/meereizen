@@ -97,6 +97,18 @@ export default function UtrechtSEOPage() {
               <h3 className="text-xl font-semibold text-primary-700 mb-2">Is er vooraf een kennismaking in Utrecht mogelijk?</h3>
               <p className="text-gray-600">Vertrouwen is essentieel. Daarom plannen we voor vertrek altijd een persoonlijke kennismaking bij u thuis in Utrecht. Zo kunt u uw wensen bespreken en de begeleider alvast ontmoeten.</p>
             </div>
+            <div className="border-b border-gray-100 pb-4">
+              <h3 className="text-xl font-semibold text-primary-700 mb-2">Wat zijn de kosten voor reisbegeleiding in Utrecht?</h3>
+              <p className="text-gray-600">De kosten hangen af van de duur en intensiteit van de begeleiding. We werken met een transparant uurtarief of een vaste pakketprijs voor meerdaagse reizen. Tijdens een kennismaking in Utrecht maken we een offerte op maat.</p>
+            </div>
+            <div className="border-b border-gray-100 pb-4">
+              <h3 className="text-xl font-semibold text-primary-700 mb-2">Kan een begeleider ook helpen bij medische zorg tijdens de reis?</h3>
+              <p className="text-gray-600">Onze begeleiders zijn getraind om te ondersteunen bij dagelijkse taken en medicatieherinneringen. Voor specifieke medische handelingen kijken we samen of we een begeleider met een zorgachtergrond kunnen inzetten.</p>
+            </div>
+            <div className="border-b border-gray-100 pb-4">
+              <h3 className="text-xl font-semibold text-primary-700 mb-2">Bieden jullie ook ondersteuning bij het boeken van de reis zelf?</h3>
+              <p className="text-gray-600">Zeker. Naast de fysieke begeleiding kunnen we u ook adviseren bij het uitzoeken van een geschikte accommodatie en vlucht die past bij uw wensen en eventuele beperkingen.</p>
+            </div>
           </div>
           
           <script
@@ -111,7 +123,7 @@ export default function UtrechtSEOPage() {
                     "name": "Word ik thuis in Utrecht opgehaald?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Ja, onze begeleider komt op de afgesproken tijd naar uw woning in Utrecht, of dit nu in het centrum, Leidsche Rijn of Overvecht is."
+                      "text": "Ja, onze begeleider komt op de afgesproken tijd naar uw woning in Utrecht, of dit nu in het centrum, Leidsche Rijn of Overvecht is. We helpen met de bagage en reizen samen naar de luchthaven of het treinstation."
                     }
                   },
                   {
@@ -119,7 +131,7 @@ export default function UtrechtSEOPage() {
                     "name": "Begeleiden jullie ook bij reizen vanaf Utrecht Centraal?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Zeker. Naast vliegreizen begeleiden wij senioren ook bij internationale treinreizen (zoals de ICE of Eurostar) die vertrekken vanaf Utrecht Centraal."
+                      "text": "Zeker. Naast vliegreizen begeleiden wij senioren ook bij internationale treinreizen (zoals de ICE of Eurostar) die vertrekken vanaf Utrecht Centraal. We helpen bij het instappen en blijven bij u tot de bestemming."
                     }
                   },
                   {
@@ -127,7 +139,31 @@ export default function UtrechtSEOPage() {
                     "name": "Is er vooraf een kennismaking in Utrecht mogelijk?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Vertrouwen is essentieel. Daarom plannen we voor vertrek altijd een persoonlijke kennismaking bij u thuis in Utrecht."
+                      "text": "Vertrouwen is essentieel. Daarom plannen we voor vertrek altijd een persoonlijke kennismaking bij u thuis in Utrecht. Zo kunt u uw wensen bespreken en de begeleider alvast ontmoeten."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Wat zijn de kosten voor reisbegeleiding in Utrecht?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "De kosten hangen af van de duur en intensiteit van de begeleiding. We werken met een transparant uurtarief of een vaste pakketprijs voor meerdaagse reizen. Tijdens een kennismaking in Utrecht maken we een offerte op maat."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Kan een begeleider ook helpen bij medische zorg tijdens de reis?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Onze begeleiders zijn getraind om te ondersteunen bij dagelijkse taken en medicatieherinneringen. Voor specifieke medische handelingen kijken we samen of we een begeleider met een zorgachtergrond kunnen inzetten."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Bieden jullie ook ondersteuning bij het boeken van de reis zelf?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Zeker. Naast de fysieke begeleiding kunnen we u ook adviseren bij het uitzoeken van een geschikte accommodatie en vlucht die past bij uw wensen en eventuele beperkingen."
                     }
                   }
                 ]
