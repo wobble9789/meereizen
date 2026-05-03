@@ -71,7 +71,7 @@ export default function VliegenMetArtrose() {
 
           <h2>7. Drink voldoende water</h2>
           <p>
-            Hydratatie is belangrijk voor de algehele gezondheid, maar helpt ook om de gewrichten 'gesmeerd' te houden. Vermijd overmatig alcohol- en cafeïnegebruik tijdens de vlucht, omdat dit uitdrogend werkt.
+            Hydratatie is belangrijk voor de algehele gezondheid, maar helpt ook om de gewrichten &apos;gesmeerd&apos; te houden. Vermijd overmatig alcohol- en cafeïnegebruik tijdens de vlucht, omdat dit uitdrogend werkt.
           </p>
 
           <h2>8. Reisbegeleiding van Vliegklaar</h2>
