@@ -50,7 +50,7 @@ export default function VliegenMetDiabetesPage() {
           <section className="bg-primary-50 p-8 rounded-xl border-l-4 border-primary-500">
             <h2 className="text-2xl font-bold text-primary-800 mb-4">Begeleiding nodig tijdens uw reis?</h2>
             <p>
-              Vindt u het spannend om alleen te vliegen met uw medische conditie? Onze reisbegeleiders bieden ondersteuning bij het inchecken, de beveiliging en tijdens de vlucht, zodat u zich nooit zorgen hoeft te maken.
+              Vindt u het spannend om alleen te vliegen met uw medische conditie? Onze reisbegeleiders bieden ondersteuning bij het inchecken, de beveiliging en tijdens de vlucht, zodat u zich nooit zorgen hoeft te maken.&nbsp;
               <Link href="/" className="text-primary-600 font-bold hover:underline ml-1">
                 Bekijk onze diensten.
               </Link>
@@ -74,7 +74,7 @@ export default function VliegenMetDiabetesPage() {
           <section>
             <h2 className="text-2xl font-bold text-primary-800">5. Eten en drinken aan boord</h2>
             <p>
-              Hoewel u speciale 'diabetische maaltijden' kunt bestellen bij de meeste luchtvaartmaatschappijen, zijn deze niet altijd nodig. Zorg er vooral voor dat u zelf altijd snelle suikers (zoals druivensuiker) en langzame koolhydraten (zoals een volkoren reep) bij de hand heeft in geval van een hypo of vertraagde maaltijdservice.
+              Hoewel u speciale &apos;diabetische maaltijden&apos; kunt bestellen bij de meeste luchtvaartmaatschappijen, zijn deze niet altijd nodig. Zorg er vooral voor dat u zelf altijd snelle suikers (zoals druivensuiker) en langzame koolhydraten (zoals een volkoren reep) bij de hand heeft in geval van een hypo of vertraagde maaltijdservice.
             </p>
           </section>
 
