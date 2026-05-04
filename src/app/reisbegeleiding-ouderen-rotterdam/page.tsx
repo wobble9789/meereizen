@@ -22,6 +22,14 @@ export default function RotterdamSEOPage() {
       },
       {
         "@type": "Question",
+        "name": "Hoe vraag ik vliegveld assistentie aan voor een reis vanuit Rotterdam?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Assistentie op Rotterdam The Hague Airport dient minimaal 48 uur van tevoren aangevraagd te worden via uw luchtvaartmaatschappij. Wilt u precies weten hoe dit werkt? Lees onze gids over vliegveld assistentie aanvragen."
+        }
+      },
+      {
+        "@type": "Question",
         "name": "Begeleidt Vliegklaar ook vanaf Rotterdam The Hague Airport?",
         "acceptedAnswer": {
           "@type": "Answer",
@@ -147,7 +155,12 @@ export default function RotterdamSEOPage() {
             {faqSchema.mainEntity.map((faq, index) => (
               <div key={index} className="bg-gray-50 p-6 rounded-xl border border-gray-100">
                 <h3 className="text-lg font-bold text-primary-700 mb-2">{faq.name}</h3>
-                <p className="text-gray-600 leading-relaxed">{faq.acceptedAnswer.text}</p>
+                <p className="text-gray-600 leading-relaxed">
+                  {faq.acceptedAnswer.text}
+                  {faq.name.includes("assistentie") && (
+                    <> <Link href="/blog/hoe-vraag-je-vliegveld-assistentie-aan" className="text-primary-600 hover:underline">Lees hier de volledige gids.</Link></>
+                  )}
+                </p>
               </div>
             ))}
           </div>
