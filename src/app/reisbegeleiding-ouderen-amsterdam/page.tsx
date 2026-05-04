@@ -102,6 +102,10 @@ export default function AmsterdamSEOPage() {
               <p className="text-gray-600">De kosten hangen af van de duur en intensiteit van de begeleiding. We werken met een transparant uurtarief of een vaste pakketprijs voor meerdaagse reizen. Tijdens een kennismaking in Amsterdam maken we een offerte op maat.</p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-sm">
+              <h3 className="text-lg font-bold text-primary-700 mb-2">Kan ik vliegveld assistentie krijgen bij vliegen met artrose?</h3>
+              <p className="text-gray-600">Ja, reizigers met artrose hebben recht op assistentie op de luchthaven. Wij kunnen dit voor u coördineren, zodat u niet onnodig ver hoeft te lopen en comfortabel naar de gate wordt gebracht. Lees onze specifieke <Link href="/blog/vliegen-met-artrose" className="text-primary-600 hover:underline">tips voor vliegen met artrose</Link>.</p>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-sm">
               <h3 className="text-lg font-bold text-primary-700 mb-2">Kan een begeleider ook helpen bij medische zorg tijdens de reis?</h3>
               <p className="text-gray-600">Onze begeleiders zijn getraind om te ondersteunen bij dagelijkse taken en medicatieherinneringen. Voor specifieke medische handelingen kijken we samen of we een begeleider met een zorgachtergrond kunnen inzetten. Vergeet niet uw <Link href="/blog/medicijnen-mee-op-reis" className="text-primary-600 hover:underline">medicijnen op reis</Link> goed voor te bereiden.</p>
             </div>
@@ -168,6 +172,14 @@ export default function AmsterdamSEOPage() {
                   "acceptedAnswer": {
                     "@type": "Answer",
                     "text": "De kosten hangen af van de duur en intensiteit van de begeleiding. We werken met een transparant uurtarief of een vaste pakketprijs voor meerdaagse reizen. Tijdens een kennismaking in Amsterdam maken we een offerte op maat."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Kan ik vliegveld assistentie krijgen bij vliegen met artrose?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Ja, reizigers met artrose hebben recht op assistentie op de luchthaven. Wij kunnen dit voor u coördineren, zodat u niet onnodig ver hoeft te lopen en comfortabel naar de gate wordt gebracht."
                   }
                 },
                 {
