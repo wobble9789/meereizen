@@ -51,6 +51,14 @@ export default function RotterdamSEOPage() {
           "@type": "Answer",
           "text": "Door constante persoonlijke aanwezigheid, hulp bij navigatie op drukke vliegvelden en het overnemen van alle logistieke zorgen, zodat de reiziger zich volledig veilig en ontspannen voelt."
         }
+      },
+      {
+        "@type": "Question",
+        "name": "Begeleiden jullie ook senioren met dementie in de regio Rotterdam?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, wij hebben specifieke ervaring met het begeleiden van senioren met beginnende dementie of geheugenproblemen. Onze begeleiders bieden structuur en rust vanaf het vertrek in Rotterdam tot de aankomst op de bestemming. Lees meer in ons artikel over reizen met dementie."
+        }
       }
     ]
   };
