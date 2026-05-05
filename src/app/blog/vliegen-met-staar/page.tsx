@@ -1,6 +1,6 @@
 import React from 'react';
 import { Metadata } from 'next';
-import BlogLayout from '@/components/BlogLayout';
+import { BlogLayout } from '@/components/BlogLayout';
 
 export const metadata: Metadata = {
   title: 'Vliegen met Staar: Tips voor Senioren | Vliegklaar',
