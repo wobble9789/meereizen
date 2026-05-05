@@ -8,6 +8,37 @@ export const metadata: Metadata = {
 };
 
 export default function ChecklistSeniorenVliegenPage() {
+  const faqData = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Wanneer moet ik assistentie aanvragen op de luchthaven?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "U dient luchthavenassistentie minimaal 48 uur voor vertrek aan te vragen bij uw luchtvaartmaatschappij of reisbureau. Dit zorgt ervoor dat er personeel en hulpmiddelen zoals rolstoelen beschikbaar zijn."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Mag ik mijn medicijnen meenemen in de handbagage?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, het is zelfs aanbevolen om uw belangrijkste medicijnen in uw handbagage te vervoeren. Neem ook een Europees Medisch Paspoort mee, verkrijgbaar bij uw apotheek, om aan te tonen welke medicatie u gebruikt."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Heb ik als senior een speciale reisverzekering nodig?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Het is belangrijk om te controleren of uw reisverzekering medische kosten volledig dekt, inclusief repatriëring. Sommige verzekeraars hanteren een leeftijdsgrens of hogere premies voor senioren, dus vergelijken is raadzaam."
+        }
+      }
+    ]
+  };
+
   return (
     <main className="pt-20">
       <article className="max-w-4xl mx-auto px-4 py-16">
@@ -73,6 +104,18 @@ export default function ChecklistSeniorenVliegenPage() {
             </ul>
           </section>
 
+          <section className="mt-12">
+            <h2 className="text-2xl font-bold text-primary-800 mb-6">Veelgestelde Vragen</h2>
+            <div className="space-y-6">
+              {faqData.mainEntity.map((item, index) => (
+                <div key={index} className="bg-white p-6 rounded-xl border border-gray-200 shadow-sm">
+                  <h3 className="text-lg font-bold text-primary-700 mb-2">{item.name}</h3>
+                  <p className="text-gray-600">{item.acceptedAnswer.text}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+
           <section className="bg-gray-50 p-8 rounded-xl">
             <h2 className="text-2xl font-bold text-primary-800 mb-4 text-center">Conclusie</h2>
             <p className="text-center italic">
@@ -113,6 +156,10 @@ export default function ChecklistSeniorenVliegenPage() {
               "datePublished": "2026-05-02"
             })
           }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }}
         />
       </article>
     </main>
