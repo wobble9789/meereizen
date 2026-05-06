@@ -23,7 +23,7 @@ export default function VliegenMetRollatorPage() {
     },
     {
       question: "Wat zijn de afmetingen voor een rollator in het vliegtuig?",
-      answer: "Er zijn meestal geen strikte afmetingen, maar de rollator moet wel inklapbaar zijn. Als u een elektrische rollator heeft, gelden er specifieke regels voor de accu's (meestal droge accu's of lithium-ion onder de 300Wh)."
+      answer: "Er zijn meestal geen strikte afmetingen, maar de rollator moet wel inklapbaar zijn. Als u een elektrische rollator heeft, gelden er specifieke regels voor de accu&apos;s (meestal droge accu&apos;s of lithium-ion onder de 300Wh)."
     }
   ];
 
@@ -84,7 +84,7 @@ export default function VliegenMetRollatorPage() {
             <h2 className="text-3xl font-bold text-primary-800 mb-4">4. Aankomst op uw bestemming</h2>
             <p>
               Bij het verlaten van het vliegtuig staat uw rollator meestal weer klaar bij de vliegtuigsluis. Soms komt het voor 
-              dat de rollator via de 'afwijkende bagage' band in de aankomsthal wordt afgeleverd. Vraag dit bij het instappen 
+              dat de rollator via de &apos;afwijkende bagage&apos; band in de aankomsthal wordt afgeleverd. Vraag dit bij het instappen 
               altijd even na aan het grondpersoneel, zodat u weet waar u aan toe bent.
             </p>
           </div>
