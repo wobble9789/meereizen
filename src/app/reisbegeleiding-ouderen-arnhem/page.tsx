@@ -51,6 +51,22 @@ export default function ArnhemSEOPage() {
           "@type": "Answer",
           "text": "Zeker, Arnhem Centraal is een belangrijk knooppunt voor zowel nationale als internationale treinen (zoals de ICE). Wij begeleiden u graag vanaf het perron tot aan uw zitplaats en eindbestemming."
         }
+      },
+      {
+        "@type": "Question",
+        "name": "Kunnen jullie ook helpen bij vliegen met een rollator of rolstoel?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Zeker. Wij zijn gespecialiseerd in het begeleiden van reizigers die gebruikmaken van mobiliteitshulpmiddelen. Wij regelen de noodzakelijke assistentie op de luchthaven en zorgen voor een vlekkeloze logistiek."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Bieden jullie ook begeleiding voor senioren met dementie in de regio Arnhem?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, we hebben ruime ervaring met het begeleiden van ouderen met beginnende dementie. Onze begeleiders bieden de nodige structuur, rust en nabijheid om de reis veilig en comfortabel te laten verlopen."
+        }
       }
     ]
   };
@@ -127,6 +143,34 @@ export default function ArnhemSEOPage() {
               <p className="text-gray-600">
                 U hoeft zich geen zorgen te maken over koffers, instapkaarten of lange rijen; wij zijn uw vaste steunpilaar.
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-3xl font-bold text-primary-800 mb-12 text-center">Veelgestelde vragen over reisbegeleiding in Arnhem</h2>
+          <div className="space-y-6">
+            <div className="bg-white p-6 rounded-xl shadow-sm">
+              <h3 className="text-lg font-bold text-primary-700 mb-2">Biedt Vliegklaar reisbegeleiding in heel Arnhem?</h3>
+              <p className="text-gray-600">Ja, wij bieden persoonlijke reisbegeleiding voor ouderen in alle wijken van Arnhem en omliggende gemeenten zoals Velp, Oosterbeek, Elst en Huissen.</p>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-sm">
+              <h3 className="text-lg font-bold text-primary-700 mb-2">Hoe regelt Vliegklaar vervoer vanaf Arnhem naar de luchthaven?</h3>
+              <p className="text-gray-600">Wij kunnen u thuis in Arnhem ophalen en begeleiden u per trein of privéchauffeur naar Schiphol, Düsseldorf Airport of Eindhoven Airport, inclusief volledige ondersteuning bij de incheck- en beveiligingsprocedures. Lees ook onze <Link href="/blog/hoe-vraag-je-vliegveld-assistentie-aan" className="text-primary-600 hover:underline">uitleg over vliegveld assistentie</Link>.</p>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-sm">
+              <h3 className="text-lg font-bold text-primary-700 mb-2">Kan Vliegklaar ook helpen bij medische behoeften tijdens de reis?</h3>
+              <p className="text-gray-600">Onze begeleiders in Arnhem zijn getraind om te ondersteunen bij niet-medische zorg, zoals het herinneren aan medicatie, assistentie bij mobiliteit en het bieden van emotionele rust. Bekijk ook onze tips voor <Link href="/blog/medicijnen-mee-op-reis" className="text-primary-600 hover:underline">medicijnen mee op reis</Link>.</p>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-sm">
+              <h3 className="text-lg font-bold text-primary-700 mb-2">Kunnen jullie ook helpen bij vliegen met een rollator of rolstoel?</h3>
+              <p className="text-gray-600">Zeker. Wij zijn gespecialiseerd in het begeleiden van reizigers die gebruikmaken van mobiliteitshulpmiddelen. Wij regelen de noodzakelijke assistentie op de luchthaven en zorgen voor een vlekkeloze logistiek. Lees meer over <Link href="/blog/vliegen-met-een-rollator" className="text-primary-600 hover:underline">vliegen met een rollator</Link>.</p>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-sm">
+              <h3 className="text-lg font-bold text-primary-700 mb-2">Bieden jullie ook begeleiding voor senioren met dementie in de regio Arnhem?</h3>
+              <p className="text-gray-600">Ja, we hebben ruime ervaring met het begeleiden van ouderen met beginnende dementie. Onze begeleiders bieden de nodige structuur, rust en nabijheid om de reis veilig en comfortabel te laten verlopen. Zie ook ons artikel over <Link href="/blog/reizen-met-dementie" className="text-primary-600 hover:underline">reizen met dementie</Link>.</p>
             </div>
           </div>
         </div>
