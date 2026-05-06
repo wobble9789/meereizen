@@ -67,6 +67,22 @@ export default function RotterdamSEOPage() {
           "@type": "Answer",
           "text": "Ja, wij hebben specifieke ervaring met het begeleiden van senioren met beginnende dementie of geheugenproblemen. Onze begeleiders bieden structuur en rust vanaf het vertrek in Rotterdam tot de aankomst op de bestemming. Lees meer in ons artikel over reizen met dementie."
         }
+      },
+      {
+        "@type": "Question",
+        "name": "Is er begeleiding mogelijk bij vliegen met artrose in Rotterdam?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Zeker. Reizigers met artrose hebben vaak baat bij extra ondersteuning en het beperken van loopafstanden. Wij regelen de juiste assistentie op de luchthaven en zorgen voor een comfortabel verloop van uw reis vanaf uw voordeur in Rotterdam."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Hoe zit het met medicijnen mee op reis nemen?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Het is essentieel om uw medicatie goed voor te bereiden, inclusief een actueel medicatieoverzicht en eventuele verklaringen. Onze begeleiders kunnen u helpen herinneren aan uw innameschema tijdens de reis."
+        }
       }
     ]
   };
@@ -159,6 +175,12 @@ export default function RotterdamSEOPage() {
                   {faq.acceptedAnswer.text}
                   {faq.name.includes("assistentie") && (
                     <> <Link href="/blog/hoe-vraag-je-vliegveld-assistentie-aan" className="text-primary-600 hover:underline">Lees hier de volledige gids.</Link></>
+                  )}
+                  {faq.name.includes("artrose") && (
+                    <> <Link href="/blog/vliegen-met-artrose" className="text-primary-600 hover:underline">Lees onze tips voor vliegen met artrose.</Link></>
+                  )}
+                  {faq.name.includes("medicijnen") && (
+                    <> <Link href="/blog/medicijnen-mee-op-reis" className="text-primary-600 hover:underline">Bekijk de checklist voor medicijnen.</Link></>
                   )}
                 </p>
               </div>
