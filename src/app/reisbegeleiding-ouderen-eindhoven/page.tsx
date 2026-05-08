@@ -101,6 +101,14 @@ export default function EindhovenSEOPage() {
               <h3 className="text-xl font-semibold text-primary-700 mb-2">Wat gebeurt er bij vertraging op Eindhoven Airport?</h3>
               <p className="text-gray-600">Bij vertraging blijft uw persoonlijke begeleider gewoon bij u. We zoeken een rustige plek op de luchthaven voor een kopje koffie en houden de vluchtinformatie nauwlettend voor u in de gaten.</p>
             </div>
+            <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+              <h3 className="text-xl font-semibold text-primary-700 mb-2">Bieden jullie ook begeleiding voor senioren met dementie in de regio Eindhoven?</h3>
+              <p className="text-gray-600">Ja, wij hebben veel ervaring met het ondersteunen van reizigers met geheugenproblemen. Onze begeleiders bieden de nodige rust en structuur tijdens de gehele reis. Lees meer over <Link href="/blog/reizen-met-dementie" className="text-primary-600 hover:underline">reizen met dementie</Link>.</p>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+              <h3 className="text-xl font-semibold text-primary-700 mb-2">Is vliegen met een rollator mogelijk vanaf Eindhoven Airport?</h3>
+              <p className="text-gray-600">Zeker. Wij zorgen dat uw rollator mee kan en dat u op de luchthaven de juiste ondersteuning krijgt bij het instappen. Bekijk onze <Link href="/blog/vliegen-met-een-rollator" className="text-primary-600 hover:underline">tips voor vliegen met een rollator</Link>.</p>
+            </div>
           </div>
         </div>
         <script
@@ -131,7 +139,7 @@ export default function EindhovenSEOPage() {
                   "name": "Hoe zit het met vliegveld assistentie op Eindhoven Airport?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Eindhoven Airport biedt gratis assistentie voor minder mobiele reizigers. Wij raden aan dit minimaal 48 uur van tevoren aan te vragen. Onze begeleiders kunnen u helpen bij de coördinatie hiervan."
+                    "text": "Eindhoven Airport biedt gratis assistentie for minder mobiele reizigers. Wij raden aan dit minimaal 48 uur van tevoren aan te vragen. Onze begeleiders kunnen u helpen bij de coördinatie hiervan."
                   }
                 },
                 {
@@ -140,6 +148,22 @@ export default function EindhovenSEOPage() {
                   "acceptedAnswer": {
                     "@type": "Answer",
                     "text": "Bij vertraging blijft uw persoonlijke begeleider gewoon bij u. We zoeken een rustige plek op de luchthaven voor een kopje koffie en houden de vluchtinformatie nauwlettend voor u in de gaten."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Bieden jullie ook begeleiding voor senioren met dementie in de regio Eindhoven?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Ja, wij hebben veel ervaring met het ondersteunen van reizigers met geheugenproblemen. Onze begeleiders bieden de nodige rust en structuur tijdens de gehele reis."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Is vliegen met een rollator mogelijk vanaf Eindhoven Airport?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Zeker. Wij zorgen dat uw rollator mee kan en dat u op de luchthaven de juiste ondersteuning krijgt bij het instappen."
                   }
                 }
               ]
