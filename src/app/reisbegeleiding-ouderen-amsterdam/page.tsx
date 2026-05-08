@@ -132,6 +132,22 @@ export default function AmsterdamSEOPage() {
             <div className="bg-white p-6 rounded-xl shadow-sm">
               <h3 className="text-lg font-bold text-primary-700 mb-2">Kan ik een begeleide reis cadeau doen aan mijn ouders in Amsterdam?</h3>
               <p className="text-gray-600">Dat kan zeker. Veel van onze aanvragen komen van kinderen die hun ouders een veilige reis gunnen. We kunnen alles in overleg met u regelen, inclusief de verrassing en de logistiek vanaf hun huis in Amsterdam naar Schiphol.</p>
+              <div className="bg-white p-6 rounded-xl shadow-sm">
+              <h3 className="text-lg font-bold text-primary-700 mb-2">Begeleiden jullie ook bij vliegen na een operatie?</h3>
+              <p className="text-gray-600">Ja, wij bieden gespecialiseerde ondersteuning voor senioren die kort geleden een ingreep hebben ondergaan. Onze begeleiders zorgen voor een rustig tempo en helpen bij alle fysieke handelingen op de luchthaven. Lees meer over <Link href="/blog/vliegen-na-operatie" className="text-primary-600 hover:underline">veilig vliegen na een operatie</Link>.</p>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-sm">
+              <h3 className="text-lg font-bold text-primary-700 mb-2">Wat moet ik regelen voor medicijnen op reis?</h3>
+              <p className="text-gray-600">Het is belangrijk om een actueel medicatieoverzicht (AMO) en eventueel een medische verklaring bij u te hebben. Wij kunnen u helpen bij de voorbereiding hiervan zodat u zorgeloos door de security in Amsterdam komt. Bekijk onze <Link href="/blog/medicijnen-mee-op-reis" className="text-primary-600 hover:underline">tips voor medicijnen mee op reis</Link>.</p>
+            </div>
+          </div>
+            <div className="bg-white p-6 rounded-xl shadow-sm">
+              <h3 className="text-lg font-bold text-primary-700 mb-2">Begeleiden jullie ook bij vliegen na een operatie?</h3>
+              <p className="text-gray-600">Ja, wij bieden gespecialiseerde ondersteuning voor senioren die kort geleden een ingreep hebben ondergaan. Onze begeleiders zorgen voor een rustig tempo en helpen bij alle fysieke handelingen op de luchthaven. Lees meer over <Link href="/blog/vliegen-na-operatie" className="text-primary-600 hover:underline">veilig vliegen na een operatie</Link>.</p>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-sm">
+              <h3 className="text-lg font-bold text-primary-700 mb-2">Wat moet ik regelen voor medicijnen op reis?</h3>
+              <p className="text-gray-600">Het is belangrijk om een actueel medicatieoverzicht (AMO) en eventueel een medische verklaring bij u te hebben. Wij kunnen u helpen bij de voorbereiding hiervan zodat u zorgeloos door de security in Amsterdam komt. Bekijk onze <Link href="/blog/medicijnen-mee-op-reis" className="text-primary-600 hover:underline">tips voor medicijnen mee op reis</Link>.</p>
             </div>
           </div>
         </div>
@@ -238,7 +254,23 @@ export default function AmsterdamSEOPage() {
                     "text": "Dat kan zeker. Veel van onze aanvragen komen van kinderen die hun ouders een veilige reis gunnen. We kunnen alles in overleg met u regelen, inclusief de verrassing en de logistiek vanaf hun huis in Amsterdam naar Schiphol."
                   }
                 }
-              ]
+              ,
+                {
+                                "@type": "Question",
+                                "name": "Begeleiden jullie ook bij vliegen na een operatie?",
+                                "acceptedAnswer": {
+                                                "@type": "Answer",
+                                                "text": "Ja, wij bieden gespecialiseerde ondersteuning voor senioren die kort geleden een ingreep hebben ondergaan. Onze begeleiders zorgen voor een rustig tempo en helpen bij alle fysieke handelingen op de luchthaven."
+                                }
+                },
+                {
+                                "@type": "Question",
+                                "name": "Wat moet ik regelen voor medicijnen op reis?",
+                                "acceptedAnswer": {
+                                                "@type": "Answer",
+                                                "text": "Het is belangrijk om een actueel medicatieoverzicht (AMO) en eventueel een medische verklaring bij u te hebben. Wij kunnen u helpen bij de voorbereiding hiervan zodat u zorgeloos door de security in Amsterdam komt."
+                                }
+                }]
             })
           }}
         />
