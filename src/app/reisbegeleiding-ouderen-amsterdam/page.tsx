@@ -70,6 +70,14 @@ export default function AmsterdamSEOPage() {
       },
       {
         "@type": "Question",
+        "name": "Moet ik een medische verklaring hebben voor vliegen vanaf Schiphol?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Voor sommige aandoeningen of apparatuur is een medische verklaring (Fit to Fly) verplicht. We kunnen u helpen te bepalen of dit nodig is en hoe u deze eenvoudig aanvraagt bij uw arts."
+        }
+      },
+      {
+        "@type": "Question",
         "name": "Hoe lang van tevoren moet ik een reisbegeleider boeken?",
         "acceptedAnswer": {
           "@type": "Answer",
@@ -244,6 +252,9 @@ export default function AmsterdamSEOPage() {
                   )}
                   {faq.name.includes("boeken") && (
                     <> <Link href="/blog/checklist-senioren-vliegen" className="text-primary-600 hover:underline">Bekijk de checklist voor senioren.</Link></>
+                  )}
+                  {faq.name.includes("medische verklaring") && (
+                    <> <Link href="/blog/hoe-vraag-je-een-medische-verklaring-aan-voor-vliegen" className="text-primary-600 hover:underline">Lees meer over de medische verklaring.</Link></>
                   )}
                   {faq.name.includes("assistentie") && (
                     <> <Link href="/blog/hoe-vraag-je-vliegveld-assistentie-aan" className="text-primary-600 hover:underline">Lees onze gids voor assistentie aanvragen.</Link></>
