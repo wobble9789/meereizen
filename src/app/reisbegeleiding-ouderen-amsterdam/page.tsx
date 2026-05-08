@@ -8,8 +8,139 @@ export const metadata: Metadata = {
 };
 
 export default function AmsterdamSEOPage() {
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Begeleiden jullie ook vanaf Amsterdam Schiphol Airport?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, Amsterdam Schiphol is ons meest gebruikte startpunt. Wij kunnen u vanaf uw voordeur in Amsterdam naar de vertrekhal brengen, helpen bij het inchecken en de security, en desgewenst meereizen tot aan uw eindbestemming."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is er begeleiding mogelijk voor senioren met een mobiliteitsbeperking in Amsterdam?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Absoluut. Wij zijn gespecialiseerd in het ondersteunen van ouderen die minder mobiel zijn. We regelen assistentie op de luchthaven en zorgen dat het vervoer in Amsterdam en op de bestemming naadloos aansluit op uw behoeften."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Komen jullie voor een kennismaking ook langs in Amsterdam?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Zeker. Voor we een reis plannen, komen we graag bij u thuis in Amsterdam langs voor een vrijblijvend kennismakingsgesprek. Zo kunnen we uw wensen rustig bespreken in uw eigen vertrouwde omgeving."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wat zijn de kosten voor reisbegeleiding in Amsterdam?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "De kosten hangen af van de duur en intensiteit van de begeleiding. We werken met een transparant uurtarief of een vaste pakketprijs voor meerdaagse reizen. Tijdens een kennismaking in Amsterdam maken we een offerte op maat."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Kan ik vliegveld assistentie krijgen bij vliegen met artrose?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, reizigers met artrose hebben recht op assistentie op de luchthaven. Wij kunnen dit voor u coördineren, zodat u niet onnodig ver hoeft te lopen en comfortabel naar de gate wordt gebracht."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Kan een begeleider ook helpen bij medische zorg tijdens de reis?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Onze begeleiders zijn getraind om te ondersteunen bij dagelijkse taken en medicatieherinneringen. Voor specifieke medische handelingen kijken we samen of we een begeleider met een zorgachtergrond kunnen inzetten."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Bieden jullie ook ondersteuning bij het boeken van de reis zelf?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Zeker. Naast de fysieke begeleiding kunnen we u ook adviseren bij het uitzoeken van een geschikte accommodatie en vlucht die past bij uw wensen en eventuele beperkingen."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Hoe lang van tevoren moet ik een reisbegeleider boeken?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We raden aan om minimaal 4 tot 6 weken van tevoren contact met ons op te nemen. Zo hebben we voldoende tijd voor een kennismaking en om alle logistiek rondom de reis zorgvuldig voor te bereiden."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Worden de kosten voor reisbegeleiding vergoed door de verzekering?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In sommige gevallen kan reisbegeleiding (deels) worden vergoed vanuit een PGB (Persoonsgebonden Budget) of een aanvullende zorgverzekering, afhankelijk van uw situatie. We adviseren u hier graag over."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wat gebeurt er als ik tijdens de reis ziek word?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Uw begeleider is er om u te ondersteunen. Bij ziekte schakelen we direct met lokale artsen en uw verzekering. We blijven bij u tot de situatie stabiel is of tot er een passende oplossing is voor de terugreis."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Bieden jullie ook begeleiding voor senioren met dementie in Amsterdam?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, wij hebben veel ervaring met het begeleiden van reizigers met beginnende dementie of geheugenproblemen. Onze begeleiders bieden de nodige structuur, rust en nabijheid om de reis voor zowel de senior als de familie zorgeloos te laten verlopen."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Kan ik een begeleide reis cadeau doen aan mijn ouders in Amsterdam?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Dat kan zeker. Veel van onze aanvragen komen van kinderen die hun ouders een veilige reis gunnen. We kunnen alles in overleg met u regelen, inclusief de verrassing en de logistiek vanaf hun huis in Amsterdam naar Schiphol."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Begeleiden jullie ook bij vliegen na een operatie?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, wij bieden gespecialiseerde ondersteuning voor senioren die kort geleden een ingreep hebben ondergaan. Onze begeleiders zorgen voor een rustig tempo en helpen bij alle fysieke handelingen op de luchthaven."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wat moet ik regelen voor medicijnen op reis?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Het is belangrijk om een actueel medicatieoverzicht (AMO) en eventueel een medische verklaring bij u te hebben. Wij kunnen u helpen bij de voorbereiding hiervan zodat u zorgeloos door de security in Amsterdam komt."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Hoe vraag ik assistentie aan op Schiphol?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Assistentie op de luchthaven Schiphol vraagt u minimaal 48 uur voor vertrek aan bij uw luchtvaartmaatschappij. Wij kunnen dit volledige proces voor u uit handen nemen."
+        }
+      }
+    ]
+  };
+
   return (
     <main className="pt-20">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <section className="bg-primary-50 py-16 md:py-24">
         <div className="max-w-5xl mx-auto px-4">
           <div className="flex flex-col md:flex-row gap-12 items-center">
@@ -19,7 +150,7 @@ export default function AmsterdamSEOPage() {
               </h1>
               <p className="text-xl text-gray-700 mb-8 leading-relaxed">
                 Woont u in Amsterdam of omgeving en wilt u graag op reis, maar ziet u op tegen de logistiek? 
-                Vliegklaar biedt persoonlijke begeleiding op maat for senioren in onze hoofdstad.
+                Vliegklaar biedt persoonlijke begeleiding op maat voor senioren in onze hoofdstad.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
                 <a
@@ -85,195 +216,43 @@ export default function AmsterdamSEOPage() {
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-primary-800 mb-12 text-center">Veelgestelde vragen over reisbegeleiding in Amsterdam</h2>
           <div className="space-y-6">
-            <div className="bg-white p-6 rounded-xl shadow-sm">
-              <h3 className="text-lg font-bold text-primary-700 mb-2">Begeleiden jullie ook vanaf Amsterdam Schiphol Airport?</h3>
-              <p className="text-gray-600">Ja, Amsterdam Schiphol is ons meest gebruikte startpunt. Wij kunnen u vanaf uw voordeur in Amsterdam naar de vertrekhal brengen, helpen bij het inchecken en de security, en desgewenst meereizen tot aan uw eindbestemming. Zie ook onze <Link href="/blog/rolstoel-op-het-vliegveld" className="text-primary-600 hover:underline">tips voor rolstoel op het vliegveld</Link>.</p>
-            </div>
-            <div className="bg-white p-6 rounded-xl shadow-sm">
-              <h3 className="text-lg font-bold text-primary-700 mb-2">Is er begeleiding mogelijk voor senioren met een mobiliteitsbeperking in Amsterdam?</h3>
-              <p className="text-gray-600">Absoluut. Wij zijn gespecialiseerd in het ondersteunen van ouderen die minder mobiel zijn. We regelen assistentie op de luchthaven en zorgen dat het vervoer in Amsterdam en op de bestemming naadloos aansluit op uw behoeften. Lees meer over <Link href="/blog/vliegen-met-een-rollator" className="text-primary-600 hover:underline">vliegen met een rollator</Link>.</p>
-            </div>
-            <div className="bg-white p-6 rounded-xl shadow-sm">
-              <h3 className="text-lg font-bold text-primary-700 mb-2">Komen jullie voor een kennismaking ook langs in Amsterdam?</h3>
-              <p className="text-gray-600">Zeker. Voor we een reis plannen, komen we graag bij u thuis in Amsterdam langs voor een vrijblijvend kennismakingsgesprek. Zo kunnen we uw wensen rustig bespreken in uw eigen vertrouwde omgeving.</p>
-            </div>
-            <div className="bg-white p-6 rounded-xl shadow-sm">
-              <h3 className="text-lg font-bold text-primary-700 mb-2">Wat zijn de kosten for reisbegeleiding in Amsterdam?</h3>
-              <p className="text-gray-600">De kosten hangen af van de duur en intensiteit van de begeleiding. We werken met een transparant uurtarief of een vaste pakketprijs voor meerdaagse reizen. Tijdens een kennismaking in Amsterdam maken we een offerte op maat.</p>
-            </div>
-            <div className="bg-white p-6 rounded-xl shadow-sm">
-              <h3 className="text-lg font-bold text-primary-700 mb-2">Kan ik vliegveld assistentie krijgen bij vliegen met artrose?</h3>
-              <p className="text-gray-600">Ja, reizigers met artrose hebben recht op assistentie op de luchthaven. Wij kunnen dit voor u coördineren, zodat u niet onnodig ver hoeft te lopen en comfortabel naar de gate wordt gebracht. Lees onze specifieke <Link href="/blog/vliegen-met-artrose" className="text-primary-600 hover:underline">tips voor vliegen met artrose</Link>.</p>
-            </div>
-            <div className="bg-white p-6 rounded-xl shadow-sm">
-              <h3 className="text-lg font-bold text-primary-700 mb-2">Kan een begeleider ook helpen bij medische zorg tijdens de reis?</h3>
-              <p className="text-gray-600">Onze begeleiders zijn getraind om te ondersteunen bij dagelijkse taken en medicatieherinneringen. Voor specifieke medische handelingen kijken we samen of we een begeleider met een zorgachtergrond kunnen inzetten. Vergeet niet uw <Link href="/blog/medicijnen-mee-op-reis" className="text-primary-600 hover:underline">medicijnen op reis</Link> goed voor te bereiden.</p>
-            </div>
-            <div className="bg-white p-6 rounded-xl shadow-sm">
-              <h3 className="text-lg font-bold text-primary-700 mb-2">Bieden jullie ook ondersteuning bij het boeken van de reis zelf?</h3>
-              <p className="text-gray-600">Zeker. Naast de fysieke begeleiding kunnen we u ook adviseren bij het uitzoeken van een geschikte accommodatie en vlucht die past bij uw wensen en eventuele beperkingen. Bekijk onze <Link href="/blog/checklist-senioren-vliegen" className="text-primary-600 hover:underline">checklist voor senioren</Link>.</p>
-            </div>
-            <div className="bg-white p-6 rounded-xl shadow-sm">
-              <h3 className="text-lg font-bold text-primary-700 mb-2">Hoe lang van tevoren moet ik een reisbegeleider boeken?</h3>
-              <p className="text-gray-600">We raden aan om minimaal 4 tot 6 weken van tevoren contact met ons op te nemen. Zo hebben we voldoende tijd voor een kennismaking en om alle logistiek rondom de reis zorgvuldig voor te bereiden.</p>
-            </div>
-            <div className="bg-white p-6 rounded-xl shadow-sm">
-              <h3 className="text-lg font-bold text-primary-700 mb-2">Worden de kosten voor reisbegeleiding vergoed door de verzekering?</h3>
-              <p className="text-gray-600">In sommige gevallen kan reisbegeleiding (deels) worden vergoed vanuit een PGB (Persoonsgebonden Budget) of een aanvullende zorgverzekering, afhankelijk van uw situatie. We adviseren u hier graag over. Lees meer over de <Link href="/blog/reisverzekering-voor-senioren" className="text-primary-600 hover:underline">reisverzekering voor senioren</Link>.</p>
-            </div>
-            <div className="bg-white p-6 rounded-xl shadow-sm">
-              <h3 className="text-lg font-bold text-primary-700 mb-2">Wat gebeurt er als ik tijdens de reis ziek word?</h3>
-              <p className="text-gray-600">Uw begeleider is er om u te ondersteunen. Bij ziekte schakelen we direct met lokale artsen en uw verzekering. We blijven bij u tot de situatie stabiel is of tot er een passende oplossing is voor de terugreis.</p>
-            </div>
-            <div className="bg-white p-6 rounded-xl shadow-sm">
-              <h3 className="text-lg font-bold text-primary-700 mb-2">Bieden jullie ook begeleiding voor senioren met dementie in Amsterdam?</h3>
-              <p className="text-gray-600">Ja, wij hebben veel ervaring met het begeleiden van reizigers met beginnende dementie of geheugenproblemen. Onze begeleiders bieden de nodige structuur, rust en nabijheid om de reis voor zowel de senior als de familie zorgeloos te laten verlopen. Lees ook ons artikel over <Link href="/blog/reizen-met-dementie" className="text-primary-600 hover:underline">reizen met dementie</Link>.</p>
-            </div>
-            <div className="bg-white p-6 rounded-xl shadow-sm">
-              <h3 className="text-lg font-bold text-primary-700 mb-2">Kan ik een begeleide reis cadeau doen aan mijn ouders in Amsterdam?</h3>
-              <p className="text-gray-600">Dat kan zeker. Veel van onze aanvragen komen van kinderen die hun ouders een veilige reis gunnen. We kunnen alles in overleg met u regelen, inclusief de verrassing en de logistiek vanaf hun huis in Amsterdam naar Schiphol.</p>
-              <div className="bg-white p-6 rounded-xl shadow-sm">
-              <h3 className="text-lg font-bold text-primary-700 mb-2">Begeleiden jullie ook bij vliegen na een operatie?</h3>
-              <p className="text-gray-600">Ja, wij bieden gespecialiseerde ondersteuning voor senioren die kort geleden een ingreep hebben ondergaan. Onze begeleiders zorgen voor een rustig tempo en helpen bij alle fysieke handelingen op de luchthaven. Lees meer over <Link href="/blog/vliegen-na-operatie" className="text-primary-600 hover:underline">veilig vliegen na een operatie</Link>.</p>
-            </div>
-            <div className="bg-white p-6 rounded-xl shadow-sm">
-              <h3 className="text-lg font-bold text-primary-700 mb-2">Wat moet ik regelen voor medicijnen op reis?</h3>
-              <p className="text-gray-600">Het is belangrijk om een actueel medicatieoverzicht (AMO) en eventueel een medische verklaring bij u te hebben. Wij kunnen u helpen bij de voorbereiding hiervan zodat u zorgeloos door de security in Amsterdam komt. Bekijk onze <Link href="/blog/medicijnen-mee-op-reis" className="text-primary-600 hover:underline">tips voor medicijnen mee op reis</Link>.</p>
-            </div>
-          </div>
-            <div className="bg-white p-6 rounded-xl shadow-sm">
-              <h3 className="text-lg font-bold text-primary-700 mb-2">Begeleiden jullie ook bij vliegen na een operatie?</h3>
-              <p className="text-gray-600">Ja, wij bieden gespecialiseerde ondersteuning voor senioren die kort geleden een ingreep hebben ondergaan. Onze begeleiders zorgen voor een rustig tempo en helpen bij alle fysieke handelingen op de luchthaven. Lees meer over <Link href="/blog/vliegen-na-operatie" className="text-primary-600 hover:underline">veilig vliegen na een operatie</Link>.</p>
-            </div>
-            <div className="bg-white p-6 rounded-xl shadow-sm">
-              <h3 className="text-lg font-bold text-primary-700 mb-2">Wat moet ik regelen voor medicijnen op reis?</h3>
-              <p className="text-gray-600">Het is belangrijk om een actueel medicatieoverzicht (AMO) en eventueel een medische verklaring bij u te hebben. Wij kunnen u helpen bij de voorbereiding hiervan zodat u zorgeloos door de security in Amsterdam komt. Bekijk onze <Link href="/blog/medicijnen-mee-op-reis" className="text-primary-600 hover:underline">tips voor medicijnen mee op reis</Link>.</p>
-            </div>
+            {faqSchema.mainEntity.map((faq, index) => (
+              <div key={index} className="bg-white p-6 rounded-xl shadow-sm">
+                <h3 className="text-lg font-bold text-primary-700 mb-2">{faq.name}</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  {faq.acceptedAnswer.text}
+                  {faq.name.includes("rolstoel") && (
+                    <> <Link href="/blog/rolstoel-op-het-vliegveld" className="text-primary-600 hover:underline">Bekijk tips voor rolstoel op het vliegveld.</Link></>
+                  )}
+                  {faq.name.includes("rollator") && (
+                    <> <Link href="/blog/vliegen-met-een-rollator" className="text-primary-600 hover:underline">Lees meer over vliegen met een rollator.</Link></>
+                  )}
+                  {faq.name.includes("artrose") && (
+                    <> <Link href="/blog/vliegen-met-artrose" className="text-primary-600 hover:underline">Bekijk tips voor vliegen met artrose.</Link></>
+                  )}
+                  {faq.name.includes("medicijnen") && (
+                    <> <Link href="/blog/medicijnen-mee-op-reis" className="text-primary-600 hover:underline">Bekijk tips voor medicijnen op reis.</Link></>
+                  )}
+                  {faq.name.includes("vliegen na een operatie") && (
+                    <> <Link href="/blog/vliegen-na-operatie" className="text-primary-600 hover:underline">Lees meer over veilig vliegen na een operatie.</Link></>
+                  )}
+                  {faq.name.includes("dementie") && (
+                    <> <Link href="/blog/reizen-met-dementie" className="text-primary-600 hover:underline">Lees over reizen met dementie.</Link></>
+                  )}
+                  {faq.name.includes("verzekering") && (
+                    <> <Link href="/blog/reisverzekering-voor-senioren" className="text-primary-600 hover:underline">Lees over reisverzekeringen voor senioren.</Link></>
+                  )}
+                  {faq.name.includes("boeken") && (
+                    <> <Link href="/blog/checklist-senioren-vliegen" className="text-primary-600 hover:underline">Bekijk de checklist voor senioren.</Link></>
+                  )}
+                  {faq.name.includes("assistentie") && (
+                    <> <Link href="/blog/hoe-vraag-je-vliegveld-assistentie-aan" className="text-primary-600 hover:underline">Lees onze gids voor assistentie aanvragen.</Link></>
+                  )}
+                </p>
+              </div>
+            ))}
           </div>
         </div>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "FAQPage",
-              "mainEntity": [
-                {
-                  "@type": "Question",
-                  "name": "Begeleiden jullie ook vanaf Amsterdam Schiphol Airport?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja, Amsterdam Schiphol is ons meest gebruikte startpunt. Wij kunnen u vanaf uw voordeur in Amsterdam naar de vertrekhal brengen, helpen bij het inchecken en de security, en desgewenst meereizen tot aan uw eindbestemming."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Is er begeleiding mogelijk voor senioren met een mobiliteitsbeperking in Amsterdam?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Absoluut. Wij zijn gespecialiseerd in het ondersteunen van ouderen die minder mobiel zijn. We regelen assistentie op de luchthaven en zorgen dat het vervoer in Amsterdam en op de bestemming naadloos aansluit op uw behoeften."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Komen jullie voor een kennismaking ook langs in Amsterdam?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Zeker. Voor we een reis plannen, komen we graag bij u thuis in Amsterdam langs voor een vrijblijvend kennismakingsgesprek. Zo kunnen we uw wensen rustig bespreken in uw eigen vertrouwde omgeving."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Wat zijn de kosten voor reisbegeleiding in Amsterdam?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "De kosten hangen af van de duur en intensiteit van de begeleiding. We werken met een transparant uurtarief of een vaste pakketprijs voor meerdaagse reizen. Tijdens een kennismaking in Amsterdam maken we een offerte op maat."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Kan ik vliegveld assistentie krijgen bij vliegen met artrose?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja, reizigers met artrose hebben recht op assistentie op de luchthaven. Wij kunnen dit voor u coördineren, zodat u niet onnodig ver hoeft te lopen en comfortabel naar de gate wordt gebracht."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Kan een begeleider ook helpen bij medische zorg tijdens de reis?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Onze begeleiders zijn getraind om te ondersteunen bij dagelijkse taken en medicatieherinneringen. Voor specifieke medische handelingen kijken we samen of we een begeleider met een zorgachtergrond kunnen inzetten."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Bieden jullie ook ondersteuning bij het boeken van de reis zelf?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Zeker. Naast de fysieke begeleiding kunnen we u ook adviseren bij het uitzoeken van een geschikte accommodatie en vlucht die past bij uw wensen en eventuele beperkingen."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Hoe lang van tevoren moet ik een reisbegeleider boeken?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "We raden aan om minimaal 4 tot 6 weken van tevoren contact met ons op te nemen. Zo hebben we voldoende tijd voor een kennismaking en om alle logistiek rondom de reis zorgvuldig voor te bereiden."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Worden de kosten voor reisbegeleiding vergoed door de verzekering?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "In sommige gevallen kan reisbegeleiding (deels) worden vergoed vanuit een PGB (Persoonsgebonden Budget) of een aanvullende zorgverzekering, afhankelijk van uw situatie. We adviseren u hier graag over."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Wat gebeurt er als ik tijdens de reis ziek word?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Uw begeleider is er om u te ondersteunen. Bij ziekte schakelen we direct met lokale artsen en uw verzekering. We blijven bij u tot de situatie stabiel is of tot er een passende oplossing is voor de terugreis."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Bieden jullie ook begeleiding voor senioren met dementie in Amsterdam?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja, wij hebben veel ervaring met het begeleiden van reizigers met beginnende dementie of geheugenproblemen. Onze begeleiders bieden de nodige structuur, rust en nabijheid om de reis voor zowel de senior als de familie zorgeloos te laten verlopen."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Kan ik een begeleide reis cadeau doen aan mijn ouders in Amsterdam?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Dat kan zeker. Veel van onze aanvragen komen van kinderen die hun ouders een veilige reis gunnen. We kunnen alles in overleg met u regelen, inclusief de verrassing en de logistiek vanaf hun huis in Amsterdam naar Schiphol."
-                  }
-                }
-              ,
-                {
-                                "@type": "Question",
-                                "name": "Begeleiden jullie ook bij vliegen na een operatie?",
-                                "acceptedAnswer": {
-                                                "@type": "Answer",
-                                                "text": "Ja, wij bieden gespecialiseerde ondersteuning voor senioren die kort geleden een ingreep hebben ondergaan. Onze begeleiders zorgen voor een rustig tempo en helpen bij alle fysieke handelingen op de luchthaven."
-                                }
-                },
-                {
-                                "@type": "Question",
-                                "name": "Wat moet ik regelen voor medicijnen op reis?",
-                                "acceptedAnswer": {
-                                                "@type": "Answer",
-                                                "text": "Het is belangrijk om een actueel medicatieoverzicht (AMO) en eventueel een medische verklaring bij u te hebben. Wij kunnen u helpen bij de voorbereiding hiervan zodat u zorgeloos door de security in Amsterdam komt."
-                                }
-                }]
-            })
-          }}
-        />
       </section>
 
       <section className="py-20 bg-primary-900 text-white">
