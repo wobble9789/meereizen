@@ -99,6 +99,14 @@ export default function RotterdamSEOPage() {
           "@type": "Answer",
           "text": "Voor bepaalde medische condities of zuurstofgebruik is een 'Fit to Fly' verklaring nodig. Wij adviseren u graag over de specifieke eisen van uw luchtvaartmaatschappij."
         }
+      },
+      {
+        "@type": "Question",
+        "name": "Bieden jullie ook begeleiding voor senioren die vliegen met zuurstof in Rotterdam?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, wij hebben ervaring met het begeleiden van reizigers die afhankelijk zijn van extra zuurstof. Wij helpen bij het aanvragen van de nodige medische toestemming bij de luchtvaartmaatschappij en zorgen dat de apparatuur correct wordt afgehandeld op Rotterdam The Hague Airport of Schiphol."
+        }
       }
     ]
   };
@@ -203,6 +211,9 @@ export default function RotterdamSEOPage() {
                   )}
                   {faq.name.includes("medische verklaring") && (
                     <> <Link href="/blog/hoe-vraag-je-een-medische-verklaring-aan-voor-vliegen" className="text-primary-600 hover:underline">Lees meer over de medische verklaring.</Link></>
+                  )}
+                  {faq.name.includes("zuurstof") && (
+                    <> <Link href="/blog/vliegen-met-zuurstof" className="text-primary-600 hover:underline">Lees onze gids over vliegen met zuurstof.</Link></>
                   )}
                 </p>
               </div>
