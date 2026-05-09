@@ -29,6 +29,22 @@ const faqData = {
     },
     {
       "@type": "Question",
+      "name": "Hoe zit het met vliegen met een rollator vanaf Almere?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Wij begeleiden veel senioren die een rollator gebruiken. We zorgen voor de juiste aanmelding bij de luchtvaartmaatschappij en begeleiden u op Schiphol of Lelystad Airport tot aan de gate. Lees meer in ons artikel over vliegen met een rollator."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is er begeleiding voor slechthorenden in Almere?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, onze begeleiders zijn getraind in het ondersteunen van senioren met een gehoorapparaat. We helpen bij de communicatie op de luchthaven en zorgen dat u geen enkele omroep mist. Bekijk onze tips voor vliegen met een gehoorapparaat."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "Wat kost reisbegeleiding in Almere?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -122,7 +138,15 @@ export default function AlmereSEOPage() {
             {faqData.mainEntity.map((item, index) => (
               <div key={index} className="bg-white p-6 rounded-xl shadow-sm">
                 <h3 className="text-xl font-semibold text-primary-700 mb-3">{item.name}</h3>
-                <p className="text-gray-600 leading-relaxed">{item.acceptedAnswer.text}</p>
+                <p className="text-gray-600 leading-relaxed">
+                  {item.acceptedAnswer.text}
+                  {item.name.includes("rollator") && (
+                    <> <Link href="/blog/vliegen-met-een-rollator" className="text-primary-600 hover:underline">Lees meer over vliegen met een rollator.</Link></>
+                  )}
+                  {item.name.includes("slechthorenden") && (
+                    <> <Link href="/blog/vliegen-met-een-gehoorapparaat-luchthaven-tips" className="text-primary-600 hover:underline">Bekijk hier onze tips voor op de luchthaven.</Link></>
+                  )}
+                </p>
               </div>
             ))}
           </div>
