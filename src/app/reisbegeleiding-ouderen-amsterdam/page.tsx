@@ -150,6 +150,14 @@ export default function AmsterdamSEOPage() {
       },
       {
         "@type": "Question",
+        "name": "Kunnen jullie ook begeleiden bij vliegen met diabetes vanaf Schiphol?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Jazeker. Reizen met diabetes vraagt om extra planning rondom insuline, koeling en maaltijden. Onze begeleiders helpen u om alles volgens schema te laten verlopen en zorgen dat u ontspannen door de controles in Amsterdam komt."
+        }
+      },
+      {
+        "@type": "Question",
         "name": "Zijn er speciale voorzieningen voor senioren met gehoorproblemen op Schiphol?",
         "acceptedAnswer": {
           "@type": "Answer",
@@ -280,6 +288,9 @@ export default function AmsterdamSEOPage() {
                   )}
                   {faq.name.includes("gehoor") && (
                     <> <Link href="/blog/vliegen-met-een-gehoorapparaat-vliegveld-tips" className="text-primary-600 hover:underline">Bekijk tips voor vliegen met gehoorproblemen.</Link></>
+                  )}
+                  {faq.name.includes("diabetes") && (
+                    <> <Link href="/blog/vliegen-met-diabetes" className="text-primary-600 hover:underline">Lees meer over vliegen met diabetes.</Link></>
                   )}
                 </p>
               </div>
