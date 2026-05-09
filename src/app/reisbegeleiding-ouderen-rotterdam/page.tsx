@@ -83,6 +83,22 @@ export default function RotterdamSEOPage() {
           "@type": "Answer",
           "text": "Het is essentieel om uw medicatie goed voor te bereiden, inclusief een actueel medicatieoverzicht en eventuele verklaringen. Onze begeleiders kunnen u helpen herinneren aan uw innameschema tijdens de reis."
         }
+      },
+      {
+        "@type": "Question",
+        "name": "Begeleidt Vliegklaar ook bij vliegen met een rollator in Rotterdam?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, wij begeleiden regelmatig senioren die een rollator gebruiken. We regelen de logistiek op Rotterdam The Hague Airport en Schiphol, zodat uw rollator veilig mee gaat tot aan de gate of in het ruim."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Moet ik een medische verklaring hebben voor een vlucht vanuit Rotterdam?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Voor bepaalde medische condities of zuurstofgebruik is een 'Fit to Fly' verklaring nodig. Wij adviseren u graag over de specifieke eisen van uw luchtvaartmaatschappij."
+        }
       }
     ]
   };
@@ -181,6 +197,12 @@ export default function RotterdamSEOPage() {
                   )}
                   {faq.name.includes("medicijnen") && (
                     <> <Link href="/blog/medicijnen-mee-op-reis" className="text-primary-600 hover:underline">Bekijk de checklist voor medicijnen.</Link></>
+                  )}
+                  {faq.name.includes("rollator") && (
+                    <> <Link href="/blog/vliegen-met-een-rollator" className="text-primary-600 hover:underline">Lees meer over vliegen met een rollator.</Link></>
+                  )}
+                  {faq.name.includes("medische verklaring") && (
+                    <> <Link href="/blog/hoe-vraag-je-een-medische-verklaring-aan-voor-vliegen" className="text-primary-600 hover:underline">Lees meer over de medische verklaring.</Link></>
                   )}
                 </p>
               </div>
