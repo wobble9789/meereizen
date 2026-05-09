@@ -17,7 +17,15 @@ export default function RotterdamSEOPage() {
         "name": "Biedt Vliegklaar reisbegeleiding in heel Rotterdam?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Ja, wij bieden persoonlijke reisbegeleiding voor ouderen in alle wijken van Rotterdam en omliggende gemeenten zoals Schiedam, Vlaardingen en Capelle aan den IJssel."
+          "text": "Ja, wij bieden persoonlijke reisbegeleiding for ouderen in alle wijken van Rotterdam en omliggende gemeenten zoals Schiedam, Vlaardingen en Capelle aan den IJssel."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is er begeleiding voor senioren met hartklachten in Rotterdam?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Zeker. Voor senioren met hartklachten bieden wij een rustig reistempo en ondersteuning bij alle fysiek inspannende onderdelen op de luchthaven. Wij zorgen dat u veilig en ontspannen op uw bestemming aankomt."
         }
       },
       {
@@ -202,6 +210,9 @@ export default function RotterdamSEOPage() {
                   )}
                   {faq.name.includes("artrose") && (
                     <> <Link href="/blog/vliegen-met-artrose" className="text-primary-600 hover:underline">Lees onze tips voor vliegen met artrose.</Link></>
+                  )}
+                  {faq.name.includes("hartklachten") && (
+                    <> <Link href="/blog/vliegen-met-hartklachten" className="text-primary-600 hover:underline">Lees meer over veilig vliegen met hartklachten.</Link></>
                   )}
                   {faq.name.includes("medicijnen") && (
                     <> <Link href="/blog/medicijnen-mee-op-reis" className="text-primary-600 hover:underline">Bekijk de checklist voor medicijnen.</Link></>
