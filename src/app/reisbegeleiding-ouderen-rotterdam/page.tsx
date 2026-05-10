@@ -115,7 +115,7 @@ export default function RotterdamSEOPage() {
           "@type": "Answer",
           "text": "Ja, wij hebben ervaring met het begeleiden van reizigers die afhankelijk zijn van extra zuurstof. Wij helpen bij het aanvragen van de nodige medische toestemming bij de luchtvaartmaatschappij en zorgen dat de apparatuur correct wordt afgehandeld op Rotterdam The Hague Airport of Schiphol."
         }
-      }
+      },
       {
         "@type": "Question",
         "name": "Kunnen jullie ook helpen bij vliegen met een pacemaker vanaf Rotterdam?",
