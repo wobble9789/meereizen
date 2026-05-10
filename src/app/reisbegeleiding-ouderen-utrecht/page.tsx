@@ -118,6 +118,10 @@ export default function UtrechtSEOPage() {
               <p className="text-gray-600">Zeker. Of u nu vanaf Utrecht Centraal reist of we u naar Schiphol brengen, wij zorgen dat uw rollator mee kan en dat u overal de nodige assistentie krijgt. Voor meer informatie kunt u terecht bij ons blog over <Link href="/blog/vliegen-met-een-rollator" className="text-primary-600 hover:underline">vliegen met een rollator</Link>.</p>
             </div>
             <div className="border-b border-gray-100 pb-4">
+              <h3 className="text-xl font-semibold text-primary-700 mb-2">Begeleiden jullie ook bij vliegen met diabetes vanuit Utrecht?</h3>
+              <p className="text-gray-600">Jazeker. Reizen met diabetes vraagt om extra planning rondom insuline, koeling en maaltijden. Onze begeleiders helpen u om alles volgens schema te laten verlopen en zorgen dat u ontspannen door de controles komt. Lees onze <Link href="/blog/vliegen-met-diabetes" className="text-primary-600 hover:underline">tips over vliegen met diabetes</Link>.</p>
+            </div>
+            <div className="border-b border-gray-100 pb-4">
               <h3 className="text-xl font-semibold text-primary-700 mb-2">Kan ik hulp krijgen bij vliegangst in Utrecht?</h3>
               <p className="text-gray-600">Ja, onze begeleiders zijn getraind om reizigers met vliegangst gerust te stellen en te ondersteunen tijdens de gehele reis. We nemen de tijd om u op uw gemak te stellen. Lees ook onze <Link href="/blog/vliegangst-bij-ouderen" className="text-primary-600 hover:underline">tips tegen vliegangst bij ouderen</Link>.</p>
             </div>
@@ -191,6 +195,14 @@ export default function UtrechtSEOPage() {
                     "acceptedAnswer": {
                       "@type": "Answer",
                       "text": "Zeker. Of u nu vanaf Utrecht Centraal reist of we u naar Schiphol brengen, wij zorgen dat uw rollator mee kan en dat u overal de nodige assistentie krijgt."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Begeleiden jullie ook bij vliegen met diabetes vanuit Utrecht?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Jazeker. Reizen met diabetes vraagt om extra planning rondom insuline, koeling en maaltijden. Onze begeleiders helpen u om alles volgens schema te laten verlopen en zorgen dat u ontspannen door de controles komt."
                     }
                   },
                   {
