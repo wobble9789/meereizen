@@ -166,6 +166,14 @@ export default function AmsterdamSEOPage() {
       },
       {
         "@type": "Question",
+        "name": "Hoe ga ik om met een vertraagde vlucht als senior?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Een vluchtvertraging kan voor stress zorgen. Wij raden aan om contact te houden met de luchtvaartmaatschappij, in een comfortabele lounge te wachten en voldoende rust te nemen. Onze begeleiders regelen bij vertraging alles rondom communicatie en extra zorg ter plaatse."
+        }
+      },
+      {
+        "@type": "Question",
         "name": "Zijn er speciale voorzieningen voor senioren met gehoorproblemen op Schiphol?",
         "acceptedAnswer": {
           "@type": "Answer",
@@ -293,6 +301,12 @@ export default function AmsterdamSEOPage() {
                   )}
                   {faq.name.includes("pacemaker") && (
                     <> <Link href="/blog/vliegen-met-een-pacemaker-of-icd" className="text-primary-600 hover:underline">Lees meer over vliegen met een pacemaker.</Link></>
+                  )}
+                  {faq.name.includes("tussenstop") && (
+                    <> <Link href="/blog/hoe-ga-je-om-met-een-tussenstop-als-senior" className="text-primary-600 hover:underline">Lees onze tips over tussenstops.</Link></>
+                  )}
+                  {faq.name.includes("vertraagde vlucht") && (
+                    <> <Link href="/blog/hoe-ga-je-om-met-een-vertraagde-vlucht-senior" className="text-primary-600 hover:underline">Lees wat te doen bij een vertraagde vlucht.</Link></>
                   )}
                   {faq.name.includes("gehoor") && (
                     <> <Link href="/blog/vliegen-met-een-gehoorapparaat-vliegveld-tips" className="text-primary-600 hover:underline">Bekijk tips voor vliegen met gehoorproblemen.</Link></>
