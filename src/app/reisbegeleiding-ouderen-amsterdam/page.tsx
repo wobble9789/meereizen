@@ -158,6 +158,14 @@ export default function AmsterdamSEOPage() {
       },
       {
         "@type": "Question",
+        "name": "Hoe ga ik om met een tussenstop als senior?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Een tussenstop kan vermoeiend zijn. Wij raden aan om vliegveld assistentie aan te vragen voor het vervoer tussen gates, voldoende overstaptijd (2-3 uur) te plannen en gebruik te maken van lounges voor rust. Onze begeleiders kunnen u hierbij volledig ondersteunen."
+        }
+      },
+      {
+        "@type": "Question",
         "name": "Zijn er speciale voorzieningen voor senioren met gehoorproblemen op Schiphol?",
         "acceptedAnswer": {
           "@type": "Answer",
