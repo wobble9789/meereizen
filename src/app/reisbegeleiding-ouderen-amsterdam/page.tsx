@@ -158,6 +158,14 @@ export default function AmsterdamSEOPage() {
       },
       {
         "@type": "Question",
+        "name": "Bieden jullie ook hulp bij vliegangst voor senioren?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, vliegangst komt op alle leeftijden voor. Onze begeleiders bieden een rustige aanwezigheid, uitleg over de geluiden van het vliegtuig en afleiding tijdens de vlucht om uw reis zo comfortabel mogelijk te maken."
+        }
+      },
+      {
+        "@type": "Question",
         "name": "Hoe ga ik om met een tussenstop als senior?",
         "acceptedAnswer": {
           "@type": "Answer",
