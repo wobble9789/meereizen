@@ -3,169 +3,100 @@ import Image from 'next/image';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Vliegen met een Stoma: Tips voor Senioren | Vliegklaar',
-  description: 'Gaat u vliegen met een stoma? Lees onze praktische tips voor senioren over voorbereiding, security en comfort tijdens de vlucht voor een zorgeloze reis.',
+  title: 'Vliegen met een Stoma: Tips & Begeleiding | Vliegklaar',
+  description: 'Zorgeloos vliegen met een stoma. Lees alles over de voorbereiding, security-checks, handbagage en hoe reisbegeleiding u kan ondersteunen.',
 };
 
 export default function VliegenMetStomaPage() {
-  const faqData = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "Mag stoma-materiaal mee in de handbagage?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Ja, het is zelfs essentieel om uw stoma-opvangmateriaal in uw handbagage mee te nemen. Zo heeft u het altijd bij de hand, ook als uw ruimbagage vertraagd is. Neem voldoende voorraad mee voor de hele reis plus extra."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Zet de stomazak uit door de luchtdruk in het vliegtuig?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "De luchtdruk in de cabine kan ervoor zorgen dat er iets meer lucht in de zak komt. Moderne stomazakjes hebben echter filters die gas laten ontsnappen. Het is raadzaam om de zak vlak voor het boarden te legen."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Moet ik mijn stoma melden bij de security op het vliegveld?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "U bent niet verplicht dit te melden, maar het kan ongemak voorkomen bij een bodyscan of fouillering. Met een internationaal reis-certificaat (stoma-paspoort) kunt u discreet aan het personeel uitleggen wat de stoma is."
-        }
-      }
-    ]
-  };
-
   return (
     <main className="pt-20">
-      <article className="max-w-4xl mx-auto px-4 py-16">
-        <header className="mb-12">
-          <Link href="/blog" className="text-primary-600 hover:underline mb-4 inline-block">
-            ← Terug naar blog overzicht
-          </Link>
-          <h1 className="text-4xl md:text-5xl font-bold text-primary-900 mb-6">
-            Vliegen met een Stoma: Praktische Gids voor Senioren
-          </h1>
-          <p className="text-xl text-gray-600 leading-relaxed">
-            Reizen met een stoma kan in het begin spannend zijn, maar het hoeft uw vakantieplezier absoluut niet in de weg te staan. Met de juiste voorbereiding vliegt u met een gerust en zeker gevoel naar elke bestemming.
-          </p>
-        </header>
-
-        <div className="relative h-[400px] w-full mb-12 rounded-2xl overflow-hidden shadow-lg">
-          <Image
-            src="https://images.unsplash.com/photo-1506784911040-578256437d09?w=1200&q=80"
-            alt="Ontspannen reiziger in het vliegtuig"
-            fill
-            className="object-cover"
-          />
-        </div>
-
-        <div className="prose prose-lg max-w-none text-gray-700 space-y-8">
-          <section>
-            <h2 className="text-2xl font-bold text-primary-800">Goede Voorbereiding is het Halve Werk</h2>
-            <p>
-              Wanneer u als senior gaat vliegen met een stoma, begint de rust bij een goede kofferinhoud. Verdeel uw materialen over uw handbagage en ruimbagage. Mocht er onverhoopt een koffer kwijtraken, dan heeft u in ieder geval uw noodzakelijke spullen bij de hand.
-            </p>
-            <ul className="list-disc pl-6 space-y-2">
-              <li><strong>Stoma-certificaat:</strong> Vraag bij uw stomavereniging of leverancier om een internationaal reis-certificaat. Dit document legt in meerdere talen uit waarom u medische materialen en een zakje op uw buik draagt.</li>
-              <li><strong>Knipwerk vooraf:</strong> Snijd uw huidplakken alvast thuis op maat. Scharen mogen vaak niet mee in de handbagage, en het bespaart u gedoe in een krappe vliegtuig-wc.</li>
-              <li><strong>Extra voorraad:</strong> Neem altijd twee keer zoveel materiaal mee als u normaal gesproken in die periode zou gebruiken.</li>
-            </ul>
-          </section>
-
-          <section className="bg-primary-50 p-8 rounded-xl border-l-4 border-primary-500">
-            <h2 className="text-2xl font-bold text-primary-800 mb-4">Hulp nodig op de luchthaven?</h2>
-            <p>
-              Ziet u op tegen de lange rijen of de wandeling naar de gate? Vliegklaar biedt persoonlijke reisbegeleiding voor senioren. Wij helpen u discreet bij de security en zorgen dat u ontspannen aan boord gaat. 
-              <Link href="/" className="text-primary-600 font-bold hover:underline ml-1">
-                Ontdek onze diensten.
-              </Link>
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-bold text-primary-800">Passeren van de Security</h2>
-            <p>
-              De beveiligingscontrole is voor veel stomadragers het meest stressvolle moment. Tegenwoordig zijn luchthavenmedewerkers echter goed getraind. 
-            </p>
-            <p>
-              Als u door een bodyscan gaat, kan de stoma zichtbaar zijn als een &apos;onregelmatigheid&apos;. Toon op dat moment discreet uw stoma-paspoort. U heeft altijd het recht om in een aparte ruimte gecontroleerd te worden als dat nodig is. Wees gerust: de vloeistoffenregel geldt meestal niet voor medische benodigdheden, mits u dit kunt aantonen.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-bold text-primary-800">Tijdens de Vlucht</h2>
-            <p>
-              Door de verandering in luchtdruk kan er wat meer gasvorming optreden. Dit is volkomen normaal.
-            </p>
-            <ul className="list-disc pl-6 space-y-2">
-              <li><strong>Eten en drinken:</strong> Vermijd vlak voor en tijdens de vlucht koolzuurhoudende dranken en gasvormende voeding (zoals uien of bonen).</li>
-              <li><strong>Kleding:</strong> Draag comfortabele, loszittende kleding. Een strakke riem kan de afvoer naar het zakje belemmeren.</li>
-              <li><strong>Hydratatie:</strong> Drink voldoende water, zeker bij een ileostoma, om uitdroging door de droge cabinelucht te voorkomen.</li>
-            </ul>
-          </section>
-
-          <section className="mt-12">
-            <h2 className="text-2xl font-bold text-primary-800 mb-6">Veelgestelde Vragen</h2>
-            <div className="space-y-6">
-              {faqData.mainEntity.map((item, index) => (
-                <div key={index} className="bg-white p-6 rounded-xl border border-gray-200 shadow-sm">
-                  <h3 className="text-lg font-bold text-primary-700 mb-2">{item.name}</h3>
-                  <p className="text-gray-600">{item.acceptedAnswer.text}</p>
-                </div>
-              ))}
+      <section className="bg-primary-50 py-16 md:py-24">
+        <div className="max-w-5xl mx-auto px-4">
+          <div className="flex flex-col md:flex-row gap-12 items-center">
+            <div className="flex-1 text-center md:text-left">
+              <h1 className="text-4xl md:text-5xl font-bold text-primary-900 mb-6">
+                Vliegen met een stoma: Zo reist u zorgeloos
+              </h1>
+              <p className="text-xl text-gray-700 mb-8 leading-relaxed">
+                Veel senioren met een stoma zien op tegen een vliegreis. Dat is nergens voor nodig. Met de juiste voorbereiding en handige tips kunt u comfortabel en vol vertrouwen het vliegtuig in.
+              </p>
             </div>
-          </section>
+            <div className="flex-1 relative h-[300px] md:h-[400px] w-full rounded-2xl overflow-hidden shadow-2xl">
+              <Image
+                src="https://images.unsplash.com/photo-1517022812141-23620dba5c23?w=800&q=80"
+                alt="Ontspannen reiziger in vliegtuig"
+                fill
+                className="object-cover"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
 
-          <section className="bg-gray-50 p-8 rounded-xl">
-            <h2 className="text-2xl font-bold text-primary-800 mb-4 text-center">Conclusie</h2>
-            <p className="text-center italic">
-              &quot;Een stoma is geen grens, maar een hulpmiddel om juist weer van het leven en reizen te genieten.&quot;
+      <section className="py-20 bg-white">
+        <div className="max-w-3xl mx-auto px-4">
+          <div className="prose prose-lg prose-primary">
+            <h2>Goede voorbereiding is het halve werk</h2>
+            <p>
+              Reizen met een stoma vraagt om een iets strakkere planning, maar laat u dit zeker niet tegenhouden. Of u nu op familiebezoek gaat of een verre zonvakantie boekt, met deze adviezen stapt u ontspannen aan boord.
             </p>
-            <div className="mt-8 text-center">
+
+            <h3>1. De reis-certificaat of stoma-pas</h3>
+            <p>
+              Vraag bij uw stomavereniging of leverancier om een internationaal reis-certificaat (ook wel stoma-pas genoemd). Hierin staat in meerdere talen uitgelegd dat u stomamateriaal draagt. Dit is erg handig bij de security-controle en de douane, zodat u niet alles ter plekke hoeft uit te leggen.
+            </p>
+
+            <h3>2. Handbagage: Dubbele voorraad</h3>
+            <p>
+              Neem altijd minimaal de dubbele hoeveelheid stomamateriaal mee die u normaal gesproken nodig zou hebben voor de duur van de vlucht. Verdeel uw materiaal over uw handbagage en uw ruimbagage. Mocht er een koffer vertraagd zijn, dan heeft u altijd voldoende voorraad bij de hand.
+            </p>
+
+            <h3>3. Luchtdruk en gassen</h3>
+            <p>
+              Een veelgehoorde zorg is dat het zakje opzwelt door de luchtdruk in de cabine. Moderne stomazakjes hebben echter filters die gassen laten ontsnappen. Let wel op uw voeding vlak voor en tijdens de vlucht; vermijd koolzuurhoudende dranken en gasvormende voeding zoals bonen of kool om extra gasvorming te beperken.
+            </p>
+
+            <h3>4. Security en privacy</h3>
+            <p>
+              Bij de security-scan op het vliegveld kan het stomazakje zichtbaar zijn op de monitor. U kunt de beveiliger vooraf discreet uw stoma-pas tonen. U heeft altijd het recht om een eventuele fysieke controle in een aparte ruimte te laten plaatsvinden voor uw privacy.
+            </p>
+
+            <h2>Hoe een reisbegeleider kan helpen</h2>
+            <p>
+              Vindt u het toch spannend om alleen te vliegen? Een reisbegeleider van Vliegklaar kan veel stress wegnemen:
+            </p>
+            <ul>
+              <li><strong>Hulp bij de security:</strong> Wij ondersteunen u bij de communicatie met het beveiligingspersoneel.</li>
+              <li><strong>Bagagebeheer:</strong> Wij dragen de zware tassen, zodat u zich kunt concentreren op uw eigen comfort.</li>
+              <li><strong>Rust en overzicht:</strong> Wij weten waar de toiletten zijn en zorgen voor voldoende tijd tussen de handelingen door.</li>
+            </ul>
+
+            <div className="bg-primary-50 p-8 rounded-2xl my-12">
+              <h3 className="text-primary-900 mt-0">Vrijblijvend advies?</h3>
+              <p className="text-primary-800">
+                Wilt u meer weten over onze persoonlijke reisbegeleiding voor senioren? Wij komen graag bij u langs voor een kop koffie om de mogelijkheden te bespreken.
+              </p>
               <Link
                 href="/contact"
-                className="bg-primary-600 text-white font-bold px-8 py-4 rounded-xl hover:bg-primary-700 transition-colors"
+                className="inline-block bg-primary-600 text-white font-bold px-6 py-3 rounded-lg hover:bg-primary-700 transition-colors"
               >
-                Vraag een vrijblijvend adviesgesprek aan
+                Neem contact op
               </Link>
             </div>
-          </section>
-        </div>
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Article",
-              "headline": "Vliegen met een Stoma: Tips voor Senioren",
-              "description": "De ultieme gids voor senioren met een stoma die gaan vliegen. Tips voor security, handbagage en comfort.",
-              "image": "https://images.unsplash.com/photo-1506784911040-578256437d09?w=1200&q=80",
-              "author": {
-                "@type": "Organization",
-                "name": "Vliegklaar"
-              },
-              "publisher": {
-                "@type": "Organization",
-                "name": "Vliegklaar",
-                "logo": {
-                  "@type": "ImageObject",
-                  "url": "https://vliegklaar.nl/logo.png"
-                }
-              },
-              "datePublished": "2026-05-08"
-            })
-          }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }}
-        />
-      </article>
+            <h2>Praktische inpaktips</h2>
+            <ul>
+              <li>Snij de plakken vooraf op maat, zodat u in het vliegtuig geen schaartje nodig heeft (scharen zijn vaak niet toegestaan in de handbagage).</li>
+              <li>Neem kleine afvalzakjes en vochtige doekjes (zonder parfum/olie) mee in uw handbagage.</li>
+              <li>Draag comfortabele, loszittende kleding die niet knelt op de plek van uw stoma.</li>
+            </ul>
+
+            <p>
+              Met deze tips bent u er helemaal klaar voor. Geniet van uw reis!
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
