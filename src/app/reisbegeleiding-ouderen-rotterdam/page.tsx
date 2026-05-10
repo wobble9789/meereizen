@@ -116,6 +116,30 @@ export default function RotterdamSEOPage() {
           "text": "Ja, wij hebben ervaring met het begeleiden van reizigers die afhankelijk zijn van extra zuurstof. Wij helpen bij het aanvragen van de nodige medische toestemming bij de luchtvaartmaatschappij en zorgen dat de apparatuur correct wordt afgehandeld op Rotterdam The Hague Airport of Schiphol."
         }
       }
+      {
+        "@type": "Question",
+        "name": "Kunnen jullie ook helpen bij vliegen met een pacemaker vanaf Rotterdam?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Zeker. Reizen met een pacemaker of ICD vereist extra aandacht bij de security scans op de luchthaven. Onze begeleiders weten precies welke documenten u nodig heeft en hoe u vlot door de beveiliging gaat zonder risico voor uw apparaat."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Bieden jullie ondersteuning bij een tussenstop?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Een tussenstop kan vermoeiend zijn voor senioren. Wij raden aan om vliegveld assistentie aan te vragen voor het vervoer tussen gates en voldoende overstaptijd te plannen. Onze begeleiders kunnen u hierbij volledig ondersteunen, zodat u rustig kunt overstappen."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Hoe gaan jullie om met een vertraagde vlucht?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Een vluchtvertraging kan voor stress zorgen. Wij blijven bij u, regelen de communicatie met de luchtvaartmaatschappij en zorgen dat u comfortabel kunt wachten. Bij lange vertragingen coördineren wij eventuele extra zorg of overnachtingen."
+        }
+      }
     ]
   };
 
@@ -228,6 +252,15 @@ export default function RotterdamSEOPage() {
                   )}
                   {faq.name.includes("zuurstof") && (
                     <> <Link href="/blog/vliegen-met-zuurstof" className="text-primary-600 hover:underline">Lees onze gids over vliegen met zuurstof.</Link></>
+                  )}
+                  {faq.name.includes("pacemaker") && (
+                    <> <Link href="/blog/vliegen-met-een-pacemaker-of-icd" className="text-primary-600 hover:underline">Lees meer over vliegen met een pacemaker.</Link></>
+                  )}
+                  {faq.name.includes("tussenstop") && (
+                    <> <Link href="/blog/hoe-ga-je-om-met-een-tussenstop-als-senior" className="text-primary-600 hover:underline">Lees onze tips over tussenstops.</Link></>
+                  )}
+                  {faq.name.includes("vertraagde vlucht") && (
+                    <> <Link href="/blog/hoe-ga-je-om-met-een-vertraagde-vlucht-senior" className="text-primary-600 hover:underline">Lees wat te doen bij een vertraagde vlucht.</Link></>
                   )}
                 </p>
               </div>
