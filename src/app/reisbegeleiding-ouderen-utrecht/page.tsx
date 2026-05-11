@@ -178,6 +178,7 @@ export default function UtrechtSEOPage() {
                     "@type": "Question",
                     "name": "Bieden jullie ook ondersteuning bij het boeken van de reis zelf?",
                     "acceptedAnswer": {
+                      "@type": "Answer",
                       "text": "Zeker. Naast de fysieke begeleiding kunnen we u ook adviseren bij het uitzoeken van een geschikte accommodatie en vlucht die past bij uw wensen en eventuele beperkingen."
                     }
                   },
@@ -211,6 +212,30 @@ export default function UtrechtSEOPage() {
                     "acceptedAnswer": {
                       "@type": "Answer",
                       "text": "Ja, onze begeleiders zijn getraind om reizigers met vliegangst gerust te stellen en te ondersteunen tijdens de gehele reis. We nemen de tijd om u op uw gemak te stellen."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Kan ik vliegveld assistentie krijgen bij vliegen met artrose?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Ja, reizigers met artrose hebben recht op assistentie op de luchthaven. Wij kunnen dit voor u coördineren, zodat u niet onnodig ver hoeft te lopen en comfortabel naar de gate wordt gebracht."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Begeleiden jullie ook bij vliegen na een operatie?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Ja, wij bieden gespecialiseerde ondersteuning voor senioren die kort geleden een ingreep hebben ondergaan. Onze begeleiders zorgen voor een rustig tempo en helpen bij alle fysieke handelingen op de luchthaven."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Hoe vraag ik assistentie aan op de luchthaven?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Assistentie op de luchthaven vraagt u minimaal 48 uur voor vertrek aan bij uw luchtvaartmaatschappij. Wij kunnen dit volledige proces voor u uit handen nemen."
                     }
                   }
                 ]
