@@ -139,6 +139,14 @@ export default function RotterdamSEOPage() {
           "@type": "Answer",
           "text": "Een vluchtvertraging kan voor stress zorgen. Wij blijven bij u, regelen de communicatie met de luchtvaartmaatschappij en zorgen dat u comfortabel kunt wachten. Bij lange vertragingen coördineren wij eventuele extra zorg of overnachtingen."
         }
+      },
+      {
+        "@type": "Question",
+        "name": "Wat zijn de regels voor reizen binnen het Schengengebied in 2026?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In 2026 zijn er enkele wijzigingen in de grenscontroles en identificatie binnen Europa. Hoewel u vrij kunt reizen tussen Schengenlanden, is een geldig paspoort of ID-kaart altijd verplicht. Wij houden de actuele regels voor u in de gaten."
+        }
       }
     ]
   };
@@ -261,6 +269,9 @@ export default function RotterdamSEOPage() {
                   )}
                   {faq.name.includes("vertraagde vlucht") && (
                     <> <Link href="/blog/hoe-ga-je-om-met-een-vertraagde-vlucht-senior" className="text-primary-600 hover:underline">Lees wat te doen bij een vertraagde vlucht.</Link></>
+                  )}
+                  {faq.name.includes("Schengen") && (
+                    <> <Link href="/blog/schengen-regels-2026" className="text-primary-600 hover:underline">Lees meer over de Schengen-regels in 2026.</Link></>
                   )}
                 </p>
               </div>
