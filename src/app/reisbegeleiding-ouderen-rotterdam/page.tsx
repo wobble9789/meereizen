@@ -17,7 +17,23 @@ export default function RotterdamSEOPage() {
         "name": "Biedt Vliegklaar reisbegeleiding in heel Rotterdam?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Ja, wij bieden persoonlijke reisbegeleiding for ouderen in alle wijken van Rotterdam en omliggende gemeenten zoals Schiedam, Vlaardingen en Capelle aan den IJssel."
+          "text": "Ja, wij bieden persoonlijke reisbegeleiding voor ouderen in alle wijken van Rotterdam en omliggende gemeenten zoals Schiedam, Vlaardingen en Capelle aan den IJssel."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wat is een medisch begeleider voor senioren tijdens het vliegen?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Een medisch begeleider of reisverpleegkundige biedt medische ondersteuning tijdens de vlucht, zoals het toedienen van medicatie, wondverzorging of monitoring van vitale functies. Vliegklaar werkt samen met zorgprofessionals om deze gespecialiseerde hulp te coördineren voor reizigers uit Rotterdam."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Kunnen senioren veilig alleen reizen vanuit Rotterdam?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Veilig alleen reizen is mogelijk met de juiste voorbereiding. Vliegklaar biedt de nodige back-up en begeleiding tot aan de gate of zelfs tot aan de eindbestemming, zodat u nooit echt alleen bent. Lees onze tips voor veilig alleen reizen als senior."
         }
       },
       {
@@ -269,6 +285,9 @@ export default function RotterdamSEOPage() {
                   )}
                   {faq.name.includes("vertraagde vlucht") && (
                     <> <Link href="/blog/hoe-ga-je-om-met-een-vertraagde-vlucht-senior" className="text-primary-600 hover:underline">Lees wat te doen bij een vertraagde vlucht.</Link></>
+                  )}
+                  {faq.name.includes("alleen reizen") && (
+                    <> <Link href="/blog/veilig-alleen-reizen-senior" className="text-primary-600 hover:underline">Lees onze tips voor veilig alleen reizen.</Link></>
                   )}
                   {faq.name.includes("Schengen") && (
                     <> <Link href="/blog/schengen-regels-2026" className="text-primary-600 hover:underline">Lees meer over de Schengen-regels in 2026.</Link></>
