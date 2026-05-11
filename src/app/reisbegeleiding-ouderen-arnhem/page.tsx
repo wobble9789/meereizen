@@ -22,6 +22,22 @@ export default function ArnhemSEOPage() {
       },
       {
         "@type": "Question",
+        "name": "Kan ik vliegveld assistentie krijgen bij vliegen met artrose?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, reizigers met artrose hebben recht op assistentie op de luchthaven. Wij kunnen dit voor u coördineren vanaf Arnhem, zodat u niet onnodig ver hoeft te lopen en comfortabel naar de gate wordt gebracht."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Kunt u ook helpen bij vliegen met een pacemaker vanaf Arnhem?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Zeker. Reizen met een pacemaker of ICD vereist extra aandacht bij de security scans. Onze begeleiders weten precies welke documenten u nodig heeft en hoe u vlot door de beveiliging gaat zonder risico voor uw apparaat."
+        }
+      },
+      {
+        "@type": "Question",
         "name": "Hoe regelt Vliegklaar vervoer vanaf Arnhem naar de luchthaven?",
         "acceptedAnswer": {
           "@type": "Answer",
@@ -155,6 +171,14 @@ export default function ArnhemSEOPage() {
             <div className="bg-white p-6 rounded-xl shadow-sm">
               <h3 className="text-lg font-bold text-primary-700 mb-2">Biedt Vliegklaar reisbegeleiding in heel Arnhem?</h3>
               <p className="text-gray-600">Ja, wij bieden persoonlijke reisbegeleiding voor ouderen in alle wijken van Arnhem en omliggende gemeenten zoals Velp, Oosterbeek, Elst en Huissen.</p>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-sm">
+              <h3 className="text-lg font-bold text-primary-700 mb-2">Kan ik vliegveld assistentie krijgen bij vliegen met artrose?</h3>
+              <p className="text-gray-600">Ja, reizigers met artrose hebben recht op assistentie op de luchthaven. Wij kunnen dit voor u coördineren vanaf Arnhem, zodat u niet onnodig ver hoeft te lopen. Lees onze <Link href="/blog/vliegen-met-artrose" className="text-primary-600 hover:underline">tips voor vliegen met artrose</Link>.</p>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-sm">
+              <h3 className="text-lg font-bold text-primary-700 mb-2">Kunt u ook helpen bij vliegen met een pacemaker vanaf Arnhem?</h3>
+              <p className="text-gray-600">Zeker. Reizen met een pacemaker of ICD vereist extra aandacht bij de security scans. Onze begeleiders weten precies welke documenten u nodig heeft. Lees meer over <Link href="/blog/vliegen-met-een-pacemaker-of-icd" className="text-primary-600 hover:underline">vliegen met een pacemaker</Link>.</p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-sm">
               <h3 className="text-lg font-bold text-primary-700 mb-2">Hoe regelt Vliegklaar vervoer vanaf Arnhem naar de luchthaven?</h3>
