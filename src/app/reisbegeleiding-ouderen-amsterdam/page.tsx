@@ -187,6 +187,14 @@ export default function AmsterdamSEOPage() {
           "@type": "Answer",
           "text": "Ja, Schiphol biedt diverse faciliteiten voor slechthorenden, zoals ringleidingen bij informatiebalies en gates. Wij ondersteunen u ter plaatse om te zorgen dat u geen enkele omroep of belangrijke informatie mist."
         }
+      },
+      {
+        "@type": "Question",
+        "name": "Kan ik een hulphond meenemen op reis vanuit Amsterdam?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, erkende hulphonden mogen vrijwel altijd gratis mee in de cabine. Wij helpen u bij de aanmelding hiervan bij de luchtvaartmaatschappij en zorgen dat de nodige documentatie voor Schiphol en uw bestemming in orde is."
+        }
       }
     ]
   };
@@ -318,6 +326,9 @@ export default function AmsterdamSEOPage() {
                   )}
                   {faq.name.includes("gehoor") && (
                     <> <Link href="/blog/vliegen-met-een-gehoorapparaat-vliegveld-tips" className="text-primary-600 hover:underline">Bekijk tips voor vliegen met gehoorproblemen.</Link></>
+                  )}
+                  {faq.name.includes("hulphond") && (
+                    <> <Link href="/blog/vliegen-met-een-hulphond-of-huisdier" className="text-primary-600 hover:underline">Lees meer over vliegen met een hulphond.</Link></>
                   )}
                   {faq.name.includes("diabetes") && (
                     <> <Link href="/blog/vliegen-met-diabetes" className="text-primary-600 hover:underline">Lees meer over vliegen met diabetes.</Link></>
