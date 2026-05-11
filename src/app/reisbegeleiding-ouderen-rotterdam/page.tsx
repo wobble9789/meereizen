@@ -22,6 +22,14 @@ export default function RotterdamSEOPage() {
       },
       {
         "@type": "Question",
+        "name": "Kunnen jullie ook helpen bij vliegen met parkinson vanaf Rotterdam?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Jazeker. Reizen met parkinson vraagt om een zorgvuldige planning rondom medicatie-inname en mobiliteit. Onze begeleiders bieden de nodige ondersteuning en zorgen voor een rustig tempo op de luchthaven van Rotterdam of Schiphol."
+        }
+      },
+      {
+        "@type": "Question",
         "name": "Wat is een medisch begeleider voor senioren tijdens het vliegen?",
         "acceptedAnswer": {
           "@type": "Answer",
@@ -261,6 +269,9 @@ export default function RotterdamSEOPage() {
                   )}
                   {faq.name.includes("hartklachten") && (
                     <> <Link href="/blog/vliegen-met-hartklachten" className="text-primary-600 hover:underline">Lees meer over veilig vliegen met hartklachten.</Link></>
+                  )}
+                  {faq.name.includes("parkinson") && (
+                    <> <Link href="/blog/vliegen-met-parkinson" className="text-primary-600 hover:underline">Lees onze tips voor vliegen met parkinson.</Link></>
                   )}
                   {faq.name.includes("medicijnen") && (
                     <> <Link href="/blog/medicijnen-mee-op-reis" className="text-primary-600 hover:underline">Bekijk de checklist voor medicijnen.</Link></>
