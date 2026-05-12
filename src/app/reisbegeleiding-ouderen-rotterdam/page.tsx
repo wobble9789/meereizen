@@ -190,12 +190,28 @@ export default function RotterdamSEOPage() {
       },
       {
         "@type": "Question",
-        "name": "Hoe ga ik om met een jetlag als senior?",
+        "name": "Kunnen jullie ook begeleiden bij vliegen met een kunstgebit vanaf Rotterdam?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Een jetlag kan uw ritme flink verstoren. Wij adviseren om voor vertrek uit Rotterdam alvast aan te passen aan de nieuwe tijdzone, veel water te drinken en direct in het ritme van de bestemming mee te gaan. Onze begeleiders ondersteunen u bij dit proces."
+          "text": "Zeker. Vliegen met een kunstgebit of prothese is geen enkel probleem, maar het kan bij de security soms vragen oproepen. Onze begeleiders weten precies hoe u hier discreet mee omgaat en geven u praktische tips voor comfort tijdens een lange vlucht."
         }
-      }
+      },
+      {
+        "@type": "Question",
+        "name": "Hoe zit het met vliegen met bloedverdunners vanaf Rotterdam?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Als u bloedverdunners gebruikt, is het belangrijk om extra aandacht te besteden aan hydratatie en beweging tijdens de vlucht om trombose te voorkomen. Wij ondersteunen u bij het op tijd innemen van uw medicatie en helpen u met eenvoudige oefeningen in het vliegtuig."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I fly with rheumatism or other joint complaints?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, vliegen met reuma is heel goed mogelijk. Wij adviseren u om tijdens de vlucht regelmatig te bewegen om stijfheid te voorkomen en eventueel vliegveld assistentie aan te vragen voor de afstanden op de luchthaven. Onze begeleiders kunnen u hierbij volledig ondersteunen."
+        }
+      },
     ]
   };
 
@@ -335,6 +351,15 @@ export default function RotterdamSEOPage() {
                   )}
                   {faq.name.includes("jetlag") && (
                     <> <Link href="/blog/hoe-ga-je-om-met-een-jetlag-als-senior" className="text-primary-600 hover:underline">Lees onze tips tegen een jetlag.</Link></>
+                  )}
+                  {faq.name.includes("gebit") && (
+                    <> <Link href="/blog/vliegen-met-een-gebit-vliegveld-tips" className="text-primary-600 hover:underline">Lees meer over vliegen met een gebit of prothese.</Link></>
+                  )}
+                  {faq.name.includes("bloedverdunners") && (
+                    <> <Link href="/blog/vliegen-met-bloedverdunners" className="text-primary-600 hover:underline">Lees onze tips voor vliegen met bloedverdunners.</Link></>
+                  )}
+                  {faq.name.includes("reuma") && (
+                    <> <Link href="/blog/vliegen-met-reuma" className="text-primary-600 hover:underline">Lees onze gids over vliegen met reuma.</Link></>
                   )}
                 </p>
               </div>
