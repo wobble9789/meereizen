@@ -236,6 +236,22 @@ export default function AmsterdamSEOPage() {
           "text": "Vliegangst is heel begrijpelijk en komt op alle leeftijden voor. Onze begeleiders bieden een rustige, professionele aanwezigheid en kunnen u helpen met ademhalingsoefeningen en afleiding. Samen zorgen we ervoor dat u toch comfortabel naar uw bestemming reist."
         }
       },
+      {
+        "@type": "Question",
+        "name": "Kan ik vliegen met reuma of andere gewrichtsklachten?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, vliegen met reuma is heel goed mogelijk. Wij adviseren u om tijdens de vlucht regelmatig te bewegen om stijfheid te voorkomen en eventueel vliegveld assistentie aan te vragen voor de afstanden op de luchthaven. Onze begeleiders kunnen u hierbij volledig ondersteunen."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Zijn er risico's bij vliegen met glaucoom of staar?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In de meeste gevallen is vliegen met glaucoom of staar veilig, maar het is essentieel om dit vooraf met uw oogarts te bespreken, vooral na een recente operatie. Wij helpen u graag bij het regelen van extra begeleiding op de luchthaven als uw zicht beperkt is, zodat u veilig bij de gate aankomt."
+        }
+      },
     ]
   };
 
@@ -387,6 +403,15 @@ export default function AmsterdamSEOPage() {
                   )}
                   {faq.name.includes("bloedverdunners") && (
                     <> <Link href="/blog/vliegen-met-bloedverdunners" className="text-primary-600 hover:underline">Lees onze tips voor vliegen met bloedverdunners.</Link></>
+                  )}
+                  {faq.name.includes("reuma") && (
+                    <> <Link href="/blog/vliegen-met-reuma" className="text-primary-600 hover:underline">Lees onze gids over vliegen met reuma.</Link></>
+                  )}
+                  {faq.name.includes("glaucoom") && (
+                    <> <Link href="/blog/vliegen-met-glaucoom" className="text-primary-600 hover:underline">Lees meer over vliegen met glaucoom.</Link></>
+                  )}
+                  {faq.name.includes("staar") && (
+                    <> <Link href="/blog/vliegen-met-staar" className="text-primary-600 hover:underline">Bekijk tips voor vliegen met staar.</Link></>
                   )}
                 </p>
               </div>
