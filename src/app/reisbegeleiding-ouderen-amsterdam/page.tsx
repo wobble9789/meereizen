@@ -158,6 +158,14 @@ export default function AmsterdamSEOPage() {
       },
       {
         "@type": "Question",
+        "name": "Bieden jullie ook hulp bij vliegen met Parkinson vanuit de regio Amsterdam?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, wij hebben ruime ervaring met het begeleiden van senioren met de ziekte van Parkinson. Wij zorgen voor een rustig tempo, helpen bij de logistiek op Schiphol en ondersteunen bij medicatie-inname op de juiste tijden, zodat u ondanks de beperkingen toch kunt genieten van uw reis."
+        }
+      },
+      {
+        "@type": "Question",
         "name": "Bieden jullie ook hulp bij vliegangst voor senioren?",
         "acceptedAnswer": {
           "@type": "Answer",
@@ -348,6 +356,9 @@ export default function AmsterdamSEOPage() {
                   )}
                   {faq.name.includes("diabetes") && (
                     <> <Link href="/blog/vliegen-met-diabetes" className="text-primary-600 hover:underline">Lees meer over vliegen met diabetes.</Link></>
+                  )}
+                  {faq.name.includes("Parkinson") && (
+                    <> <Link href="/blog/vliegen-met-parkinson" className="text-primary-600 hover:underline">Lees meer over vliegen met Parkinson.</Link></>
                   )}
                   {faq.name.includes("stoma") && (
                     <> <Link href="/blog/vliegen-met-een-stoma" className="text-primary-600 hover:underline">Lees meer over vliegen met een stoma.</Link></>
