@@ -195,7 +195,7 @@ export default function AmsterdamSEOPage() {
           "@type": "Answer",
           "text": "Ja, erkende hulphonden mogen vrijwel altijd gratis mee in de cabine. Wij helpen u bij de aanmelding hiervan bij de luchtvaartmaatschappij en zorgen dat de nodige documentatie voor Schiphol en uw bestemming in orde is."
         }
-      }
+      },
       {
         "@type": "Question",
         "name": "Kan ik een stoma meenemen op reis vanuit Amsterdam?",
