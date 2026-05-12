@@ -97,6 +97,14 @@ export default function ApeldoornSEOPage() {
               <h3 className="text-xl font-semibold text-primary-700 mb-2">Begeleiden jullie ook bij medische behoeften tijdens de reis?</h3>
               <p className="text-gray-600">Onze reisbegeleiders zijn ervaren in het ondersteunen van senioren met diverse behoeften, inclusief hulp bij mobiliteit en het herinneren aan medicatiegebruik.</p>
             </div>
+            <div className="bg-white p-6 rounded-xl shadow-sm">
+              <h3 className="text-xl font-semibold text-primary-700 mb-2">Kan ik vliegveld assistentie krijgen bij vliegen met artrose?</h3>
+              <p className="text-gray-600">Ja, reizigers met artrose hebben recht op assistentie op de luchthaven. Wij kunnen dit voor u coördineren vanaf Apeldoorn, zodat u niet onnodig ver hoeft te lopen. Lees onze <Link href="/blog/vliegen-met-artrose" className="text-primary-600 hover:underline">tips voor vliegen met artrose</Link>.</p>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-sm">
+              <h3 className="text-xl font-semibold text-primary-700 mb-2">Kunt u ook helpen bij vliegen met een pacemaker vanaf de Veluwe?</h3>
+              <p className="text-gray-600">Zeker. Reizen met een pacemaker of ICD vereist extra aandacht bij de security scans. Onze begeleiders weten precies welke documenten u nodig heeft. Lees meer over <Link href="/blog/vliegen-met-een-pacemaker-of-icd" className="text-primary-600 hover:underline">vliegen met een pacemaker</Link>.</p>
+            </div>
           </div>
         </div>
       </section>
@@ -113,7 +121,7 @@ export default function ApeldoornSEOPage() {
                 "name": "Word ik echt vanaf mijn voordeur in Apeldoorn opgehaald?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Ja, onze begeleiding begint bij u thuis in Apeldoorn. We helpen met de bagage en zorgen voor een comfortabele transfer naar de luchthaven of het treinstation."
+                  "text": "Ja, onze begeleiding begint bij u thuis in Apeldoorn. We helpen met de bagage en zorgen for een comfortabele transfer naar de luchthaven of het treinstation."
                 }
               },
               {
@@ -130,6 +138,22 @@ export default function ApeldoornSEOPage() {
                 "acceptedAnswer": {
                   "@type": "Answer",
                   "text": "Onze reisbegeleiders zijn ervaren in het ondersteunen van senioren met diverse behoeften, inclusief hulp bij mobiliteit en het herinneren aan medicatiegebruik."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Kan ik vliegveld assistentie krijgen bij vliegen met artrose?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ja, reizigers met artrose hebben recht op assistentie op de luchthaven. Wij kunnen dit voor u coördineren vanaf Apeldoorn, zodat u niet onnodig ver hoeft te lopen."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Kunt u ook helpen bij vliegen met een pacemaker vanaf de Veluwe?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Zeker. Reizen met een pacemaker of ICD vereist extra aandacht bij de security scans. Onze begeleiders weten precies welke documenten u nodig heeft."
                 }
               }
             ]
