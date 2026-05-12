@@ -214,6 +214,22 @@ export default function AmsterdamSEOPage() {
       },
       {
         "@type": "Question",
+        "name": "Kunnen jullie ook helpen bij vliegen met een gebit of prothese vanaf Schiphol?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Zeker. Vliegen met een (kunst)gebit of prothese is geen enkel probleem, maar het kan bij de security soms vragen oproepen. Onze begeleiders weten precies hoe u hier discreet mee omgaat en geven u praktische tips voor comfort tijdens een lange vlucht."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Hoe zit het met vliegen met bloedverdunners vanaf Amsterdam?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Als u bloedverdunners gebruikt, is het belangrijk om extra aandacht te besteden aan hydratatie en beweging tijdens de vlucht om trombose te voorkomen. Wij ondersteunen u bij het op tijd innemen van uw medicatie en helpen u met eenvoudige oefeningen in het vliegtuig."
+        }
+      },
+      {
+        "@type": "Question",
         "name": "Wat moet ik doen met vliegangst als senior in Amsterdam?",
         "acceptedAnswer": {
           "@type": "Answer",
@@ -365,6 +381,12 @@ export default function AmsterdamSEOPage() {
                   )}
                   {faq.name.includes("vliegangst") && (
                     <> <Link href="/blog/vliegangst-bij-ouderen" className="text-primary-600 hover:underline">Bekijk onze tips tegen vliegangst.</Link></>
+                  )}
+                  {faq.name.includes("gebit") && (
+                    <> <Link href="/blog/vliegen-met-een-gebit-vliegveld-tips" className="text-primary-600 hover:underline">Lees meer over vliegen met een gebit of prothese.</Link></>
+                  )}
+                  {faq.name.includes("bloedverdunners") && (
+                    <> <Link href="/blog/vliegen-met-bloedverdunners" className="text-primary-600 hover:underline">Lees onze tips voor vliegen met bloedverdunners.</Link></>
                   )}
                 </p>
               </div>
