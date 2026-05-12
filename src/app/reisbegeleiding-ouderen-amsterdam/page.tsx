@@ -196,6 +196,22 @@ export default function AmsterdamSEOPage() {
           "text": "Ja, erkende hulphonden mogen vrijwel altijd gratis mee in de cabine. Wij helpen u bij de aanmelding hiervan bij de luchtvaartmaatschappij en zorgen dat de nodige documentatie voor Schiphol en uw bestemming in orde is."
         }
       }
+      {
+        "@type": "Question",
+        "name": "Kan ik een stoma meenemen op reis vanuit Amsterdam?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, vliegen met een stoma is heel goed mogelijk. Wij adviseren u om voldoende reservemateriaal in uw handbagage mee te nemen en een stoma-paspoort bij u te hebben. Onze begeleiders kunnen u helpen bij de voorbereiding en zorgen voor een ontspannen reis vanaf Schiphol."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wat moet ik doen met vliegangst als senior in Amsterdam?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Vliegangst is heel begrijpelijk en komt op alle leeftijden voor. Onze begeleiders bieden een rustige, professionele aanwezigheid en kunnen u helpen met ademhalingsoefeningen en afleiding. Samen zorgen we ervoor dat u toch comfortabel naar uw bestemming reist."
+        }
+      },
     ]
   };
 
@@ -332,6 +348,12 @@ export default function AmsterdamSEOPage() {
                   )}
                   {faq.name.includes("diabetes") && (
                     <> <Link href="/blog/vliegen-met-diabetes" className="text-primary-600 hover:underline">Lees meer over vliegen met diabetes.</Link></>
+                  )}
+                  {faq.name.includes("stoma") && (
+                    <> <Link href="/blog/vliegen-met-een-stoma" className="text-primary-600 hover:underline">Lees meer over vliegen met een stoma.</Link></>
+                  )}
+                  {faq.name.includes("vliegangst") && (
+                    <> <Link href="/blog/vliegangst-bij-ouderen" className="text-primary-600 hover:underline">Bekijk onze tips tegen vliegangst.</Link></>
                   )}
                 </p>
               </div>
