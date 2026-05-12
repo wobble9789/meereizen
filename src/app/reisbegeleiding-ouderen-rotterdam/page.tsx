@@ -171,6 +171,30 @@ export default function RotterdamSEOPage() {
           "@type": "Answer",
           "text": "In 2026 zijn er enkele wijzigingen in de grenscontroles en identificatie binnen Europa. Hoewel u vrij kunt reizen tussen Schengenlanden, is een geldig paspoort of ID-kaart altijd verplicht. Wij houden de actuele regels voor u in de gaten."
         }
+      },
+      {
+        "@type": "Question",
+        "name": "Kunnen jullie ook begeleiden bij vliegen met diabetes vanaf Rotterdam?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Jazeker. Reizen met diabetes vraagt om extra planning rondom insuline, koeling en maaltijden. Onze begeleiders helpen u om alles volgens schema te laten verlopen en zorgen dat u ontspannen door de controles op de luchthaven van Rotterdam of Schiphol komt."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Bieden jullie ook hulp bij vliegangst voor senioren in Rotterdam?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, vliegangst komt op alle leeftijden voor. Onze begeleiders bieden een rustige aanwezigheid, uitleg over de geluiden van het vliegtuig en afleiding tijdens de vlucht om uw reis vanaf Rotterdam The Hague Airport zo comfortabel mogelijk te maken."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Hoe ga ik om met een jetlag als senior?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Een jetlag kan uw ritme flink verstoren. Wij adviseren om voor vertrek uit Rotterdam alvast aan te passen aan de nieuwe tijdzone, veel water te drinken en direct in het ritme van de bestemming mee te gaan. Onze begeleiders ondersteunen u bij dit proces."
+        }
       }
     ]
   };
@@ -302,6 +326,15 @@ export default function RotterdamSEOPage() {
                   )}
                   {faq.name.includes("Schengen") && (
                     <> <Link href="/blog/schengen-regels-2026" className="text-primary-600 hover:underline">Lees meer over de Schengen-regels in 2026.</Link></>
+                  )}
+                  {faq.name.includes("diabetes") && (
+                    <> <Link href="/blog/vliegen-met-diabetes" className="text-primary-600 hover:underline">Lees meer over vliegen met diabetes.</Link></>
+                  )}
+                  {faq.name.includes("vliegangst") && (
+                    <> <Link href="/blog/vliegangst-bij-ouderen" className="text-primary-600 hover:underline">Bekijk onze tips tegen vliegangst.</Link></>
+                  )}
+                  {faq.name.includes("jetlag") && (
+                    <> <Link href="/blog/hoe-ga-je-om-met-een-jetlag-als-senior" className="text-primary-600 hover:underline">Lees onze tips tegen een jetlag.</Link></>
                   )}
                 </p>
               </div>
