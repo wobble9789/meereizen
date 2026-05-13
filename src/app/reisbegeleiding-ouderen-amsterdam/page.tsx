@@ -284,6 +284,22 @@ export default function AmsterdamSEOPage() {
           "text": "Voor veel senioren worden compressiekousen aangeraden tijdens langere vluchten om de bloedsomloop te bevorderen en het risico op trombose te verkleinen. We adviseren u graag over het gebruik hiervan en kunnen u helpen bij het aantrekken voor vertrek."
         }
       },
+      {
+        "@type": "Question",
+        "name": "Bieden jullie ook hulp bij vliegen met een heupprothese vanuit Amsterdam?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Jazeker. Vliegen met een heup- of knieprothese vraagt om extra aandacht bij de security op Schiphol. Onze begeleiders helpen u om comfortabel door de controles te gaan en ondersteunen u bij de afstanden op de luchthaven."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Kunnen jullie helpen bij valpreventie voor senioren op reis?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Absoluut. Veiligheid is onze prioriteit. We adviseren over stevig schoeisel, helpen bij het navigeren van ongelijke vloeren op vliegvelden en zorgen voor een stabiele ondersteuning tijdens de hele reis om vallen te voorkomen."
+        }
+      },
     ]
   };
 
@@ -456,6 +472,12 @@ export default function AmsterdamSEOPage() {
                   )}
                   {faq.name.includes("compressiekousen") && (
                     <> <Link href="/blog/vliegen-met-compressiekousen" className="text-primary-600 hover:underline">Bekijk tips voor vliegen met compressiekousen.</Link></>
+                  )}
+                  {faq.name.includes("heupprothese") && (
+                    <> <Link href="/blog/vliegen-met-knie-of-heupprothese" className="text-primary-600 hover:underline">Lees meer over vliegen met een prothese.</Link></>
+                  )}
+                  {faq.name.includes("valpreventie") && (
+                    <> <Link href="/blog/valpreventie-op-vakantie" className="text-primary-600 hover:underline">Bekijk tips voor valpreventie op reis.</Link></>
                   )}
                 </p>
               </div>
