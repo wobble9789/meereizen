@@ -308,6 +308,14 @@ export default function AmsterdamSEOPage() {
           "text": "Ja, vliegen na een beroerte is vaak weer mogelijk, mits uw behandelend arts hiervoor toestemming geeft. Onze begeleiders in Amsterdam ondersteunen u bij de logistiek op Schiphol, bieden fysieke ondersteuning en zorgen voor een ontspannen reiservaring."
         }
       },
+      {
+        "@type": "Question",
+        "name": "Mag ik vliegen na een galblaasoperatie?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Meestal is vliegen na een galblaasoperatie na 1 tot 2 weken weer veilig, afhankelijk van het type ingreep (kijkoperatie of open operatie). Onze begeleiders kunnen u ondersteunen tijdens de reis om fysieke inspanning te minimaliseren en uw comfort te waarborgen."
+        }
+      },
     ]
   };
 
@@ -489,6 +497,9 @@ export default function AmsterdamSEOPage() {
                   )}
                   {faq.name.includes("beroerte") && (
                     <> <Link href="/blog/vliegen-na-beroerte" className="text-primary-600 hover:underline">Lees meer over veilig vliegen na een beroerte.</Link></>
+                  )}
+                  {faq.name.includes("galblaasoperatie") && (
+                    <> <Link href="/blog/vliegen-na-galblaasoperatie" className="text-primary-600 hover:underline">Lees meer over vliegen na een galblaasoperatie.</Link></>
                   )}
                 </p>
               </div>
