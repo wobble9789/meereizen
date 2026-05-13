@@ -8,8 +8,60 @@ export const metadata: Metadata = {
 };
 
 export default function LeeuwardenSEOPage() {
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Begeleiden jullie senioren vanaf Leeuwarden naar Schiphol?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, wij bieden volledige begeleiding van deur tot deur. We halen u thuis op in Leeuwarden of elders in Friesland, helpen met de bagage en begeleiden u tijdens de trein- of autoreis naar Schiphol, inclusief alle assistentie op de luchthaven zelf."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is er hulp bij vliegen met een rollator vanuit Leeuwarden?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Zeker. Wij hebben veel ervaring met het ondersteunen van reizigers die een rollator gebruiken. We zorgen dat uw hulpmiddel correct wordt ingecheckt en regelen luchthavenassistentie voor het comfortabele vervoer naar de gate."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Komen jullie voor kennismaking ook langs in Friesland?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, voor elke reis plannen we een vrijblijvend kennismakingsgesprek bij u thuis in Leeuwarden of omgeving. Zo kunnen we persoonlijk kennismaken en uw specifieke reiswensen en eventuele zorgbehoeften rustig doornemen."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Kan ik vliegen met COPD of astma vanaf een Nederlandse luchthaven?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, vliegen met COPD of astma is vaak mogelijk met de juiste voorbereiding, zoals het meenemen van inhalatoren in de handbagage en het eventueel aanvragen van extra zuurstof. Onze begeleiders ondersteunen u bij de nodige administratie en zorgen voor een rustig tempo op het vliegveld."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wat zijn de kosten voor reisbegeleiding vanuit Leeuwarden?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "De kosten zijn afhankelijk van de duur van de reis en het gewenste niveau van ondersteuning. We bieden transparante tarieven en maken na het kennismakingsgesprek in Friesland een offerte op maat voor uw specifieke situatie."
+        }
+      }
+    ]
+  };
+
   return (
     <main className="pt-20">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <section className="bg-primary-50 py-16 md:py-24">
       <section className="bg-primary-50 py-16 md:py-24">
         <div className="max-w-5xl mx-auto px-4">
           <div className="flex flex-col md:flex-row gap-12 items-center">
@@ -77,6 +129,28 @@ export default function LeeuwardenSEOPage() {
                 Geen zorgen meer over overstappen op het station of drukte op de luchthaven; wij wijken geen moment van uw zijde.
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-3xl font-bold text-primary-800 mb-12 text-center">Veelgestelde vragen over reisbegeleiding in Leeuwarden</h2>
+          <div className="space-y-6">
+            {faqSchema.mainEntity.map((faq, index) => (
+              <div key={index} className="bg-white p-6 rounded-xl shadow-sm">
+                <h3 className="text-lg font-bold text-primary-700 mb-2">{faq.name}</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  {faq.acceptedAnswer.text}
+                  {faq.name.includes("rollator") && (
+                    <> <Link href="/blog/vliegen-met-een-rollator" className="text-primary-600 hover:underline">Lees meer over vliegen met een rollator.</Link></>
+                  )}
+                  {faq.name.includes("COPD") && (
+                    <> <Link href="/blog/vliegen-met-copd-of-astma" className="text-primary-600 hover:underline">Lees meer over vliegen met COPD of astma.</Link></>
+                  )}
+                </p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
