@@ -268,6 +268,22 @@ export default function AmsterdamSEOPage() {
           "text": "Bij stabiele hartklachten is vliegen meestal mogelijk, maar de lagere luchtdruk in de cabine kan invloed hebben. Overleg altijd met uw cardioloog en vraag indien nodig vliegveld assistentie aan op Schiphol om fysieke inspanning te beperken. Onze begeleiders kunnen u hierbij volledig ondersteunen."
         }
       },
+      {
+        "@type": "Question",
+        "name": "Mag ik vliegen met COPD of astma vanaf Schiphol?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, vliegen met COPD of astma is vaak mogelijk met de juiste voorbereiding. Het is belangrijk om uw medicatie (inhalatoren) in uw handbagage te hebben en eventueel extra zuurstof aan te vragen als dat nodig is. Onze begeleiders helpen u bij het regelen van de nodige documenten voor de security op Schiphol."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Zijn compressiekousen nodig bij een vlucht vanuit Amsterdam?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Voor veel senioren worden compressiekousen aangeraden tijdens langere vluchten om de bloedsomloop te bevorderen en het risico op trombose te verkleinen. We adviseren u graag over het gebruik hiervan en kunnen u helpen bij het aantrekken voor vertrek."
+        }
+      },
     ]
   };
 
@@ -434,6 +450,12 @@ export default function AmsterdamSEOPage() {
                   )}
                   {faq.name.includes("hartklachten") && (
                     <> <Link href="/blog/vliegen-met-hartklachten" className="text-primary-600 hover:underline">Lees onze gids voor vliegen met hartklachten.</Link></>
+                  )}
+                  {faq.name.includes("COPD") && (
+                    <> <Link href="/blog/vliegen-met-copd-of-astma" className="text-primary-600 hover:underline">Lees meer over vliegen met COPD of astma.</Link></>
+                  )}
+                  {faq.name.includes("compressiekousen") && (
+                    <> <Link href="/blog/vliegen-met-compressiekousen" className="text-primary-600 hover:underline">Bekijk tips voor vliegen met compressiekousen.</Link></>
                   )}
                 </p>
               </div>
