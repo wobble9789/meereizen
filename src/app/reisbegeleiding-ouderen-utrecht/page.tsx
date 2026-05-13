@@ -131,7 +131,7 @@ export default function UtrechtSEOPage() {
           "@type": "Answer",
           "text": "Een vluchtvertraging kan voor stress zorgen. Wij raden aan om contact te houden met de luchtvaartmaatschappij, in een comfortabele lounge te wachten en voldoende rust te nemen. Onze begeleiders regelen bij vertraging alles rondom communicatie en extra zorg."
         }
-      }
+      },
       {
         "@type": "Question",
         "name": "Hoe ga ik om met een jetlag als senior?",
