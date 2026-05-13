@@ -132,6 +132,22 @@ export default function UtrechtSEOPage() {
           "text": "Een vluchtvertraging kan voor stress zorgen. Wij raden aan om contact te houden met de luchtvaartmaatschappij, in een comfortabele lounge te wachten en voldoende rust te nemen. Onze begeleiders regelen bij vertraging alles rondom communicatie en extra zorg."
         }
       }
+      {
+        "@type": "Question",
+        "name": "Hoe ga ik om met een jetlag als senior?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Een jetlag kan een grotere impact hebben op senioren. Wij adviseren om rustig aan te doen op de eerste dag, veel water te drinken en direct mee te gaan in het ritme van de bestemming. Onze begeleiders helpen u bij de overgang en zorgen voor een comfortabel tempo."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Zijn er speciale tips voor vliegen met compressiekousen?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, compressiekousen helpen de bloedsomloop te stimuleren en voorkomen zwelling en trombose tijdens lange vluchten. Het is belangrijk dat deze goed aangemeten zijn. Onze begeleiders kunnen u helpen bij het aantrekken en adviseren over het gebruik tijdens de reis."
+        }
+      }
     ]
   };
 
@@ -253,6 +269,12 @@ export default function UtrechtSEOPage() {
                   )}
                   {faq.name.toLowerCase().includes("vertraagde vlucht") && (
                     <> <Link href="/blog/hoe-ga-je-om-met-een-vertraagde-vlucht-senior" className="text-primary-600 hover:underline">Lees wat te doen bij een vertraagde vlucht.</Link></>
+                  )}
+                  {faq.name.toLowerCase().includes("jetlag") && (
+                    <> <Link href="/blog/hoe-ga-je-om-met-een-jetlag-als-senior" className="text-primary-600 hover:underline">Lees onze tips tegen een jetlag.</Link></>
+                  )}
+                  {faq.name.toLowerCase().includes("compressiekousen") && (
+                    <> <Link href="/blog/vliegen-met-compressiekousen" className="text-primary-600 hover:underline">Bekijk tips voor vliegen met compressiekousen.</Link></>
                   )}
                 </p>
               </div>
