@@ -62,7 +62,6 @@ export default function LeeuwardenSEOPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
       <section className="bg-primary-50 py-16 md:py-24">
-      <section className="bg-primary-50 py-16 md:py-24">
         <div className="max-w-5xl mx-auto px-4">
           <div className="flex flex-col md:flex-row gap-12 items-center">
             <div className="flex-1 text-center md:text-left">
