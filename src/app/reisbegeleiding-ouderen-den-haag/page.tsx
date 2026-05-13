@@ -8,8 +8,59 @@ export const metadata: Metadata = {
 };
 
 export default function DenHaagSEOPage() {
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Biedt Vliegklaar ook reisbegeleiding in Den Haag?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, Vliegklaar biedt volledige van-deur-tot-deur reisbegeleiding voor ouderen in Den Haag en omliggende plaatsen zoals Rijswijk, Voorburg en Wassenaar."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Kunnen jullie ook helpen bij vliegen met een rollator vanaf Den Haag?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Zeker. Wij hebben veel ervaring met het begeleiden van senioren die een rollator gebruiken. Wij zorgen voor de logistiek op de luchthaven en zorgen dat uw rollator veilig mee gaat tot aan de gate."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is er begeleiding voor senioren met dementie in Den Haag?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, wij bieden gespecialiseerde begeleiding voor senioren met beginnende dementie. Onze begeleiders bieden rust, structuur en constante nabijheid tijdens de gehele reis vanaf uw woning in Den Haag."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Hoe vraag ik vliegveld assistentie aan voor een reis vanuit Den Haag?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Assistentie op de luchthaven (Schiphol of Rotterdam) dient minimaal 48 uur van tevoren aangevraagd te worden. Vliegklaar kan dit volledige proces voor u uit handen nemen."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wat kost reisbegeleiding in Den Haag?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "De kosten zijn afhankelijk van de bestemming en de gewenste intensiteit van de begeleiding. We komen graag bij u langs in Den Haag voor een gratis kennismakingsgesprek en een offerte op maat."
+        }
+      }
+    ]
+  };
+
   return (
     <main className="pt-20">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <section className="bg-primary-50 py-16 md:py-24">
         <div className="max-w-5xl mx-auto px-4">
           <div className="flex flex-col md:flex-row gap-12 items-center">
@@ -77,6 +128,31 @@ export default function DenHaagSEOPage() {
                 U hoeft zich geen zorgen te maken over koffers, inchecken of navigatie; wij regelen alles voor uw gemoedsrust.
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-3xl font-bold text-primary-800 mb-12 text-center">Veelgestelde vragen over reisbegeleiding in Den Haag</h2>
+          <div className="space-y-6">
+            {faqSchema.mainEntity.map((faq, index) => (
+              <div key={index} className="bg-white p-6 rounded-xl shadow-sm">
+                <h3 className="text-lg font-bold text-primary-700 mb-2">{faq.name}</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  {faq.acceptedAnswer.text}
+                  {faq.name.includes("rollator") && (
+                    <> <Link href="/blog/vliegen-met-een-rollator" className="text-primary-600 hover:underline">Lees meer over vliegen met een rollator.</Link></>
+                  )}
+                  {faq.name.includes("dementie") && (
+                    <> <Link href="/blog/reizen-met-dementie" className="text-primary-600 hover:underline">Lees onze gids over reizen met dementie.</Link></>
+                  )}
+                  {faq.name.includes("assistentie") && (
+                    <> <Link href="/blog/hoe-vraag-je-vliegveld-assistentie-aan" className="text-primary-600 hover:underline">Lees meer over vliegveld assistentie aanvragen.</Link></>
+                  )}
+                </p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
