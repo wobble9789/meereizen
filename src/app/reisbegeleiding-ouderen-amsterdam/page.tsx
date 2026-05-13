@@ -300,6 +300,14 @@ export default function AmsterdamSEOPage() {
           "text": "Absoluut. Veiligheid is onze prioriteit. We adviseren over stevig schoeisel, helpen bij het navigeren van ongelijke vloeren op vliegvelden en zorgen voor een stabiele ondersteuning tijdens de hele reis om vallen te voorkomen."
         }
       },
+        {
+        "@type": "Question",
+        "name": "Bieden jullie ook hulp bij vliegen na een beroerte vanuit Amsterdam?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, vliegen na een beroerte is vaak weer mogelijk, mits uw behandelend arts hiervoor toestemming geeft. Onze begeleiders in Amsterdam ondersteunen u bij de logistiek op Schiphol, bieden fysieke ondersteuning en zorgen voor een ontspannen reiservaring."
+        }
+      },
     ]
   };
 
@@ -477,7 +485,10 @@ export default function AmsterdamSEOPage() {
                     <> <Link href="/blog/vliegen-met-knie-of-heupprothese" className="text-primary-600 hover:underline">Lees meer over vliegen met een prothese.</Link></>
                   )}
                   {faq.name.includes("valpreventie") && (
-                    <> <Link href="/blog/valpreventie-op-vakantie" className="text-primary-600 hover:underline">Bekijk tips voor valpreventie op reis.</Link></>
+                    <> <Link href="/blog/valpreventie-op-vakantie" className="text-primary-600 hover:underline">Bekijk tips for valpreventie op reis.</Link></>
+                  )}
+                  {faq.name.includes("beroerte") && (
+                    <> <Link href="/blog/vliegen-na-beroerte" className="text-primary-600 hover:underline">Lees meer over veilig vliegen na een beroerte.</Link></>
                   )}
                 </p>
               </div>
