@@ -252,6 +252,22 @@ export default function AmsterdamSEOPage() {
           "text": "In de meeste gevallen is vliegen met glaucoom of staar veilig, maar het is essentieel om dit vooraf met uw oogarts te bespreken, vooral na een recente operatie. Wij helpen u graag bij het regelen van extra begeleiding op de luchthaven als uw zicht beperkt is, zodat u veilig bij de gate aankomt."
         }
       },
+      {
+        "@type": "Question",
+        "name": "Is vliegen met een hoge bloeddruk veilig vanaf Schiphol?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Over het algemeen is vliegen met een goed ingestelde bloeddruk veilig. We raden aan om voor vertrek uw arts te raadplegen, uw medicatie in uw handbagage te bewaren en tijdens de vlucht voldoende water te drinken en zoutinname te beperken."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Zijn er risico's bij vliegen met hartklachten vanuit Amsterdam?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Bij stabiele hartklachten is vliegen meestal mogelijk, maar de lagere luchtdruk in de cabine kan invloed hebben. Overleg altijd met uw cardioloog en vraag indien nodig vliegveld assistentie aan op Schiphol om fysieke inspanning te beperken. Onze begeleiders kunnen u hierbij volledig ondersteunen."
+        }
+      },
     ]
   };
 
@@ -412,6 +428,12 @@ export default function AmsterdamSEOPage() {
                   )}
                   {faq.name.includes("staar") && (
                     <> <Link href="/blog/vliegen-met-staar" className="text-primary-600 hover:underline">Bekijk tips voor vliegen met staar.</Link></>
+                  )}
+                  {faq.name.includes("bloeddruk") && (
+                    <> <Link href="/blog/vliegen-met-bloeddruk-tips" className="text-primary-600 hover:underline">Lees meer over vliegen met een hoge bloeddruk.</Link></>
+                  )}
+                  {faq.name.includes("hartklachten") && (
+                    <> <Link href="/blog/vliegen-met-hartklachten" className="text-primary-600 hover:underline">Lees onze gids voor vliegen met hartklachten.</Link></>
                   )}
                 </p>
               </div>
