@@ -464,6 +464,23 @@ export default function AmsterdamSEOPage() {
         </div>
       </section>
 
+      <section className="py-20 bg-white">
+        <div className="max-w-4xl mx-auto px-4 text-center">
+          <h2 className="text-3xl font-bold text-primary-800 mb-8">Nog meer handige tips voor senioren</h2>
+          <div className="flex flex-wrap justify-center gap-4">
+            <Link href="/blog/vliegen-met-knie-of-heupprothese" className="bg-primary-50 text-primary-700 px-4 py-2 rounded-lg hover:bg-primary-100 transition-colors border border-primary-200">
+              Vliegen met een prothese
+            </Link>
+            <Link href="/blog/hoe-voorbereiden-op-lange-vlucht-senior" className="bg-primary-50 text-primary-700 px-4 py-2 rounded-lg hover:bg-primary-100 transition-colors border border-primary-200">
+              Lange vlucht voorbereiden
+            </Link>
+            <Link href="/blog/veilig-alle-reizen-senior" className="bg-primary-50 text-primary-700 px-4 py-2 rounded-lg hover:bg-primary-100 transition-colors border border-primary-200">
+              Veilig alleen reizen
+            </Link>
+          </div>
+        </div>
+      </section>
+
       <section className="py-20 bg-primary-900 text-white">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">Uw reis start in Amsterdam</h2>
