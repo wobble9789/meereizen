@@ -86,6 +86,16 @@ export default function BlogVliegenBloedverdunners() {
             Vliegt u naar een andere tijdzone? Overleg dan met uw arts of de trombosedienst hoe u het schema van uw bloedverdunners moet aanpassen. Consistentie is erg belangrijk voor de werking van deze medicatie.
           </p>
 
+          <h2 className="text-2xl font-bold text-primary-800 mt-10 mb-4">5. Gebruik van compressiekousen</h2>
+          <p>
+            Naast uw medicatie kunnen compressiekousen een belangrijke rol spelen bij het voorkomen van gezwollen benen en trombose tijdens een lange vlucht.
+          </p>
+          <p>
+            <Link href="/blog/vliegen-met-compressiekousen" className="text-primary-600 hover:underline">
+              Ontdek hier waarom compressiekousen nuttig zijn voor senioren.
+            </Link>
+          </p>
+
           <div className="bg-primary-50 p-8 rounded-2xl border-l-4 border-primary-500 my-12">
             <h3 className="text-xl font-bold text-primary-900 mb-4">Hulp nodig bij uw reis?</h3>
             <p className="mb-6">
