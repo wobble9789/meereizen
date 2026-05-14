@@ -148,6 +148,54 @@ export default function UtrechtSEOPage() {
           "text": "Ja, compressiekousen helpen de bloedsomloop te stimuleren en voorkomen zwelling en trombose tijdens lange vluchten. Het is belangrijk dat deze goed aangemeten zijn. Onze begeleiders kunnen u helpen bij het aantrekken en adviseren over het gebruik tijdens de reis."
         }
       }
+      {
+        "@type": "Question",
+        "name": "Moet ik een medische verklaring hebben voor vliegen vanaf Utrecht?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Voor sommige aandoeningen of apparatuur is een medische verklaring (Fit to Fly) verplicht. We kunnen u helpen te bepalen of dit nodig is en hoe u deze eenvoudig aanvraagt bij uw arts in Utrecht."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wat moet ik regelen voor medicijnen op reis?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Het is belangrijk om een actueel medicatieoverzicht (AMO) en eventueel een medische verklaring bij u te hebben. Wij kunnen u helpen bij de voorbereiding hiervan zodat u zorgeloos door de security komt."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Kunt u ook helpen bij vliegen met een pacemaker vanuit de regio Utrecht?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Zeker. Reizen met een pacemaker of ICD vereist extra aandacht bij de security scans. Onze begeleiders weten precies welke documenten u nodig heeft en hoe u vlot door de beveiliging gaat zonder risico voor uw apparaat."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Bieden jullie ook hulp bij vliegen met Parkinson vanuit de regio Utrecht?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, wij hebben ruime ervaring met het begeleiden van senioren met de ziekte van Parkinson. Wij zorgen voor een rustig tempo, helpen bij de logistiek en ondersteunen bij medicatie-inname op de juiste tijden."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Mag ik vliegen met COPD of astma?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, vliegen met COPD of astma is vaak mogelijk met de juiste voorbereiding. Het is belangrijk om uw medicatie (inhalatoren) in uw handbagage te hebben en eventueel extra zuurstof aan te vragen als dat nodig is."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Kunnen jullie helpen bij valpreventie voor senioren op reis?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Absoluut. Veiligheid is onze prioriteit. We adviseren over stevig schoeisel, helpen bij het navigeren van vliegvelden en zorgen voor een stabiele ondersteuning tijdens de hele reis om vallen te voorkomen."
+        }
+      },
     ]
   };
 
@@ -275,6 +323,24 @@ export default function UtrechtSEOPage() {
                   )}
                   {faq.name.toLowerCase().includes("compressiekousen") && (
                     <> <Link href="/blog/vliegen-met-compressiekousen" className="text-primary-600 hover:underline">Bekijk tips voor vliegen met compressiekousen.</Link></>
+                  )}
+                  {faq.name.toLowerCase().includes("medische verklaring") && (
+                    <> <Link href="/blog/hoe-vraag-je-een-medische-verklaring-aan-voor-vliegen" className="text-primary-600 hover:underline">Lees meer over de medische verklaring.</Link></>
+                  )}
+                  {faq.name.toLowerCase().includes("medicijnen") && (
+                    <> <Link href="/blog/medicijnen-mee-op-reis" className="text-primary-600 hover:underline">Bekijk tips voor medicijnen op reis.</Link></>
+                  )}
+                  {faq.name.toLowerCase().includes("pacemaker") && (
+                    <> <Link href="/blog/vliegen-met-een-pacemaker-of-icd" className="text-primary-600 hover:underline">Lees meer over vliegen met een pacemaker.</Link></>
+                  )}
+                  {faq.name.toLowerCase().includes("parkinson") && (
+                    <> <Link href="/blog/vliegen-met-parkinson" className="text-primary-600 hover:underline">Lees meer over vliegen met Parkinson.</Link></>
+                  )}
+                  {faq.name.toLowerCase().includes("copd") && (
+                    <> <Link href="/blog/vliegen-met-copd-of-astma" className="text-primary-600 hover:underline">Lees meer over vliegen met COPD of astma.</Link></>
+                  )}
+                  {faq.name.toLowerCase().includes("valpreventie") && (
+                    <> <Link href="/blog/valpreventie-op-vakantie" className="text-primary-600 hover:underline">Bekijk tips voor valpreventie op reis.</Link></>
                   )}
                 </p>
               </div>
