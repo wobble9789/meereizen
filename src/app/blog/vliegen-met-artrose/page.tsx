@@ -8,8 +8,43 @@ export const metadata: Metadata = {
 };
 
 export default function VliegenMetArtrose() {
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Mag ik koelpacks mee aan boord nemen?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Gel-gebaseerde koelpacks vallen onder de vloeistoffenregels. Als ze medisch noodzakelijk zijn, heeft u vaak een doktersverklaring nodig. Alternatief kunt u de stewardess vragen om wat ijsblokjes in een zakje."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Zorgt vliegen voor een verergering van artrose?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Vliegen zelf verergert de artrose niet, maar de beperkte bewegingsvrijheid kan wel tijdelijk voor meer pijn en stijfheid zorgen. Met de juiste voorbereiding en regelmatig bewegen is dit tot een minimum te beperken."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Welke zitplaats is het beste bij artrose?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Een stoel aan het gangpad is vaak het prettigst, omdat u dan makkelijker even kunt opstaan en uw benen kunt strekken zonder anderen te storen. Stoelen met extra beenruimte zijn ook aan te raden."
+        }
+      }
+    ]
+  };
+
   return (
     <main className="pt-20">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <section className="bg-primary-50 py-16 md:py-24">
         <div className="max-w-5xl mx-auto px-4">
           <div className="flex flex-col md:flex-row gap-12 items-center">
@@ -85,14 +120,14 @@ export default function VliegenMetArtrose() {
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-primary-800 mb-12 text-center">Veelgestelde vragen over vliegen met artrose</h2>
           <div className="space-y-6">
-            <div className="bg-white p-6 rounded-xl shadow-sm">
-              <h3 className="text-lg font-bold text-primary-700 mb-2">Mag ik koelpacks mee aan boord nemen?</h3>
-              <p className="text-gray-600">Gel-gebaseerde koelpacks vallen onder de vloeistoffenregels. Als ze medisch noodzakelijk zijn, heeft u vaak een doktersverklaring nodig. Alternatief kunt u de stewardess vragen om wat ijsblokjes in een zakje.</p>
-            </div>
-            <div className="bg-white p-6 rounded-xl shadow-sm">
-              <h3 className="text-lg font-bold text-primary-700 mb-2">Zorgt vliegen voor een verergering van artrose?</h3>
-              <p className="text-gray-600">Vliegen zelf verergert de artrose niet, maar de beperkte bewegingsvrijheid kan wel tijdelijk voor meer pijn en stijfheid zorgen. Met bovenstaande tips is dit tot een minimum te beperken.</p>
-            </div>
+            {faqSchema.mainEntity.map((faq, index) => (
+              <div key={index} className="bg-white p-6 rounded-xl shadow-sm">
+                <h3 className="text-lg font-bold text-primary-700 mb-2">{faq.name}</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  {faq.acceptedAnswer.text}
+                </p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
