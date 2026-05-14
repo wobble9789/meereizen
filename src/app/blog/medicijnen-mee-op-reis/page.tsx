@@ -1,62 +1,91 @@
-import React from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Medicijnen mee op reis: Alles wat u moet weten | Vliegklaar',
-  description: 'Wilt u medicijnen meenemen naar het buitenland? Lees alles over de Schengenverklaring, medische verklaringen en tips voor reizen met medicatie.',
+  title: 'Veilig vliegen met medicijnen: Tips voor Senioren | Vliegklaar',
+  description: 'Hoe neem je medicijnen veilig mee in het vliegtuig? Lees onze praktische tips voor senioren over medicatiepaspoorten, handbagage en vliegveldcontroles.',
 };
 
-const MedicijnenReisPage = () => {
+export default function MedicijnenBlogPage() {
   return (
-    <div className="max-w-4xl mx-auto px-4 py-12">
-      <h1 className="text-4xl font-bold mb-6">Medicijnen mee op reis: Zo gaat u goed voorbereid op pad</h1>
-      
-      <p className="text-lg mb-8">
-        Wanneer u op reis gaat en afhankelijk bent van medicijnen, komt er net wat meer kijken bij de voorbereiding. Mag u zomaar elke pil meenemen over de grens? Welke documenten heeft u nodig? In dit artikel zetten we de belangrijkste zaken op een rij, zodat u met een gerust hart op vakantie kunt.
-      </p>
-
-      <section className="mb-10">
-        <h2 className="text-2xl font-semibold mb-4">1. De Schengenverklaring: Wanneer is deze nodig?</h2>
-        <p className="mb-4">
-          Reist u binnen het Schengengebied en gebruikt u medicijnen die onder de Opiumwet vallen (zoals sterke pijnstillers, bepaalde slaapmiddelen of ADHD-medicatie)? Dan heeft u een officiële Schengenverklaring nodig. Deze moet worden ondertekend door uw arts en gewaarmerkt door het CAK.
-        </p>
-        <p className="bg-blue-50 p-4 border-l-4 border-blue-500 italic">
-          Tip: Vraag de verklaring minimaal 4 weken voor vertrek aan. De verwerkingstijd kan variëren.
-        </p>
+    <main className="pt-20">
+      <section className="bg-primary-50 py-16">
+        <div className="max-w-4xl mx-auto px-4">
+          <Link href="/blog" className="text-primary-600 hover:underline mb-4 inline-block">← Terug naar overzicht</Link>
+          <h1 className="text-4xl md:text-5xl font-bold text-primary-900 mb-6">
+            Veilig vliegen met medicijnen: De ultieme gids voor senioren
+          </h1>
+          <p className="text-xl text-gray-700 leading-relaxed">
+            Reizen met medicatie vraagt om een goede voorbereiding. Of het nu gaat om dagelijkse pillen, insuline of vloeibare medicijnen, 
+            wij leggen uit waar u op moet letten bij de security en tijdens de vlucht.
+          </p>
+        </div>
       </section>
 
-      <section className="mb-10">
-        <h2 className="text-2xl font-semibold mb-4">2. Medische verklaring buiten Schengen</h2>
-        <p className="mb-4">
-          Gaat u naar een land buiten het Schengengebied? Dan heeft u vaak een Engelstalige medische verklaring van uw arts nodig. Soms moet deze verklaring ook nog gelegaliseerd worden door het Ministerie van Buitenlandse Zaken en de ambassade van het betreffende land.
-        </p>
-      </section>
+      <section className="py-16 bg-white">
+        <div className="max-w-3xl mx-auto px-4 prose prose-primary prose-lg">
+          <Image 
+            src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80" 
+            alt="Medicijnen en paspoort" 
+            width={800} 
+            height={400} 
+            className="rounded-2xl shadow-lg mb-10"
+          />
 
-      <section className="mb-10">
-        <h2 className="text-2xl font-semibold mb-4">3. Bewaar medicijnen in de originele verpakking</h2>
-        <p className="mb-4">
-          Het is essentieel om medicijnen in hun originele verpakking mee te nemen. Hierop staat uw naam en de dosering, wat bij de douane direct duidelijkheid schept. Ook is het verstandig om een Europees Medisch Paspoort (verkrijgbaar bij uw apotheek) mee te nemen. Hierin staan al uw medicijnen en eventuele allergieën overzichtelijk vermeld.
-        </p>
-      </section>
+          <h2>1. Alles in de handbagage</h2>
+          <p>
+            De belangrijkste regel: neem uw medicijnen <strong>altijd</strong> mee in uw handbagage. Koffers in het ruim kunnen kwijtraken of 
+            blootgesteld worden aan extreme temperaturen die de werking van medicijnen kunnen beïnvloeden. 
+            Houd ook een extra voorraad voor een paar dagen apart in een andere tas, voor het geval dat.
+          </p>
 
-      <section className="mb-10">
-        <h2 className="text-2xl font-semibold mb-4">4. Tips voor in het vliegtuig</h2>
-        <ul className="list-disc pl-6 space-y-2">
-          <li><strong>Handbagage:</strong> Vervoer uw belangrijkste medicijnen altijd in uw handbagage. Mocht uw koffer vertraagd zijn, dan heeft u uw medicatie in ieder geval bij de hand.</li>
-          <li><strong>Koeling:</strong> Moeten uw medicijnen gekoeld blijven? Gebruik een koeltasje. Geef dit ook aan bij de security check.</li>
-          <li><strong>Vloeistoffen:</strong> Voor vloeibare medicijnen boven de 100ml geldt een uitzondering op de standaardregels, mits u een doktersvoorschrift kunt tonen.</li>
-        </ul>
-      </section>
+          <h2>2. Het Europees Medisch Paspoort</h2>
+          <p>
+            Vraag bij uw apotheek om een Europees Medisch Paspoort (EMP). Hierin staan al uw medicijnen, de werkzame stoffen en 
+            eventuele allergieën vermeld in meerdere talen. Dit is niet alleen handig bij de douane, maar ook essentieel mocht u 
+            in het buitenland een arts nodig hebben.
+          </p>
 
-      <div className="bg-green-50 p-6 rounded-lg border border-green-200">
-        <h3 className="text-xl font-bold mb-2">Hulp nodig bij uw reis?</h3>
-        <p>
-          Ziet u op tegen de logistiek op het vliegveld of de voorbereiding? Vliegklaar biedt persoonlijke reisbegeleiding voor senioren. Onze begeleiders helpen u graag met de bagage, documenten en zorgen voor een ontspannen reiservaring. 
-          <a href="/contact" className="text-green-700 font-semibold underline ml-1">Neem contact op voor de mogelijkheden</a>.
-        </p>
-      </div>
-    </div>
+          <h2>3. Vloeibare medicijnen en de 100ml regel</h2>
+          <p>
+            Voor vloeibare medicijnen geldt een uitzondering op de standaard 100ml regel. U mag meer meenemen als u kunt aantonen 
+            dat u ze tijdens de reis nodig heeft. Bewaar ze bij voorkeur in de originele verpakking met de apothekerssticker erop. 
+            Meld dit altijd even bij de security-medewerker.
+          </p>
+
+          <h2>4. Koeling tijdens de vlucht</h2>
+          <p>
+            Moeten uw medicijnen (zoals insuline) gekoeld blijven? Gebruik een kleine koeltas met koelelementen. 
+            Vliegt u met <Link href="/reisbegeleiding-ouderen-amsterdam" className="text-primary-600 underline">Vliegklaar vanaf Schiphol</Link>? 
+            Onze begeleiders helpen u graag met het bewaken van de temperatuur en het tijdig innemen van uw medicatie.
+          </p>
+
+          <div className="bg-primary-50 p-6 rounded-xl border border-primary-100 my-10">
+            <h3 className="mt-0">Persoonlijke hulp nodig?</h3>
+            <p>
+              Vindt u het spannend om alleen te vliegen met complexe medicatie? Onze reisbegeleiders zijn ervaren in het 
+              ondersteunen van senioren met diverse medische achtergronden.
+            </p>
+            <Link href="/contact" className="inline-block bg-primary-600 text-white font-bold px-6 py-3 rounded-lg hover:bg-primary-700 transition-colors no-underline">
+              Vraag naar de mogelijkheden
+            </Link>
+          </div>
+
+          <h2>5. Tijdsverschil en schema</h2>
+          <p>
+            Bij verre reizen krijgt u te maken met tijdsverschil. Dit kan uw medicatieschema in de war schoppen. 
+            Overleg vooraf met uw huisarts of apotheker hoe u het beste kunt schuiven met de tijden, vooral bij 
+            medicijnen die op een exact tijdstip ingenomen moeten worden.
+          </p>
+
+          <p>
+            Wilt u meer weten over specifieke situaties? Lees ook ons artikel over 
+            <Link href="/blog/vliegen-met-diabetes" className="ml-1 text-primary-600 underline">vliegen met diabetes</Link> of 
+            <Link href="/blog/vliegen-met-bloedverdunners" className="ml-1 text-primary-600 underline">vliegen met bloedverdunners</Link>.
+          </p>
+        </div>
+      </section>
+    </main>
   );
-};
-
-export default MedicijnenReisPage;
+}
