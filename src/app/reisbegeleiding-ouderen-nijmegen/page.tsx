@@ -46,6 +46,30 @@ export default function NijmegenSEOPage() {
       },
       {
         "@type": "Question",
+        "name": "Hoe zit het met vliegen met diabetes vanuit Nijmegen?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Reizen met diabetes vraagt om goede planning rondom insuline en maaltijden. Onze begeleiders helpen u om alles volgens schema te laten verlopen en zorgen dat u ontspannen door de controles op de luchthaven komt."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Kan ik vliegen met artrose vanuit Nijmegen?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, reizigers met artrose hebben vaak baat bij extra assistentie om lange afstanden op vliegvelden te vermijden. Wij coördineren de hulp op de luchthaven zodat u comfortabel bij de gate aankomt."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wat moet ik regelen voor medicijnen op reis?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Het is belangrijk om een actueel medicatieoverzicht en eventueel een medische verklaring bij u te hebben. Wij ondersteunen u bij de voorbereiding hiervan zodat u zorgeloos door de security komt."
+        }
+      },
+      {
+        "@type": "Question",
         "name": "Wat zijn de kosten voor reisbegeleiding in Nijmegen?",
         "acceptedAnswer": {
           "@type": "Answer",
@@ -149,6 +173,15 @@ export default function NijmegenSEOPage() {
                   )}
                   {faq.name.includes("rollator") && (
                     <> <Link href="/blog/vliegen-met-een-rollator" className="text-primary-600 hover:underline">Lees meer over vliegen met een rollator.</Link></>
+                  )}
+                  {faq.name.includes("diabetes") && (
+                    <> <Link href="/blog/vliegen-met-diabetes" className="text-primary-600 hover:underline">Lees meer over vliegen met diabetes.</Link></>
+                  )}
+                  {faq.name.includes("artrose") && (
+                    <> <Link href="/blog/vliegen-met-artrose" className="text-primary-600 hover:underline">Bekijk tips voor vliegen met artrose.</Link></>
+                  )}
+                  {faq.name.includes("medicijnen") && (
+                    <> <Link href="/blog/medicijnen-mee-op-reis" className="text-primary-600 hover:underline">Bekijk tips voor medicijnen op reis.</Link></>
                   )}
                 </p>
               </div>
