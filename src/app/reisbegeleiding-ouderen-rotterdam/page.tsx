@@ -212,6 +212,14 @@ export default function RotterdamSEOPage() {
           "text": "Ja, vliegen met reuma is heel goed mogelijk. Wij adviseren u om tijdens de vlucht regelmatig te bewegen om stijfheid te voorkomen en eventueel vliegveld assistentie aan te vragen voor de afstanden op de luchthaven. Onze begeleiders kunnen u hierbij volledig ondersteunen."
         }
       },
+      {
+        "@type": "Question",
+        "name": "Is het veilig om te vliegen met compressiekousen vanaf Rotterdam?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, voor veel senioren is het dragen van compressiekousen juist aan te raden tijdens een vlucht om de bloedsomloop te stimuleren en de kans op trombose te verkleinen. Onze begeleiders kunnen u helpen bij het herinneren van eenvoudige oefeningen tijdens de vlucht om uw benen soepel te houden."
+        }
+      },
     ]
   };
 
@@ -360,6 +368,9 @@ export default function RotterdamSEOPage() {
                   )}
                   {faq.name.includes("reuma") && (
                     <> <Link href="/blog/vliegen-met-reuma" className="text-primary-600 hover:underline">Lees onze gids over vliegen met reuma.</Link></>
+                  )}
+                  {faq.name.includes("compressiekousen") && (
+                    <> <Link href="/blog/vliegen-met-compressiekousen" className="text-primary-600 hover:underline">Lees meer over vliegen met compressiekousen.</Link></>
                   )}
                 </p>
               </div>
