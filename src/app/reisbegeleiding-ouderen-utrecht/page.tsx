@@ -147,7 +147,7 @@ export default function UtrechtSEOPage() {
           "@type": "Answer",
           "text": "Ja, compressiekousen helpen de bloedsomloop te stimuleren en voorkomen zwelling en trombose tijdens lange vluchten. Het is belangrijk dat deze goed aangemeten zijn. Onze begeleiders kunnen u helpen bij het aantrekken en adviseren over het gebruik tijdens de reis."
         }
-      }
+      },
       {
         "@type": "Question",
         "name": "Moet ik een medische verklaring hebben voor vliegen vanaf Utrecht?",
