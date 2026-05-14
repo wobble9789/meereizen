@@ -310,6 +310,14 @@ export default function AmsterdamSEOPage() {
       },
       {
         "@type": "Question",
+        "name": "Mag ik vliegen na een hartoperatie?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Vliegen na een hartoperatie is meestal na 4 tot 6 weken weer mogelijk, afhankelijk van het type ingreep en uw herstel. Overleg dit altijd met uw cardioloog. Onze begeleiders kunnen u ondersteunen tijdens de reis om fysieke inspanning op Schiphol te minimaliseren."
+        }
+      },
+      {
+        "@type": "Question",
         "name": "Mag ik vliegen na een galblaasoperatie?",
         "acceptedAnswer": {
           "@type": "Answer",
@@ -497,6 +505,9 @@ export default function AmsterdamSEOPage() {
                   )}
                   {faq.name.includes("beroerte") && (
                     <> <Link href="/blog/vliegen-na-beroerte" className="text-primary-600 hover:underline">Lees meer over veilig vliegen na een beroerte.</Link></>
+                  )}
+                  {faq.name.includes("hartoperatie") && (
+                    <> <Link href="/blog/vliegen-na-hartoperatie" className="text-primary-600 hover:underline">Lees meer over vliegen na een hartoperatie.</Link></>
                   )}
                   {faq.name.includes("galblaasoperatie") && (
                     <> <Link href="/blog/vliegen-na-galblaasoperatie" className="text-primary-600 hover:underline">Lees meer over vliegen na een galblaasoperatie.</Link></>
