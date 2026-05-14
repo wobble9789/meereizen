@@ -1,77 +1,125 @@
-import React from 'react';
-import { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
+import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Vliegen met een Knie- of Heupprothese: Tips & Regels (2026)',
-  description: 'Gaat u vliegen met een knie- of heupprothese? Lees alles over de beveiligingscontrole, medische verklaringen en tips voor een comfortabele vlucht.',
+  title: 'Veilig Vliegen na een Knie- of Heupprothese | Vliegklaar',
+  description: 'Gaat u vliegen met een knie- of heupprothese? Lees alles over de beveiliging op het vliegveld, tips voor tijdens de vlucht en wanneer het weer veilig is om te reizen.',
 };
 
-export default function Pagina() {
+export default function VliegenMetProthesePage() {
   return (
-    <article className="max-w-4xl mx-auto px-4 py-8">
-      <header className="mb-8">
-        <h1 className="text-4xl font-bold mb-4">Vliegen met een Knie- of Heupprothese: Zo reist u zorgeloos</h1>
-        <p className="text-gray-600 text-lg">
-          Voor veel senioren met een gewrichtsprothese roept vliegen vragen op. Piept het poortje bij de douane? 
-          Heb ik een medisch paspoort nodig? En hoe houd ik mijn gewrichten soepel tijdens een lange zit? 
-          In dit artikel leggen we precies uit waar u op moet letten in 2026.
-        </p>
-      </header>
-
-      <section className="prose lg:prose-xl mb-12">
-        <h2>1. De beveiligingscontrole op de luchthaven</h2>
-        <p>
-          Het is een veelvoorkomende zorg: gaat het alarm af door mijn metalen prothese? Het antwoord is vaak: ja. 
-          Moderne scanners herkennen echter steeds vaker het verschil tussen een verborgen voorwerp en een medisch implantaat.
-        </p>
-        <ul>
-          <li><strong>Meld het vooraf:</strong> Geef bij de securitymedewerker aan dat u een prothese heeft voordat u door de scan gaat.</li>
-          <li><strong>Body Scanners:</strong> Op veel luchthavens (zoals Schiphol) wordt gewerkt met body scanners die de exacte locatie van het metaal tonen, waardoor een uitgebreid handmatig onderzoek vaak niet meer nodig is.</li>
-        </ul>
-
-        <h2>2. De medische verklaring (Prothesepastpoort)</h2>
-        <p>
-          Hoewel een medische verklaring niet wettelijk verplicht is om te mogen vliegen, raden wij het sterk aan. 
-          U kunt bij uw behandelend arts of het ziekenhuis om een &apos;prothesepastpoort&apos; of een Engelstalige verklaring vragen.
-        </p>
-        <p>
-          Dit document helpt misverstanden bij de douane te voorkomen, vooral op kleinere buitenlandse luchthavens waar de apparatuur minder geavanceerd kan zijn.
-        </p>
-
-        <h2>3. Comfort tijdens de vlucht</h2>
-        <p>
-          Stilzitten is voor niemand goed, maar met een nieuwe knie of heup extra uitdagend. Het gewricht kan stijf worden of opzetten door de cabinedruk.
-        </p>
-        <ul>
-          <li><strong>Kies de juiste stoel:</strong> Boek een stoel met extra beenruimte of een stoel aan het gangpad, zodat u gemakkelijker uw been kunt strekken of even kunt opstaan.</li>
-          <li><strong>Blijf in beweging:</strong> Doe elk uur eenvoudige enkel- en knie-oefeningen terwijl u zit. Loop regelmatig een klein stukje door het gangpad.</li>
-          <li><strong>Hydratatie:</strong> Drink voldoende water om de doorbloeding te stimuleren en zwelling tegen te gaan.</li>
-        </ul>
-
-        <h2>4. Hulp op de luchthaven</h2>
-        <p>
-          Vindt u de afstanden op de luchthaven te groot? Maak dan gebruik van de gratis assistentie. 
-          U wordt dan met een rolstoel of elektrisch karretje naar de gate gebracht. 
-          Vergeet niet dit minimaal 48 uur voor vertrek aan te vragen bij uw luchtvaartmaatschappij.
-        </p>
-      </section>
-
-      <footer className="bg-blue-50 p-6 rounded-lg">
-        <h3 className="text-xl font-bold mb-2">Hulp nodig bij uw reis?</h3>
-        <p className="mb-4">
-          Ziet u op tegen de logistiek van het vliegen met een prothese? Onze reisbegeleiders helpen u graag 
-          van deur tot deur. Wij regelen de assistentie op de luchthaven en zorgen dat u comfortabel op uw bestemming aankomt.
-        </p>
-        <div className="flex gap-4">
-          <Link href="/luchthaven-begeleiding" className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">
-            Luchthavenbegeleiding
+    <main className="pt-20">
+      <article className="max-w-4xl mx-auto px-4 py-16">
+        <header className="mb-12">
+          <Link href="/blog" className="text-primary-600 hover:underline mb-4 inline-block">
+            ← Terug naar blog overzicht
           </Link>
-          <Link href="/contact" className="border border-blue-600 text-blue-600 px-4 py-2 rounded hover:bg-blue-50 transition">
-            Contact opnemen
-          </Link>
+          <h1 className="text-4xl md:text-5xl font-bold text-primary-900 mb-6">
+            Vliegen met een Knie- of Heupprothese: Tips voor Senioren
+          </h1>
+          <p className="text-xl text-gray-600 leading-relaxed">
+            Een nieuwe knie of heup hoeft uw reisplannen niet in de weg te staan. Wel zijn er een paar zaken om rekening mee te houden, van de metaaldetector bij de security tot het risico op trombose tijdens een lange vlucht.
+          </p>
+        </header>
+
+        <div className="relative h-[400px] w-full mb-12 rounded-2xl overflow-hidden shadow-lg">
+          <Image
+            src="https://images.unsplash.com/photo-1581056771107-24ca5f033842?w=1200&q=80"
+            alt="Senior die wandelt na een operatie"
+            fill
+            className="object-cover"
+          />
         </div>
-      </footer>
-    </article>
+
+        <div className="prose prose-lg max-w-none text-gray-700 space-y-8">
+          <section>
+            <h2 className="text-2xl font-bold text-primary-800">1. Wanneer mag u weer vliegen?</h2>
+            <p>
+              Over het algemeen wordt geadviseerd om tot 6 weken na de operatie te wachten met vliegen, zeker bij lange vluchten. Het risico op diepveneuze trombose (DVT) is in de eerste periode na een operatie namelijk verhoogd. Overleg altijd eerst met uw behandelend orthopeed voordat u een reis boekt.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold text-primary-800">2. De beveiligingscontrole en de metaaldetector</h2>
+            <p>
+              Moderne gewrichtsprotheses bevatten vaak metaal dat het alarm van de detectiepoortjes kan activeren. Geen zorgen: dit gebeurt dagelijks. Meld voor het passeren van de controle aan de beveiligingsbeambte dat u een prothese heeft. Hoewel een medische verklaring of &apos;prothesepast&apos; officieel niet verplicht is, kan het de communicatie versnellen. U wordt mogelijk handmatig gecontroleerd of door een bodyscan geleid.
+            </p>
+          </section>
+
+          <section className="bg-primary-50 p-8 rounded-xl border-l-4 border-primary-500">
+            <h2 className="text-2xl font-bold text-primary-800 mb-4">Extra hulp nodig op de luchthaven?</h2>
+            <p>
+              Lange afstanden lopen op Schiphol of een andere luchthaven kan zwaar zijn met een nieuwe prothese. Onze reisbegeleiders kunnen assistentie voor u regelen (zoals een rolstoel of elektrisch wagentje) en u begeleiden tot aan uw vliegtuigstoel.&nbsp;
+              <Link href="/luchthaven-begeleiding" className="text-primary-600 font-bold hover:underline ml-1">
+                Ontdek onze luchthavenbegeleiding.
+              </Link>
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold text-primary-800">3. Tips voor tijdens de vlucht</h2>
+            <p>
+              Stilzitten is de grootste vijand na een prothese-operatie. Probeer elke 30 tot 60 minuten even door het gangpad te lopen. Indien dit niet kan, doe dan zittende oefeningen: draai rondjes met uw enkels en span uw kuitspieren aan. Dit bevordert de doorbloeding en verkleint de kans op zwellingen en trombose.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold text-primary-800">4. Comfortabele stoelkeuze</h2>
+            <p>
+              Kies bij voorkeur een stoel aan het gangpad. Dit geeft u niet alleen meer ruimte om uw been af en toe te strekken, maar maakt het ook makkelijker om op te staan zonder uw medereizigers te storen. Een stoel bij de nooduitgang biedt extra beenruimte, maar let op: u moet fysiek in staat zijn om te helpen bij een evacuatie, wat direct na een operatie vaak niet mag van de luchtvaartmaatschappij.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold text-primary-800">5. Hydratatie en kleding</h2>
+            <p>
+              Drink voldoende water tijdens de vlucht en vermijd alcohol, omdat dit uitdroging en bloed indikken bevordert. Draag comfortabele, loszittende kleding en overweeg in overleg met uw arts het dragen van compressiekousen om zwelling in de benen tegen te gaan.
+            </p>
+          </section>
+
+          <section className="bg-gray-50 p-8 rounded-xl">
+            <h2 className="text-2xl font-bold text-primary-800 mb-4 text-center">Zorgeloos op reis</h2>
+            <p className="text-center italic">
+              Met de juiste voorbereiding en een beetje extra geduld is reizen met een prothese uitstekend te doen. Luister naar uw lichaam en neem de tijd.
+            </p>
+            <div className="mt-8 text-center">
+              <Link
+                href="/contact"
+                className="bg-primary-600 text-white font-bold px-8 py-4 rounded-xl hover:bg-primary-700 transition-colors"
+              >
+                Vraag vrijblijvend advies voor uw reis
+              </Link>
+            </div>
+          </section>
+        </div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Article",
+              "headline": "Vliegen met een Knie- of Heupprothese: Tips voor Senioren",
+              "description": "Handleiding voor vliegen na een knie- of heupprothese-operatie. Informatie over beveiliging, tromboserisico en comfortabel reizen.",
+              "image": "https://images.unsplash.com/photo-1581056771107-24ca5f033842?w=1200&q=80",
+              "author": {
+                "@type": "Organization",
+                "name": "Vliegklaar"
+              },
+              "publisher": {
+                "@type": "Organization",
+                "name": "Vliegklaar",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://vliegklaar.nl/logo.png"
+                }
+              },
+              "datePublished": "2026-05-14"
+            })
+          }}
+        />
+      </article>
+    </main>
   );
 }
