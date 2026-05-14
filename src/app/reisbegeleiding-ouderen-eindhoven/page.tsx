@@ -46,10 +46,34 @@ export default function EindhovenSEOPage() {
       },
       {
         "@type": "Question",
-        "name": "Bieden jullie ook begeleiding voor senioren met dementie in de regio Eindhoven?",
+        "name": "Begeleiden jullie ook senioren met dementie in de regio Eindhoven?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Ja, wij hebben veel ervaring met het ondersteunen van reizigers met geheugenproblemen. Onze begeleiders bieden de nodige rust en structuur tijdens de gehele reis."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Kunnen jullie ook helpen bij vliegen met parkinson vanaf Eindhoven Airport?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Jazeker. Reizen met parkinson vraagt om een zorgvuldige planning rondom medicatie-inname en mobiliteit. Onze begeleiders bieden de nodige ondersteuning en zorgen voor een rustig tempo op de luchthaven van Eindhoven of Schiphol."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Begeleiden jullie ook bij vliegen na een operatie vanaf Eindhoven?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, wij bieden gespecialiseerde ondersteuning voor senioren die kort geleden een ingreep hebben ondergaan. Onze begeleiders zorgen voor een rustig tempo en helpen bij alle fysieke handelingen op Eindhoven Airport."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Kunt u ook helpen bij vliegen met een pacemaker vanaf Eindhoven?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Zeker. Reizen met een pacemaker of ICD vereist extra aandacht bij de security scans op de luchthaven. Onze begeleiders weten precies welke documenten u nodig heeft en hoe u vlot door de beveiliging gaat zonder risico voor uw apparaat."
         }
       },
       {
@@ -176,6 +200,15 @@ export default function EindhovenSEOPage() {
                   )}
                   {faq.name.includes("artrose") && (
                     <> <Link href="/blog/vliegen-met-artrose" className="text-primary-600 hover:underline">Lees meer over vliegen met artrose.</Link></>
+                  )}
+                  {faq.name.includes("parkinson") && (
+                    <> <Link href="/blog/vliegen-met-parkinson" className="text-primary-600 hover:underline">Lees onze tips voor vliegen met parkinson.</Link></>
+                  )}
+                  {faq.name.includes("operatie") && (
+                    <> <Link href="/blog/vliegen-na-operatie" className="text-primary-600 hover:underline">Lees meer over veilig vliegen na een operatie.</Link></>
+                  )}
+                  {faq.name.includes("pacemaker") && (
+                    <> <Link href="/blog/vliegen-met-een-pacemaker-of-icd" className="text-primary-600 hover:underline">Lees meer over vliegen met een pacemaker.</Link></>
                   )}
                   {faq.name.includes("medicijnen") && (
                     <> <Link href="/blog/medicijnen-mee-op-reis" className="text-primary-600 hover:underline">Bekijk onze tips for medicijnen op reis.</Link></>
