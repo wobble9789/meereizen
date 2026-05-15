@@ -220,6 +220,22 @@ export default function RotterdamSEOPage() {
           "text": "Ja, voor veel senioren is het dragen van compressiekousen juist aan te raden tijdens een vlucht om de bloedsomloop te stimuleren en de kans op trombose te verkleinen. Onze begeleiders kunnen u helpen bij het herinneren van eenvoudige oefeningen tijdens de vlucht om uw benen soepel te houden."
         }
       },
+      {
+        "@type": "Question",
+        "name": "Mag ik vliegen na een knie- of heupoperatie vanuit de regio Rotterdam?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, vliegen na een knie- of heupoperatie is vaak weer mogelijk na 4 tot 6 weken, mits uw chirurg akkoord is. In de regio Rotterdam kunnen wij u begeleiden vanaf uw voordeur tot in het vliegtuig, waarbij we vliegveld assistentie coördineren om fysieke belasting te voorkomen."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Bieden jullie hulp bij valpreventie tijdens een vliegreis vanaf Rotterdam?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Zeker. Veiligheid is onze hoogste prioriteit. Onze begeleiders ondersteunen u fysiek tijdens het lopen op Rotterdam The Hague Airport of Schiphol, adviseren over veilig schoeisel en zorgen dat u stabiel en zonder risico op vallen bij uw gate en bestemming aankomt."
+        }
+      },
     ]
   };
 
@@ -371,6 +387,12 @@ export default function RotterdamSEOPage() {
                   )}
                   {faq.name.includes("compressiekousen") && (
                     <> <Link href="/blog/vliegen-met-compressiekousen" className="text-primary-600 hover:underline">Lees meer over vliegen met compressiekousen.</Link></>
+                  )}
+                  {faq.name.includes("knie- of heupoperatie") && (
+                    <> <Link href="/blog/vliegen-met-knie-of-heupprothese" className="text-primary-600 hover:underline">Lees meer over vliegen na een knie- of heupoperatie.</Link></>
+                  )}
+                  {faq.name.includes("valpreventie") && (
+                    <> <Link href="/blog/valpreventie-op-vakantie" className="text-primary-600 hover:underline">Bekijk onze tips voor valpreventie op reis.</Link></>
                   )}
                 </p>
               </div>
