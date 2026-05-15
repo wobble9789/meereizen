@@ -236,6 +236,30 @@ export default function RotterdamSEOPage() {
           "text": "Zeker. Veiligheid is onze hoogste prioriteit. Onze begeleiders ondersteunen u fysiek tijdens het lopen op Rotterdam The Hague Airport of Schiphol, adviseren over veilig schoeisel en zorgen dat u stabiel en zonder risico op vallen bij uw gate en bestemming aankomt."
         }
       },
+      {
+        "@type": "Question",
+        "name": "Bieden jullie ook hulp bij vliegen met een stoma vanuit de regio Rotterdam?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, vliegen met een stoma is heel goed mogelijk. Wij adviseren u om voldoende reservemateriaal in uw handbagage mee te nemen en een stoma-paspoort bij u te hebben. Onze begeleiders in Rotterdam kunnen u helpen bij de voorbereiding en zorgen voor een ontspannen reis vanaf Rotterdam The Hague Airport of Schiphol."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is vliegen met een hoge bloeddruk veilig vanaf Rotterdam?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Over het algemeen is vliegen met een goed ingestelde bloeddruk veilig. We raden aan om voor vertrek uw arts te raadplegen, uw medicatie in uw handbagage te bewaren en tijdens de vlucht voldoende water te drinken. Onze begeleiders ondersteunen u graag bij een ontspannen reiservaring."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Mag ik vliegen na een galblaasoperatie?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Meestal is vliegen na een galblaasoperatie na 1 tot 2 weken weer veilig, afhankelijk van het type ingreep. Onze begeleiders kunnen u ondersteunen tijdens de reis vanaf Rotterdam om fysieke inspanning te minimaliseren en uw comfort te waarborgen."
+        }
+      },
     ]
   };
 
@@ -393,6 +417,15 @@ export default function RotterdamSEOPage() {
                   )}
                   {faq.name.includes("valpreventie") && (
                     <> <Link href="/blog/valpreventie-op-vakantie" className="text-primary-600 hover:underline">Bekijk onze tips voor valpreventie op reis.</Link></>
+                  )}
+                  {faq.name.includes("stoma") && (
+                    <> <Link href="/blog/vliegen-met-een-stoma" className="text-primary-600 hover:underline">Lees meer over vliegen met een stoma.</Link></>
+                  )}
+                  {faq.name.includes("bloeddruk") && (
+                    <> <Link href="/blog/vliegen-met-bloeddruk-tips" className="text-primary-600 hover:underline">Lees meer over vliegen met een hoge bloeddruk.</Link></>
+                  )}
+                  {faq.name.includes("galblaasoperatie") && (
+                    <> <Link href="/blog/vliegen-na-galblaasoperatie" className="text-primary-600 hover:underline">Lees meer over vliegen na een galblaasoperatie.</Link></>
                   )}
                 </p>
               </div>
