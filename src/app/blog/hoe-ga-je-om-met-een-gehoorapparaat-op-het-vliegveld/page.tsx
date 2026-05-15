@@ -22,6 +22,14 @@ export default function GehoorapparaatVliegveldBlog() {
       },
       {
         "@type": "Question",
+        "name": "Is er speciale assistentie voor slechthorenden op Schiphol?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, Schiphol biedt assistentie aan voor reizigers met een auditieve beperking. Dit omvat begeleiding naar de gate en ondersteuning bij communicatie. Onze begeleiders kunnen u hierbij ook persoonlijk ondersteunen zodat u geen enkele omroep mist."
+        }
+      },
+      {
+        "@type": "Question",
         "name": "Wat is een ringleiding op een vliegveld?",
         "acceptedAnswer": {
           "@type": "Answer",
