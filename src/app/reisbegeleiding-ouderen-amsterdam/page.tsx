@@ -340,6 +340,14 @@ export default function AmsterdamSEOPage() {
           "text": "Uw rolstoel mag vrijwel altijd gratis mee als medische bagage. Het is wel verplicht om deze minimaal 48 uur voor vertrek aan te melden bij de luchtvaartmaatschappij, inclusief afmetingen en type accu (bij elektrische rolstoelen)."
         }
       },
+      {
+        "@type": "Question",
+        "name": "Mag ik een CPAP-apparaat meenemen in het vliegtuig?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, een CPAP-apparaat mag mee als medische handbagage. Het is verstandig om dit vooraf te melden bij de luchtvaartmaatschappij en een medische verklaring bij u te hebben. Onze begeleiders helpen u graag om alles rondom uw CPAP-apparaat soepel te laten verlopen op Schiphol."
+        }
+      },
     ]
   };
 
@@ -429,6 +437,9 @@ export default function AmsterdamSEOPage() {
                 <h3 className="text-lg font-bold text-primary-700 mb-2">{faq.name}</h3>
                 <p className="text-gray-600 leading-relaxed">
                   {faq.acceptedAnswer.text}
+                  {faq.name.includes("CPAP") && (
+                    <> <Link href="/blog/vliegen-met-cpap-apparaat" className="text-primary-600 hover:underline">Lees meer over vliegen met een CPAP-apparaat.</Link></>
+                  )}
                   {faq.name.includes("rolstoel") && (
                     <> <Link href="/blog/rolstoel-op-het-vliegveld" className="text-primary-600 hover:underline">Bekijk tips voor rolstoel op het vliegveld.</Link></>
                   )}
