@@ -435,6 +435,9 @@ export default function AmsterdamSEOPage() {
                     <> <Link href="/blog/reisverzekering-voor-senioren" className="text-primary-600 hover:underline">Lees over reisverzekeringen voor senioren.</Link></>
                   )}
                   {faq.name.includes("boeken") && (
+                    <> <Link href="/blog/hoe-boek-je-vliegticket-als-senior" className="text-primary-600 hover:underline">Lees onze stap-voor-stap gids over het boeken van een vliegticket.</Link></>
+                  )}
+                  {faq.name.includes("boeken") && (
                     <> <Link href="/blog/checklist-senioren-vliegen" className="text-primary-600 hover:underline">Bekijk de checklist voor senioren.</Link></>
                   )}
                   {faq.name.includes("medische verklaring") && (
