@@ -342,6 +342,14 @@ export default function AmsterdamSEOPage() {
       },
       {
         "@type": "Question",
+        "name": "Zijn er specifieke kledingadviezen voor senioren die vliegen vanaf Schiphol?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Voor senioren adviseren wij 'laagjes' te dragen vanwege de wisselende temperaturen op Schiphol en in het vliegtuig. Comfortabele schoenen die makkelijk aan en uit gaan zijn essentieel voor de security check. Onze begeleiders kunnen u vooraf adviseren over de meest praktische reiskleding."
+        }
+      },
+      {
+        "@type": "Question",
         "name": "Mag ik een CPAP-apparaat meenemen in het vliegtuig?",
         "acceptedAnswer": {
           "@type": "Answer",
@@ -544,6 +552,9 @@ export default function AmsterdamSEOPage() {
                   )}
                   {faq.name.includes("rolstoel") && (
                     <> <Link href="/blog/vliegen-met-een-rolstoel" className="text-primary-600 hover:underline">Lees onze complete gids over vliegen met een rolstoel.</Link></>
+                  )}
+                  {faq.name.includes("kledingadviezen") && (
+                    <> <Link href="/blog/hoe-voorbereiden-op-lange-vlucht-senior" className="text-primary-600 hover:underline">Bekijk onze tips voor de voorbereiding op een lange vlucht.</Link></>
                   )}
                   {faq.name.includes("gebit") && (
                     <> <Link href="/blog/vliegen-met-een-gebit" className="text-primary-600 hover:underline">Bekijk onze tips voor vliegen met een gebit.</Link></>
