@@ -324,6 +324,22 @@ export default function AmsterdamSEOPage() {
           "text": "Meestal is vliegen na een galblaasoperatie na 1 tot 2 weken weer veilig, afhankelijk van het type ingreep (kijkoperatie of open operatie). Onze begeleiders kunnen u ondersteunen tijdens de reis om fysieke inspanning te minimaliseren en uw comfort te waarborgen."
         }
       },
+      {
+        "@type": "Question",
+        "name": "Mag een kunstgebit in blijven bij de security op Schiphol?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, u kunt uw kunstgebit gewoon inhouden tijdens de veiligheidscontrole op Schiphol. De scanners zijn niet ingesteld op de kleine hoeveelheden metaal in een gebitsprothese. Mocht er toch een melding zijn, dan weten de medewerkers daar discreet mee om te gaan."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wat zijn de regels voor een rolstoel in het vliegtuig?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Uw rolstoel mag vrijwel altijd gratis mee als medische bagage. Het is wel verplicht om deze minimaal 48 uur voor vertrek aan te melden bij de luchtvaartmaatschappij, inclusief afmetingen en type accu (bij elektrische rolstoelen)."
+        }
+      },
     ]
   };
 
@@ -514,6 +530,12 @@ export default function AmsterdamSEOPage() {
                   )}
                   {faq.name.includes("galblaasoperatie") && (
                     <> <Link href="/blog/vliegen-na-galblaasoperatie" className="text-primary-600 hover:underline">Lees meer over vliegen na een galblaasoperatie.</Link></>
+                  )}
+                  {faq.name.includes("rolstoel") && (
+                    <> <Link href="/blog/vliegen-met-een-rolstoel" className="text-primary-600 hover:underline">Lees onze complete gids over vliegen met een rolstoel.</Link></>
+                  )}
+                  {faq.name.includes("gebit") && (
+                    <> <Link href="/blog/vliegen-met-een-gebit" className="text-primary-600 hover:underline">Bekijk onze tips voor vliegen met een gebit.</Link></>
                   )}
                 </p>
               </div>
