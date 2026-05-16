@@ -294,6 +294,9 @@ export default function UtrechtSEOPage() {
                   {faq.name.toLowerCase().includes("diabetes") && (
                     <> <Link href="/blog/vliegen-met-diabetes" className="text-primary-600 hover:underline">Lees onze tips over vliegen met diabetes.</Link></>
                   )}
+                  {faq.name.toLowerCase().includes("bloeddruk") && (
+                    <> <Link href="/blog/vliegen-met-bloeddruk-tips" className="text-primary-600 hover:underline">Lees meer over vliegen met een hoge bloeddruk.</Link></>
+                  )}
                   {faq.name.toLowerCase().includes("vliegangst") && (
                     <> <Link href="/blog/vliegangst-bij-ouderen" className="text-primary-600 hover:underline">Bekijk onze tips tegen vliegangst.</Link></>
                   )}

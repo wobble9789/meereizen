@@ -257,7 +257,7 @@ export default function AmsterdamSEOPage() {
         "name": "Is vliegen met een hoge bloeddruk veilig vanaf Schiphol?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Over het algemeen is vliegen met een goed ingestelde bloeddruk veilig. We raden aan om voor vertrek uw arts te raadplegen, uw medicatie in uw handbagage te bewaren en tijdens de vlucht voldoende water te drinken en zoutinname te beperken."
+          "text": "Over het algemeen is vliegen met een goed ingestelde bloeddruk veilig. We raden aan om voor vertrek uw arts te raadplegen, uw medicatie in uw handbagage te bewaren en tijdens de vlucht voldoende water te drinken en zoutinname te beperken. Onze begeleiders ondersteunen u graag bij een ontspannen reiservaring."
         }
       },
       {
