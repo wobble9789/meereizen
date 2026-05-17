@@ -211,7 +211,7 @@ export default function EindhovenSEOPage() {
                     <> <Link href="/blog/vliegen-met-een-pacemaker-of-icd" className="text-primary-600 hover:underline">Lees meer over vliegen met een pacemaker.</Link></>
                   )}
                   {faq.name.includes("medicijnen") && (
-                    <> <Link href="/blog/medicijnen-mee-op-reis" className="text-primary-600 hover:underline">Bekijk onze tips for medicijnen op reis.</Link></>
+                    <> <Link href="/blog/medicijnen-mee-op-reis" className="text-primary-600 hover:underline">Bekijk onze tips voor medicijnen op reis.</Link></>
                   )}
                 </p>
               </div>
