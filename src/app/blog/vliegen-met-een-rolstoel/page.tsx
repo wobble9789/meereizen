@@ -23,6 +23,14 @@ export default function VliegenMetRolstoelPage() {
     {
       question: "Kan ik in mijn eigen rolstoel tot aan de vliegtuigdeur blijven?",
       answer: "Vaak wel. U kunt uw eigen handbewogen rolstoel gebruiken tot aan de gate of de vliegtuigsluis. Daar wordt deze ingenomen voor het vrachtruim. Voor elektrische rolstoelen gelden soms andere regels; deze moeten soms al bij de check-in balie worden afgegeven."
+    },
+    {
+      question: "Wat gebeurt er als mijn rolstoel beschadigd raakt?",
+      answer: "Luchtvaartmaatschappijen zijn aansprakelijk voor schade aan mobiliteitshulpmiddelen. Meld schade direct bij de bagage-afhandelingsbalie (Property Irregularity Report) voordat u de luchthaven verlaat. Een reisbegeleider van Vliegklaar kan u helpen bij deze afwikkeling."
+    },
+    {
+      question: "Is er een rolstoel aan boord van het vliegtuig?",
+      answer: "Op langeafstandsvluchten is er vrijwel altijd een speciale 'boordrolstoel' aanwezig die door het gangpad past. Hiermee kan het cabinepersoneel u helpen om naar het toilet te gaan tijdens de vlucht."
     }
   ];
 
