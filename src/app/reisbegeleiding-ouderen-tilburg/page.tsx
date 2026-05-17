@@ -91,7 +91,7 @@ export default function TilburgSEOPage() {
           "@type": "Answer",
           "text": "Ja, wij bieden gespecialiseerde ondersteuning voor senioren die kort geleden een ingreep hebben ondergaan, zoals een knie- of heupoperatie. Onze begeleiders zorgen voor een rustig tempo en helpen bij alle fysieke handelingen."
         }
-      }
+      },
       {
         "@type": "Question",
         "name": "Kunnen jullie ook helpen bij vliegen met een gebit vanaf Tilburg?",
