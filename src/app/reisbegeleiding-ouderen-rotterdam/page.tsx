@@ -260,6 +260,15 @@ export default function RotterdamSEOPage() {
           "text": "Meestal is vliegen na een galblaasoperatie na 1 tot 2 weken weer veilig, afhankelijk van het type ingreep. Onze begeleiders kunnen u ondersteunen tijdens de reis vanaf Rotterdam om fysieke inspanning te minimaliseren en uw comfort te waarborgen."
         }
       },
+      {
+        "@type": "Question",
+        "name": "Hoe regel ik het vervoer van een rolstoel in het vliegtuig vanaf Rotterdam?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Een rolstoel moet minimaal 48 uur voor vertrek worden aangemeld bij de luchtvaartmaatschappij met de afmetingen en het gewicht. Vanaf Rotterdam The Hague Airport kunt u vaak tot aan de gate in uw eigen rolstoel blijven. Onze begeleiders regelen alle details voor u."
+        }
+      },
+    ]
     ]
   };
 
@@ -426,6 +435,9 @@ export default function RotterdamSEOPage() {
                   )}
                   {faq.name.includes("galblaasoperatie") && (
                     <> <Link href="/blog/vliegen-na-galblaasoperatie" className="text-primary-600 hover:underline">Lees meer over vliegen na een galblaasoperatie.</Link></>
+                  )}
+                  {faq.name.includes("rolstoel") && (
+                    <> <Link href="/blog/vliegen-met-een-rolstoel" className="text-primary-600 hover:underline">Lees onze gids over vliegen met een rolstoel.</Link></>
                   )}
                 </p>
               </div>
