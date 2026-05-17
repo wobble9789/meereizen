@@ -196,6 +196,22 @@ export default function UtrechtSEOPage() {
           "text": "Absoluut. Veiligheid is onze prioriteit. We adviseren over stevig schoeisel, helpen bij het navigeren van vliegvelden en zorgen voor een stabiele ondersteuning tijdens de hele reis om vallen te voorkomen."
         }
       },
+      {
+        "@type": "Question",
+        "name": "Bieden jullie ook hulp bij vliegen met een gehoorapparaat vanuit de regio Utrecht?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, vliegen met een gehoorapparaat is geen enkel probleem. Onze begeleiders in Utrecht helpen u om belangrijke omroepen op de luchthaven niet te missen en adviseren over het gebruik van uw apparaat tijdens de vlucht."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Kunnen jullie ook helpen bij vliegen met een kunstgebit vanaf Utrecht?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Zeker. Vliegen met een kunstgebit of prothese is veilig en discreet. Onze begeleiders weten precies hoe u hier bij de security mee omgaat en geven praktische tips voor comfort tijdens een lange reis vanaf Utrecht Centraal of Schiphol."
+        }
+      },
     ]
   };
 
@@ -344,6 +360,12 @@ export default function UtrechtSEOPage() {
                   )}
                   {faq.name.toLowerCase().includes("valpreventie") && (
                     <> <Link href="/blog/valpreventie-op-vakantie" className="text-primary-600 hover:underline">Bekijk tips voor valpreventie op reis.</Link></>
+                  )}
+                  {faq.name.toLowerCase().includes("gehoorapparaat") && (
+                    <> <Link href="/blog/vliegen-met-gehoorapparaat-tips" className="text-primary-600 hover:underline">Lees meer over vliegen met een gehoorapparaat.</Link></>
+                  )}
+                  {faq.name.toLowerCase().includes("kunstgebit") && (
+                    <> <Link href="/blog/vliegen-met-een-kunstgebit" className="text-primary-600 hover:underline">Lees meer over vliegen met een kunstgebit.</Link></>
                   )}
                 </p>
               </div>
