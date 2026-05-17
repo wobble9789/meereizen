@@ -92,6 +92,14 @@ export default function TilburgSEOPage() {
           "text": "Ja, wij bieden gespecialiseerde ondersteuning voor senioren die kort geleden een ingreep hebben ondergaan, zoals een knie- of heupoperatie. Onze begeleiders zorgen voor een rustig tempo en helpen bij alle fysieke handelingen."
         }
       }
+      {
+        "@type": "Question",
+        "name": "Kunnen jullie ook helpen bij vliegen met een gebit vanaf Tilburg?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Zeker. Vliegen met een kunstgebit of prothese is geen enkel probleem. Onze begeleiders weten precies hoe u hier discreet mee omgaat bij de security op Eindhoven Airport of Schiphol en geven u praktische tips voor comfort tijdens de vlucht."
+        }
+      },
     ]
   };
 
@@ -181,6 +189,9 @@ export default function TilburgSEOPage() {
                 <div className="text-gray-600 leading-relaxed">
                   {faq.acceptedAnswer.text}
                   <div className="mt-2 text-sm">
+                    {faq.name.includes("gebit") && (
+                      <Link href="/blog/vliegen-met-een-gebit" className="text-primary-600 hover:underline">→ Bekijk onze tips voor vliegen met een gebit.</Link>
+                    )}
                     {faq.name.includes("rolstoel") && (
                       <Link href="/blog/rolstoel-op-het-vliegveld" className="text-primary-600 hover:underline">→ Bekijk tips voor rolstoel op het vliegveld.</Link>
                     )}
