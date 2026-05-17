@@ -22,6 +22,14 @@ export default function VliegenMetArtrose() {
       },
       {
         "@type": "Question",
+        "name": "Mag een wandelstok mee in de cabine?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, een wandelstok mag vrijwel altijd gratis mee in de cabine als medisch hulpmiddel. Bij de security moet de stok even door de scanner, maar daarna krijgt u deze direct weer terug."
+        }
+      },
+      {
+        "@type": "Question",
         "name": "Zorgt vliegen voor een verergering van artrose?",
         "acceptedAnswer": {
           "@type": "Answer",
